@@ -238,6 +238,9 @@
   addEventListener("message", (e) => {
     if (e.origin !== location.origin || !e.data || e.data.source !== "librequake" || !window.ExePlay) return;
     if (e.data.event === "quake_start") ExePlay.click();
+    // play-events.js only polls for a live canvas for 90s after page load; a
+    // player who presses Play later, or a slow first load, would never count.
+    if (e.data.event === "quake_boot") ExePlay.booted();
     ExePlay.track(e.data.event, e.data.params || {});
   });
 </script>

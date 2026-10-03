@@ -22,6 +22,8 @@
     // How many pak files /apps/librequake/id1/ holds. scripts/build-librequake-data.mjs
     // fails if this drifts; without it the engine probes for one more and logs a 404.
     pakCount: 3,
+    // Paks are served as id1/pakN.pak.bin; see COM.PakURL.
+    pakSuffix: ".bin",
     tracks: null,
     mode: null,
     onQuit: function () {

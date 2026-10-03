@@ -6,7 +6,7 @@
 // The data (~78 MB) is gitignored, like public/64/: this script is the record of
 // exactly what ships. It downloads the release once into assets-too-big-for-pages/,
 // checks its sha256, and writes:
-//   public/apps/librequake/id1/pak0.pak … pakN.pak   (re-split under the 25 MB Pages cap)
+//   public/apps/librequake/id1/pak0.pak.bin … pakN.pak.bin   (re-split under the 25 MB Pages cap)
 //   public/apps/librequake/id1/media/quake02.ogg …   (music, renamed to CD-track names)
 //
 // Re-splitting is safe: Quake reads pak0..pakN in order and later paks override
@@ -85,7 +85,10 @@ for (const name of ["pak0.pak", "pak1.pak"]) {
   }
   if (cur.length) chunks.push(cur);
 }
-chunks.forEach((c, i) => writePak(path.join(OUT, `pak${i}.pak`), c));
+// Served as pakN.pak.bin: Cloudflare edge-caches .bin (and only cached
+// responses honour the Range requests the engine reads paks with); .pak is
+// served uncached and whole. launcher.js sets the matching pakSuffix.
+chunks.forEach((c, i) => writePak(path.join(OUT, `pak${i}.pak.bin`), c));
 const launcher = fs.readFileSync(path.join(ROOT, "public", "apps", "librequake", "launcher.js"), "utf8");
 if (!launcher.includes(`pakCount: ${chunks.length},`)) throw new Error(`wrote ${chunks.length} paks: update pakCount in launcher.js`);
 

@@ -258,7 +258,7 @@ COM.LoadFile = function(filename)
 					Draw.EndDisc();
 					return COM.vfs[search.filename + '/pak' + j + '.pak'].slice(file.filepos, file.filepos + file.filelen);
 				}
-				xhr.open('GET', search.filename + '/pak' + j + '.pak', false);
+				xhr.open('GET', COM.PakURL(search.filename + '/pak' + j + '.pak'), false);
 				xhr.setRequestHeader('Range', 'bytes=' + file.filepos + '-' + (file.filepos + file.filelen - 1));
 				xhr.send();
 				if ((xhr.status >= 200) && (xhr.status <= 299) && (xhr.responseText.length === file.filelen))
@@ -302,6 +302,16 @@ COM.LoadTextFile = function(filename)
 };
 
 COM.vfs = {};
+
+// Where a pak is fetched from. The page serves them as pakN.pak.bin, because
+// Cloudflare only edge-caches known extensions and only cached responses honour
+// Range; a .pak came back whole (23 MB) for every 12-byte header read.
+COM.PakURL = function(path)
+{
+	if ((window.WQ != null) && (WQ.pakSuffix != null))
+		return path + WQ.pakSuffix;
+	return path;
+};
 COM.vfsOnly = {};
 
 COM.LoadPackFileMem = function(packfile, buf)
@@ -337,7 +347,7 @@ COM.LoadPackFile = function(packfile)
 		return;
 	var xhr = new XMLHttpRequest();
 	xhr.overrideMimeType('text/plain; charset=x-user-defined');
-	xhr.open('GET', packfile, false);
+	xhr.open('GET', COM.PakURL(packfile), false);
 	xhr.setRequestHeader('Range', 'bytes=0-11');
 	xhr.send();
 	// A server that ignores Range answers 200 with the whole pak. Keep it in
@@ -360,7 +370,7 @@ COM.LoadPackFile = function(packfile)
 	var pack = [];
 	if (numpackfiles !== 0)
 	{
-		xhr.open('GET', packfile, false);
+		xhr.open('GET', COM.PakURL(packfile), false);
 		xhr.setRequestHeader('Range', 'bytes=' + dirofs + '-' + (dirofs + dirlen - 1));
 		xhr.send();
 		if ((xhr.status <= 199) || (xhr.status >= 300) || (xhr.responseText.length !== dirlen))

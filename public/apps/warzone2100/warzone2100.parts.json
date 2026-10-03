@@ -1,0 +1,27 @@
+{
+  "release": "4.7.0",
+  "total": 64424618,
+  "sha256": "9e89d11c8b67b5f68ddc0be43290233c28cd43b3d2a96fea1a7b4beaf83b8424",
+  "parts": [
+    {
+      "name": "warzone2100.data.part0",
+      "url": "warzone2100.data.part0?v=bf0f6990409b",
+      "size": 20971520
+    },
+    {
+      "name": "warzone2100.data.part1",
+      "url": "warzone2100.data.part1?v=0af2826d2c2c",
+      "size": 20971520
+    },
+    {
+      "name": "warzone2100.data.part2",
+      "url": "warzone2100.data.part2?v=410d85a62150",
+      "size": 20971520
+    },
+    {
+      "name": "warzone2100.data.part3",
+      "url": "warzone2100.data.part3?v=e93b41310e1a",
+      "size": 1510058
+    }
+  ]
+}

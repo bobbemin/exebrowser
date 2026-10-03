@@ -58,8 +58,20 @@ node scripts/gen-embed-hub.mjs
 # 5. head links onto the ~35 hand-maintained pages the generators don't own
 node scripts/inject-page-links.mjs
 
+# 5b. /embed/<slug>/ wrappers for our own games (a new own-work game fails
+#     step 6 until this has run)
+node scripts/gen-embeds.mjs
+
 # 6. check nothing drifted out of sync
 node scripts/check-consistency.mjs
+```
+
+Some game data is too large for git and is gitignored, like `public/64/`. It
+is rebuilt from a pinned, checksummed upstream release, and **must be on disk
+before `wrangler pages deploy`**, or the deploy ships a page whose game 404s:
+
+```bash
+node scripts/build-librequake-data.mjs   # public/apps/librequake/id1/ (~79 MB)
 ```
 
 Steps 3 and 4 were previously undocumented, which is how `/unblocked/` came to

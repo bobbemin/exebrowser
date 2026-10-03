@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>Marchers</title>
+<meta name="description" content="Marchers: a crowd of little walkers pours out of a hatch and marches blindly on. Hand out jobs to dig, build, tunnel and glide them home. An original browser puzzle game.">
+<meta name="theme-color" content="#14162a">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header id="hud">
+    <span id="lvl" class="lvl"></span>
+    <span class="stat" title="Marchers out in the level"><b>Out</b><span id="out">0</span></span>
+    <span class="stat" title="Brought home so far"><b>Home</b><span id="in">0%</span></span>
+    <span class="stat" title="Needed to pass"><b>Need</b><span id="need">0%</span></span>
+    <span class="stat" title="Time left"><b>Time</b><span id="time">0:00</span></span>
+    <span id="info" aria-live="polite"></span>
+  </header>
+  <div id="stage">
+    <canvas id="view" aria-label="Playfield"></canvas>
+    <div id="toast" class="hidden"></div>
+    <div id="pausedTag" class="hidden">Paused</div>
+  </div>
+  <canvas id="mini" width="320" height="32" aria-label="Level map: tap to look around"></canvas>
+  <nav id="bar">
+    <div id="roles" role="toolbar" aria-label="Jobs"></div>
+    <div id="ctrls" role="toolbar" aria-label="Controls">
+      <button id="rrDown" class="ctl" title="Slower release (−)"><svg viewBox="0 0 16 16"><path d="M3 8h10" /></svg></button>
+      <div id="rr" title="Release rate"><span id="rrVal">50</span><small id="rrMin">min 50</small></div>
+      <button id="rrUp" class="ctl" title="Faster release (+)"><svg viewBox="0 0 16 16"><path d="M3 8h10M8 3v10" /></svg></button>
+      <button id="pause" class="ctl" title="Pause (P or Space)"><svg viewBox="0 0 16 16"><path d="M5 3v10M11 3v10" /></svg></button>
+      <button id="ff" class="ctl" title="Fast forward (F)"><svg viewBox="0 0 16 16"><path d="M2 3l6 5-6 5zM8 3l6 5-6 5z" class="fill" /></svg></button>
+      <button id="nuke" class="ctl" title="Pop them all (press twice)"><svg viewBox="0 0 16 16"><circle cx="8" cy="9.5" r="4.5" class="fill" /><path d="M10 5.5l2-2.5M12 3l1.5.5" /></svg><span class="sure">Sure?</span></button>
+      <button id="restart" class="ctl" title="Restart level (R)"><svg viewBox="0 0 16 16"><path d="M12.5 6A5 5 0 1 0 13 9.5M12.5 2.5V6H9" /></svg></button>
+      <button id="menu" class="ctl" title="Menu (Esc)"><svg viewBox="0 0 16 16"><path d="M3 4h10M3 8h10M3 12h10" /></svg></button>
+      <button id="mute" class="ctl" title="Sound on/off (M)"><svg viewBox="0 0 16 16"><path d="M2 6h3l4-3v10L5 10H2z" class="fill" /><path class="wave" d="M11 5.5q2 2.5 0 5M12.8 3.8q3.4 4.2 0 8.4" /><path class="cross" d="M11 6l4 4M15 6l-4 4" /></svg></button>
+    </div>
+  </nav>
+  <div id="modal" class="hidden"><div id="card" role="dialog" aria-modal="true"></div></div>
+</div>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

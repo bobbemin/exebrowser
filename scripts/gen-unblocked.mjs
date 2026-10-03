@@ -39,7 +39,9 @@ const playable = sortPlayable(pages);
 // Games with no emulator layer: plain JavaScript or a small wasm port. These
 // are the ones that load fastest on throttled school wifi, which is a real
 // difference and not a marketing line — the hand-written ones are 20-56 KB.
-const light = playable.filter((p) => !p.dosRuntime && p.appType === "game");
+// `heavy` marks the native ports that still pull megabytes before play
+// (Warzone 2100's ~87 MB, LibreQuake's first level), which would make that claim false.
+const light = playable.filter((p) => !p.dosRuntime && !p.heavy && p.appType === "game");
 
 const faq = [
   {

@@ -613,6 +613,11 @@
         "desc": "The free, complete DOOM-compatible game — all levels, no shareware split."
       },
       {
+        "href": "/run/librequake/",
+        "title": "LibreQuake",
+        "desc": "A free Quake-engine shooter — or play your own Quake files."
+      },
+      {
         "href": "/run/wolfenstein-3d/",
         "title": "Wolfenstein 3D",
         "desc": "id's 1992 shooter — the shareware episode, playable here."
@@ -10561,6 +10566,72 @@
     "screenshot": true
   },
   {
+    "slug": "librequake",
+    "skipGenerate": true,
+    "appType": "game",
+    "author": "The LibreQuake project (WebQuake engine by Triang3l)",
+    "hostable": true,
+    "updated": "2026-10-02",
+    "addedDate": "2026-10-02",
+    "categories": [
+      "Shooters",
+      "Action"
+    ],
+    "genre": [
+      "First-person shooter",
+      "Action"
+    ],
+    "verdict": {
+      "kind": "good",
+      "text": "▶ Play now — Quake engine in JavaScript, no emulator"
+    },
+    "appName": "LibreQuake",
+    "title": "LibreQuake — Play a Free Quake-Engine FPS in Your Browser",
+    "description": "A complete free shooter for the Quake engine, playable in your browser. Or drop in your own Quake files, or id's 1996 shareware zip, and play the original.",
+    "keywords": "librequake, quake engine game online, play quake in browser, quake shareware browser, free quake alternative, open source fps browser, quake 1996 online, retro fps no download",
+    "ogTitle": "LibreQuake — a free Quake-engine shooter in your browser",
+    "ogDescription": "Every map, monster and sound is free and original. Or bring your own Quake files and play the 1996 original in the same tab.",
+    "crumb": "Play LibreQuake",
+    "h1": "Play LibreQuake online — free, no download",
+    "appUrl": "/apps/librequake/",
+    "heavy": true,
+    "screenshot": true,
+    "rank": 2.6,
+    "fullyFree": "LibreQuake is a free replacement for all of Quake's game data: art, sound and music under BSD-3, game code under GPL-2, in the GPL WebQuake engine. Nothing from id Software is hosted; visitors who own Quake can load their own files."
+  },
+  {
+    "slug": "marchers",
+    "skipGenerate": true,
+    "appType": "game",
+    "author": "ExeBrowser (original implementation)",
+    "hostable": true,
+    "updated": "2026-10-02",
+    "addedDate": "2026-10-02",
+    "categories": [
+      "Puzzle & strategy"
+    ],
+    "genre": [
+      "Puzzle",
+      "Strategy"
+    ],
+    "verdict": {
+      "kind": "good",
+      "text": "▶ Play now — runs natively, no emulator"
+    },
+    "appName": "Marchers",
+    "title": "Marchers — Free Walker Puzzle Game, Play Online No Download",
+    "description": "Dozens of little marchers walk blindly toward danger. Give them jobs (dig, build, block, glide) and get enough of them home. 20 original levels, free in your browser.",
+    "keywords": "walker puzzle game online, rescue puzzle game browser, dig build block puzzle, retro puzzle game free, marchers game, puzzle game no download, classic 90s style puzzle game",
+    "ogTitle": "Marchers — get them home in one piece",
+    "ogDescription": "They walk. They will not stop. Hand out jobs: dig, bridge, block, glide, and get enough of them to the exit.",
+    "crumb": "Play Marchers",
+    "h1": "Play Marchers — a free walker puzzle game",
+    "appUrl": "/apps/marchers/",
+    "screenshot": true,
+    "rank": 4.4,
+    "fullyFree": "Written from scratch for ExeBrowser — original code, levels, art and sound, MIT-licensed. No original game files needed."
+  },
+  {
     "slug": "skyrise",
     "skipGenerate": true,
     "appType": "game",
@@ -10592,6 +10663,39 @@
     "screenshot": true,
     "rank": 4.5,
     "fullyFree": "Written from scratch for ExeBrowser — original code, art and sound, MIT-licensed. No original game files needed."
+  },
+  {
+    "slug": "warzone2100",
+    "skipGenerate": true,
+    "appType": "game",
+    "author": "Warzone 2100 Project (official web build)",
+    "hostable": true,
+    "updated": "2026-10-02",
+    "addedDate": "2026-10-02",
+    "categories": [
+      "Puzzle & strategy"
+    ],
+    "genre": [
+      "Real-time strategy",
+      "Strategy"
+    ],
+    "verdict": {
+      "kind": "good",
+      "text": "▶ Play now — official web build, no install"
+    },
+    "appName": "Warzone 2100",
+    "title": "Play Warzone 2100 Online Free — Full Game in Your Browser",
+    "description": "The 1999 real-time strategy classic, open source since 2004, running in your browser: the campaign, skirmish against the AI and the tutorial. Free, no install.",
+    "keywords": "warzone 2100 online, play warzone 2100 in browser, warzone 2100 free, warzone 2100 no download, open source rts browser, classic rts online, warzone 2100 web",
+    "ogTitle": "Warzone 2100 — the full RTS, free in your browser",
+    "ogDescription": "Build a base, research 400 technologies, design your own units. The open-source 1999 RTS, playable in a browser tab.",
+    "crumb": "Play Warzone 2100",
+    "h1": "Play Warzone 2100 online — the full game, free",
+    "appUrl": "/apps/warzone2100/",
+    "heavy": true,
+    "screenshot": true,
+    "rank": 4.8,
+    "fullyFree": "Free software under the GPL since 2004: the official Warzone 2100 web build, code, data and music, hosted unmodified. No original discs needed."
   },
   {
     "slug": "parkhaven",

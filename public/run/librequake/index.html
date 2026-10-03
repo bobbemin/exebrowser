@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>LibreQuake — Play a Free Quake-Engine FPS in Your Browser</title>
+<meta name="description" content="A complete free shooter for the Quake engine, playable in your browser. Or drop in your own Quake files, or id's 1996 shareware zip, and play the original." />
+<meta name="keywords" content="librequake, quake engine game online, play quake in browser, quake shareware browser, free quake alternative, open source fps browser, quake 1996 online, retro fps no download" />
+<link rel="canonical" href="https://exebrowser.com/run/librequake/" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://exebrowser.com/run/librequake/" />
+<meta property="og:title" content="LibreQuake — a free Quake-engine shooter in your browser" />
+<meta property="og:description" content="Every map, monster and sound is free and original. Or bring your own Quake files and play the 1996 original in the same tab." />
+<meta property="og:image" content="https://exebrowser.com/run/librequake/screenshot.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://exebrowser.com/run/librequake/screenshot.png" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="alternate icon" href="/favicon.ico" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#0e0d0b" />
+<link rel="alternate" type="application/rss+xml" title="ExeBrowser — new games and posts" href="/feed.xml" />
+<link rel="stylesheet" href="/style.css?v=42" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C8C4TZC5F1" crossorigin="anonymous"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  // Headless automation (our own boot-test harness, crawlers driving Chrome) was
+  // showing up in GA as 0%-engaged sessions with 50+ events. Don't report it.
+  if (!navigator.webdriver) gtag('config', 'G-C8C4TZC5F1');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://exebrowser.com/" },
+    { "@type": "ListItem", "position": 2, "name": "App guides", "item": "https://exebrowser.com/run/" },
+    { "@type": "ListItem", "position": 3, "name": "Play LibreQuake", "item": "https://exebrowser.com/run/librequake/" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "LibreQuake",
+  "url": "https://exebrowser.com/run/librequake/",
+  "image": "https://exebrowser.com/run/librequake/screenshot.png",
+  "description": "A free and open-source first-person shooter for the Quake engine, playable in the browser with no download. Visitors who own Quake can also load their own game files.",
+  "applicationCategory": "Game",
+  "genre": ["First-person shooter","Action"],
+  "gamePlatform": ["Web browser", "Windows", "Mac", "Linux", "Chromebook"],
+  "operatingSystem": "Web Browser",
+  "author": { "@type": "Organization", "name": "The LibreQuake project" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is this Quake?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The free game is LibreQuake: a separate, open-source game built for the Quake engine, with its own maps, monsters, weapons, textures, sounds and music. It contains nothing from id Software's game data. If you own Quake, or download id's free 1996 shareware episode, you can load those files here and play the original in the same engine." }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I play the original Quake here?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Choose your files under 'Play the original Quake with your own files' in the game window. That can be pak0.pak (and pak1.pak for the full game) from the id1 folder of a Quake install, or quake106.zip, the 1996 shareware episode, exactly as downloaded. The files are read inside your browser tab and never uploaded. The site can't host Quake itself, because its licence doesn't allow that." }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to download or install anything?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No. The engine is JavaScript and WebGL running in the page. LibreQuake streams its maps from this site as you play, so the first level starts after a few megabytes rather than the whole 50 MB game." }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it save?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Use Save Game in the menu (Esc). Saves and your settings are kept in this browser on this device." }
+    }
+  ]
+}
+</script>
+<style>
+  .game-frame {
+    width: 100%; max-width: 1100px; height: 640px; border: 0;
+    display: block; margin: 0 auto; border-radius: 8px; background: #120d0a;
+  }
+  @media (max-width: 720px) { .game-frame { height: 520px; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <span class="logo" aria-hidden="true">▶_</span>
+    <h1>ExeBrowser</h1>
+  </div>
+  <p class="tagline">Run Windows <code>.exe</code> files in your browser. No install. No upload. Just WebAssembly + Wine.</p>
+  <nav class="site-nav" aria-label="Primary">
+    <a href="/">Home</a>
+    <a href="/run/">App guides</a>
+    <a href="/exe-inspector/">EXE viewer</a>
+    <a href="/blog/">Blog</a>
+    <a href="/guide/">Guide</a>
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+  </nav>
+</header>
+
+<main class="prose">
+  <p class="resume-bar" id="resume-bar" hidden></p>
+  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/run/">App guides</a> › Play LibreQuake</nav>
+
+  <section class="card" data-play-track="native" data-app-name="LibreQuake">
+    <h2>Play LibreQuake online — free, no download <span class="verdict good">▶ Play now — runs in the page</span></h2>
+    <p><strong>LibreQuake</strong> is a complete, free first-person shooter for the Quake engine: dark castles, slipgate bases, shotguns, nailguns and grenade launchers, monsters to clear and secrets to find. Everything in it was made by the open-source LibreQuake project, so it can be played here free and in full. <strong>Own the original?</strong> Load your Quake files in the same window and play that instead.</p>
+    <p class="muted small">Runs in WebQuake, a JavaScript and WebGL port of the Quake engine, so there is no emulator and nothing to install. <a href="/apps/librequake/" target="_blank" rel="noopener">Open it full screen</a>.</p>
+
+    <iframe class="game-frame" src="/apps/librequake/" title="LibreQuake — playable first-person shooter" loading="eager" allow="fullscreen"></iframe>
+
+    <details class="controls-panel" open>
+      <summary><strong>Controls</strong> — what does what</summary>
+      <div class="table-wrap">
+        <table class="controls-table">
+          <thead><tr><th scope="col">Action</th><th scope="col">Keys</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Look / aim</th><td>Click the game to capture the mouse, then move it. <kbd>Esc</kbd> releases it.</td></tr>
+            <tr><th scope="row">Move</th><td><kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>, hold <kbd>Shift</kbd> to run</td></tr>
+            <tr><th scope="row">Fire</th><td>Left mouse button</td></tr>
+            <tr><th scope="row">Jump / swim up</th><td><kbd>Space</kbd> or right mouse button</td></tr>
+            <tr><th scope="row">Weapons</th><td><kbd>1</kbd>–<kbd>8</kbd>, <kbd>Q</kbd> or the mouse wheel to cycle</td></tr>
+            <tr><th scope="row">Menu, save, load</th><td><kbd>Esc</kbd>. Quick save <kbd>F6</kbd>, quick load <kbd>F9</kbd></td></tr>
+            <tr><th scope="row">Phone / tablet</th><td>Left thumb moves, right thumb looks; Fire, Jump and Menu buttons on the right</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
+
+    <figure class="shot">
+      <img src="/run/librequake/screenshot.png" alt="LibreQuake running in the browser — a stone and rust-metal hall with a monster on the walkway" loading="lazy" />
+      <figcaption class="muted small">LibreQuake running in a browser tab on this page.</figcaption>
+    </figure>
+  </section>
+
+  <section class="card">
+    <h2>What LibreQuake is</h2>
+    <p>The Quake engine has been open source since id Software released it under the GPL in 1999, but the game's data — its levels, monsters, textures and sounds — never was. So for 25 years, "free Quake" has still needed a copy of the commercial game. <strong>LibreQuake</strong> fills that gap the way <a href="/run/freedoom/">Freedoom</a> did for DOOM: a community-made replacement for every asset, under a free licence. Maps, models, textures, sounds and music are BSD-licensed, and the game code is GPL.</p>
+    <p>It is a beta, and it plays like one in places. But it is a real shooter: an eight-level episode with its own bestiary and soundtrack. It also runs on every engine that runs Quake, including this one in your browser.</p>
+  </section>
+
+  <section class="card">
+    <h2>Playing the original Quake with your own files</h2>
+    <p>This site can't host id Software's Quake. Even the free 1996 shareware episode comes with a licence that only allows passing on the complete download, so streaming its data into a web page isn't something we're allowed to do. What you can do is bring your own copy:</p>
+    <ul>
+      <li><strong>You own Quake</strong> (CD, GOG or Steam): in the game window, choose <code>pak0.pak</code> and <code>pak1.pak</code> from the <code>id1</code> folder of the install. That's the full game. The original 1996 files work best; the 2021 re-release's files may not.</li>
+      <li><strong>You don't:</strong> id's free shareware episode, <code>quake106.zip</code> (9 MB), is still available from mirrors of id's FTP site. Download it, then choose that zip as it is. The page unpacks it in your browser and starts the first episode.</li>
+    </ul>
+    <p class="muted small">Either way the files are read inside the tab. Nothing is uploaded, and nothing is stored except your saves and settings.</p>
+  </section>
+
+  <section class="card">
+    <h2>Frequently asked questions</h2>
+    <details open>
+      <summary>Is this Quake?</summary>
+      <p>The free game is LibreQuake: a separate, open-source game built for the Quake engine, with its own maps, monsters, weapons, textures, sounds and music. It contains nothing from id Software's game data, and it isn't affiliated with id Software. If you own Quake, or download id's free 1996 shareware episode, you can load those files here and play the original in the same engine. See the <a href="/apps/librequake/NOTICE.md">licence and provenance notice</a>.</p>
+    </details>
+    <details>
+      <summary>How do I play the original Quake here?</summary>
+      <p>Choose your files under <strong>Play the original Quake with your own files</strong> in the game window. That can be <code>pak0.pak</code> (and <code>pak1.pak</code> for the full game) from the <code>id1</code> folder of a Quake install, or <code>quake106.zip</code>, the 1996 shareware episode, exactly as downloaded. The files are read inside your browser tab and never uploaded.</p>
+    </details>
+    <details>
+      <summary>Do I need to download or install anything?</summary>
+      <p>No. The engine is JavaScript and WebGL running in the page. LibreQuake streams its maps from this site as you play, so the first level starts after a few megabytes rather than the whole 50 MB game.</p>
+    </details>
+    <details>
+      <summary>Does it save?</summary>
+      <p>Yes. Use Save Game in the menu (<kbd>Esc</kbd>). Saves and your settings are kept in this browser on this device.</p>
+    </details>
+    <details>
+      <summary>It's slow or stutters when a level loads</summary>
+      <p>Each level is fetched the moment you enter it, so there's a short pause at every level change on a slow connection. Once it has loaded, it should run smoothly on any laptop from the last ten years. Phones work, but a keyboard and mouse is the way to play.</p>
+    </details>
+  </section>
+
+  <section class="card">
+    <h2>More shooters you can play in your browser</h2>
+    <ul class="card-grid">
+      <li><a class="link-card" href="/run/doom/"><span class="lc-title">DOOM (1993)</span><span class="lc-desc">The original shareware episode, running in DOSBox.</span></a></li>
+      <li><a class="link-card" href="/run/freedoom/"><span class="lc-title">Freedoom</span><span class="lc-desc">The free DOOM-engine game — complete, not a demo.</span></a></li>
+      <li><a class="link-card" href="/run/duke-nukem-3d/"><span class="lc-title">Duke Nukem 3D</span><span class="lc-desc">The shareware episode of the 1996 Build-engine shooter.</span></a></li>
+      <li><a class="link-card" href="/run/wolfenstein-3d/"><span class="lc-title">Wolfenstein 3D</span><span class="lc-desc">Where the first-person shooter started.</span></a></li>
+      <li><a class="link-card" href="/run/hexen-heretic-shareware/"><span class="lc-title">Heretic &amp; Hexen</span><span class="lc-desc">The fantasy DOOM-engine games, shareware episodes.</span></a></li>
+      <li><a class="link-card" href="/run/"><span class="lc-title">All games &amp; apps</span><span class="lc-desc">Browse everything you can play or run here.</span></a></li>
+    </ul>
+  </section>
+
+  <section class="card" id="embed-pointer">
+    <h2>Want a game like this on your own site?</h2>
+    <p>Eleven of the games here we wrote from scratch, and those are free for anyone to
+    put on their own page: one line of HTML, no account, no permission, no attribution
+    beyond a credit line.</p>
+    <p><a class="cta-btn" href="/embed/" id="embed-pointer-cta">See the games you can embed</a></p>
+  </section>
+  <script src="/embed-pointer.js?v=1"></script>
+</main>
+
+<footer>
+  <p>LibreQuake is by the LibreQuake project: art, sound and music under the BSD 3-Clause licence, game code under the GPL. The WebQuake engine is GPL. Quake is a trademark of id Software; it is named here only to describe the engine and the files the own-files mode accepts. Neither this site nor LibreQuake is affiliated with or endorsed by id Software.</p>
+  <nav class="footer-nav" aria-label="Footer">
+    <a href="/">Home</a>
+    <a href="/run/">App guides</a>
+    <a href="/exe-inspector/">EXE viewer</a>
+    <a href="/blog/">Blog</a>
+    <a href="/guide/">Compatibility Guide</a>
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+    <a href="/dos-emulator/">DOS emulator</a>
+    <a href="/saves/">Saved games</a>
+    <a href="/embed/">Embed our games</a>
+    <a href="/privacy/">Privacy Policy</a>
+    <a href="/terms/">Terms of Use</a>
+  </nav>
+  <p>© 2026 ExeBrowser. Content licensed openly; runtime under GPL-2.0 / LGPL-2.1.</p>
+</footer>
+<script src="/save-core.js?v=6"></script>
+<script src="/recent.js?v=8"></script>
+<script>window.renderResumeBar && renderResumeBar("resume-bar");</script>
+<script src="/play-events.js?v=2"></script>
+<script>
+  // The game's start button is inside the frame, out of reach of play-events.js's
+  // click listener, so the launcher reports it. The mode says which game was
+  // played: "free" (LibreQuake) or "own" (the visitor's Quake files).
+  addEventListener("message", (e) => {
+    if (e.origin !== location.origin || !e.data || e.data.source !== "librequake" || !window.ExePlay) return;
+    if (e.data.event === "quake_start") ExePlay.click();
+    ExePlay.track(e.data.event, e.data.params || {});
+  });
+</script>
+<script src="/pwa.js?v=2"></script>
+</body>
+</html>

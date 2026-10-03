@@ -16,3 +16,15 @@ public/64/*.part*
 
 # build output of scripts/build-distribution.mjs
 dist/
+
+# LibreQuake game data (~78 MB). Not committed: rebuild with
+# node scripts/build-librequake-data.mjs (pinned release + sha256).
+public/apps/librequake/id1/
+
+# Warzone 2100 4.7.0 web release binaries (~87 MB). Not committed: rebuild with
+# node scripts/build-warzone2100-data.mjs (pinned release + sha256). The patched
+# glue (warzone2100.js), the parts manifest, the package .js loaders, icons,
+# index.html, NOTICE.md and COPYING ARE committed.
+public/apps/warzone2100/warzone2100.wasm
+public/apps/warzone2100/warzone2100.data.part[0-9]*
+public/apps/warzone2100/pkg/*/*.data

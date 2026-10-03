@@ -8,10 +8,31 @@
     <lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://exebrowser.com/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>New game: LibreQuake</title>
+      <link>https://exebrowser.com/run/librequake/</link>
+      <guid isPermaLink="true">https://exebrowser.com/run/librequake/</guid>
+      <description>Every map, monster and sound is free and original. Or bring your own Quake files and play the 1996 original in the same tab.</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New game: Marchers</title>
+      <link>https://exebrowser.com/run/marchers/</link>
+      <guid isPermaLink="true">https://exebrowser.com/run/marchers/</guid>
+      <description>They walk. They will not stop. Hand out jobs: dig, bridge, block, glide, and get enough of them to the exit.</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>New game: Skyrise</title>
       <link>https://exebrowser.com/run/skyrise/</link>
       <guid isPermaLink="true">https://exebrowser.com/run/skyrise/</guid>
       <description>Offices, hotels, cinemas and the elevators that hold it together. Five stars and a landmark wedding at floor 100.</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New game: Warzone 2100</title>
+      <link>https://exebrowser.com/run/warzone2100/</link>
+      <guid isPermaLink="true">https://exebrowser.com/run/warzone2100/</guid>
+      <description>Build a base, research 400 technologies, design your own units. The open-source 1999 RTS, playable in a browser tab.</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -139,27 +160,6 @@
       <guid isPermaLink="true">https://exebrowser.com/run/micropolis/</guid>
       <description>The open-source city simulator, running natively in your browser. Zone, build, tax and watch a city grow.</description>
       <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New game: Beneath a Steel Sky</title>
-      <link>https://exebrowser.com/run/beneath-a-steel-sky/</link>
-      <guid isPermaLink="true">https://exebrowser.com/run/beneath-a-steel-sky/</guid>
-      <description>Revolution&apos;s cyberpunk classic with Dave Gibbons art, free and instant.</description>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New game: OpenTTD</title>
-      <link>https://exebrowser.com/run/openttd/</link>
-      <guid isPermaLink="true">https://exebrowser.com/run/openttd/</guid>
-      <description>Build railways, roads and airports and run a transport empire. Free and instant.</description>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New game: FreeCell</title>
-      <link>https://exebrowser.com/run/freecell-open/</link>
-      <guid isPermaLink="true">https://exebrowser.com/run/freecell-open/</guid>
-      <description>The FreeCell you remember — same deal numbers as Windows, supermoves, unlimited undo.</description>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Open Cadet: Space Cadet Pinball, Fully Open Source</title>

@@ -33,7 +33,6 @@ import { STATIC_PAGES, staticLinkFor } from "./i18n/static-pages.mjs";
 const ROOT = resolve(process.cwd(), "public");
 
 const STYLE = "/style.css?v=42";
-const ADSENSE = `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3593636324187853" crossorigin="anonymous"></script>`;
 const GA = `<script async src="https://www.googletagmanager.com/gtag/js?id=G-C8C4TZC5F1" crossorigin="anonymous"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -212,7 +211,6 @@ function render(L, path, cfg, e) {
 <meta name="twitter:card" content="summary_large_image" />
 ${FAVICON_BLOCK}
 <link rel="stylesheet" href="${STYLE}" />
-${ADSENSE}
 ${GA}
 ${breadcrumbLd(L, cfg, e, url)}${isArticle ? articleLd(e, url, cfg) : ""}${faqLd(e)}
 </head>

@@ -12,7 +12,8 @@
 // Exits non-zero if anything fails, so it can gate a deploy.
 
 import { readFileSync, existsSync, readdirSync, statSync } from "node:fs";
-import { resolve, join } from "node:path";
+import { resolve, join, relative } from "node:path";
+import { loadPages, noAdReason } from "./ads.mjs";
 
 const ROOT = resolve(process.cwd(), "public");
 const pages = JSON.parse(readFileSync(resolve(process.cwd(), "scripts", "app-pages.json"), "utf8"));
@@ -486,6 +487,30 @@ if (existsSync(uiFile)) {
     const detail = [...byVer].map(([v, where]) => `v${v} (${where.join(", ")}…)`).join(" vs ");
     warn(`assets: ${asset} is referenced at ${byVer.size} versions — ${detail}`);
   }
+}
+
+// ── ads ──────────────────────────────────────────────────────────────────
+// Every page must agree with the rule in scripts/ads.mjs: the tag where it is
+// allowed, and never on a game frame, an embed wrapper or a hosted title
+// whose licence hasn't been cleared (adsOk). Fix with node scripts/inject-ads.mjs.
+{
+  const bySlug = loadPages();
+  const walk = (dir) => readdirSync(dir).flatMap((n) => {
+    const abs = join(dir, n);
+    return statSync(abs).isDirectory() ? walk(abs) : n.endsWith(".html") ? [abs] : [];
+  });
+  const wrong = [];
+  for (const abs of walk(ROOT)) {
+    const html = readFileSync(abs, "utf8");
+    if (!/<\/head>/i.test(html)) continue;
+    const rel = relative(ROOT, abs).split("\\").join("/");
+    const has = html.includes("scripts.mediavine.com/tags/");
+    const reason = noAdReason(rel, html, bySlug);
+    if (has && reason) wrong.push(`${rel} has the ad tag but must not (${reason})`);
+    if (!has && !reason) wrong.push(`${rel} is missing the ad tag`);
+  }
+  for (const w of wrong.slice(0, 10)) problems.push(`ads: ${w} — run node scripts/inject-ads.mjs`);
+  if (wrong.length > 10) problems.push(`ads: …and ${wrong.length - 10} more`);
 }
 
 // ── report ────────────────────────────────────────────────────────────────

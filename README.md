@@ -62,6 +62,11 @@ node scripts/inject-page-links.mjs
 #     step 6 until this has run)
 node scripts/gen-embeds.mjs
 
+# 5c. the Mediavine ad tag: added where scripts/ads.mjs allows it, removed
+#     everywhere else. Generators write pages without it, so this runs LAST;
+#     step 6 fails if any page disagrees with the rule.
+node scripts/inject-ads.mjs
+
 # 6. check nothing drifted out of sync
 node scripts/check-consistency.mjs
 ```
@@ -72,6 +77,7 @@ before `wrangler pages deploy`**, or the deploy ships a page whose game 404s:
 
 ```bash
 node scripts/build-librequake-data.mjs   # public/apps/librequake/id1/ (~79 MB)
+node scripts/build-warzone2100-data.mjs  # public/apps/warzone2100/ parts, wasm, music (~87 MB)
 ```
 
 Steps 3 and 4 were previously undocumented, which is how `/unblocked/` came to

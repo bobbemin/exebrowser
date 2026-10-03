@@ -82,7 +82,8 @@
       "Pinball"
     ],
     "fullyFree": "MIT-licensed engine with wholly original CC0 public-domain art, sound and table data.",
-    "rank": 1
+    "rank": 1,
+    "adsOk": true
   },
   {
     "slug": "dragon-keep",
@@ -983,7 +984,8 @@
       "Action"
     ],
     "fullyFree": "Assets BSD-licensed by the Freedoom project; runs on the freely-redistributable DOOM shareware engine.",
-    "rank": 21
+    "rank": 21,
+    "adsOk": true
   },
   {
     "slug": "3d-pinball-space-cadet",
@@ -1320,7 +1322,8 @@
     ],
     "screenshot": true,
     "fullyFree": "Written from scratch for ExeBrowser — original code and assets, free to play.",
-    "rank": 3
+    "rank": 3,
+    "adsOk": true
   },
   {
     "slug": "freeciv",
@@ -1696,7 +1699,8 @@
     ],
     "screenshot": true,
     "fullyFree": "Written from scratch for ExeBrowser — original code and assets, free to play.",
-    "rank": 8
+    "rank": 8,
+    "adsOk": true
   },
   {
     "slug": "freecell",
@@ -1884,7 +1888,8 @@
         "keyboard": "—",
         "mouse": "Click Undo"
       }
-    ]
+    ],
+    "adsOk": true
   },
   {
     "slug": "spider-solitaire",
@@ -2072,7 +2077,8 @@
         "keyboard": "—",
         "mouse": "Click Undo"
       }
-    ]
+    ],
+    "adsOk": true
   },
   {
     "slug": "hearts",
@@ -2542,7 +2548,8 @@
         "keyboard": "—",
         "mouse": "Click New game"
       }
-    ]
+    ],
+    "adsOk": true
   },
   {
     "slug": "chips-challenge",
@@ -4144,7 +4151,8 @@
     "sections": [],
     "faq": [],
     "related": [],
-    "screenshot": true
+    "screenshot": true,
+    "adsOk": true
   },
   {
     "slug": "7-zip",
@@ -4250,7 +4258,8 @@
     "categories": [
       "Apps & tools"
     ],
-    "fullyFree": "LGPL open-source software, free to use and redistribute."
+    "fullyFree": "LGPL open-source software, free to use and redistribute.",
+    "adsOk": true
   },
   {
     "slug": "winrar",
@@ -4544,7 +4553,8 @@
     "categories": [
       "Apps & tools"
     ],
-    "fullyFree": "GPL open-source software, free to use and redistribute."
+    "fullyFree": "GPL open-source software, free to use and redistribute.",
+    "adsOk": true
   },
   {
     "slug": "mspaint",
@@ -5031,7 +5041,8 @@
     "categories": [
       "Apps & tools"
     ],
-    "fullyFree": "GPL open-source software, free to use and redistribute."
+    "fullyFree": "GPL open-source software, free to use and redistribute.",
+    "adsOk": true
   },
   {
     "slug": "notepad-plus-plus",
@@ -5116,7 +5127,8 @@
     "updated": "2026-07-28",
     "categories": [
       "Apps & tools"
-    ]
+    ],
+    "adsOk": true
   },
   {
     "slug": "irfanview",
@@ -5306,7 +5318,8 @@
     "categories": [
       "Apps & tools"
     ],
-    "fullyFree": "MIT-licensed open-source software."
+    "fullyFree": "MIT-licensed open-source software.",
+    "adsOk": true
   },
   {
     "slug": "filezilla",
@@ -8056,7 +8069,8 @@
     ],
     "screenshot": true,
     "fullyFree": "Written from scratch for ExeBrowser — original code and assets, free to play.",
-    "rank": 19
+    "rank": 19,
+    "adsOk": true
   },
   {
     "slug": "cosmo",
@@ -8857,7 +8871,8 @@
         "keyboard": "Seal it in",
         "mouse": "—"
       }
-    ]
+    ],
+    "adsOk": true
   },
   {
     "skipGenerate": true,
@@ -8931,7 +8946,8 @@
         "keyboard": "P",
         "mouse": "Pause button"
       }
-    ]
+    ],
+    "adsOk": true
   },
   {
     "skipGenerate": true,
@@ -8992,7 +9008,8 @@
         "keyboard": "—",
         "mouse": "Walls button"
       }
-    ]
+    ],
+    "adsOk": true
   },
   {
     "skipGenerate": true,
@@ -9051,7 +9068,8 @@
         "keyboard": "—",
         "mouse": "Start flow button"
       }
-    ]
+    ],
+    "adsOk": true
   },
   {
     "skipGenerate": true,
@@ -9411,7 +9429,8 @@
         "keyboard": "—",
         "mouse": "Mouse wheel"
       }
-    ]
+    ],
+    "adsOk": true
   },
   {
     "slug": "micropolis",
@@ -9444,7 +9463,8 @@
       "text": "▶ Play now — native JavaScript, no emulator"
     },
     "fullyFree": "Open-source under GPL-3.0: the city simulator Maxis first released as SimCity, which Electronic Arts open-sourced in 2008. The engine and every graphic here are the free release — nothing from a commercial version is needed or included.",
-    "rank": 4
+    "rank": 4,
+    "adsOk": true
   },
   {
     "slug": "duke-nukem-3d",
@@ -10597,7 +10617,8 @@
     "heavy": true,
     "screenshot": true,
     "rank": 2.6,
-    "fullyFree": "LibreQuake is a free replacement for all of Quake's game data: art, sound and music under BSD-3, game code under GPL-2, in the GPL WebQuake engine. Nothing from id Software is hosted; visitors who own Quake can load their own files."
+    "fullyFree": "LibreQuake is a free replacement for all of Quake's game data: art, sound and music under BSD-3, game code under GPL-2, in the GPL WebQuake engine. Nothing from id Software is hosted; visitors who own Quake can load their own files.",
+    "adsOk": true
   },
   {
     "slug": "marchers",
@@ -10629,7 +10650,8 @@
     "appUrl": "/apps/marchers/",
     "screenshot": true,
     "rank": 4.4,
-    "fullyFree": "Written from scratch for ExeBrowser — original code, levels, art and sound, MIT-licensed. No original game files needed."
+    "fullyFree": "Written from scratch for ExeBrowser — original code, levels, art and sound, MIT-licensed. No original game files needed.",
+    "adsOk": true
   },
   {
     "slug": "skyrise",
@@ -10662,7 +10684,8 @@
     "appUrl": "/apps/skyrise/",
     "screenshot": true,
     "rank": 4.5,
-    "fullyFree": "Written from scratch for ExeBrowser — original code, art and sound, MIT-licensed. No original game files needed."
+    "fullyFree": "Written from scratch for ExeBrowser — original code, art and sound, MIT-licensed. No original game files needed.",
+    "adsOk": true
   },
   {
     "slug": "warzone2100",
@@ -10695,7 +10718,8 @@
     "heavy": true,
     "screenshot": true,
     "rank": 4.8,
-    "fullyFree": "Free software under the GPL since 2004: the official Warzone 2100 web build, code, data and music, hosted unmodified. No original discs needed."
+    "fullyFree": "Free software under the GPL since 2004: the official Warzone 2100 web build, code, data and music, hosted unmodified. No original discs needed.",
+    "adsOk": true
   },
   {
     "slug": "parkhaven",
@@ -10728,6 +10752,7 @@
     "appUrl": "/apps/parkhaven/",
     "screenshot": true,
     "rank": 4.6,
-    "fullyFree": "Written from scratch for ExeBrowser — original code, 3D models and sound, MIT-licensed. No original game files needed."
+    "fullyFree": "Written from scratch for ExeBrowser — original code, 3D models and sound, MIT-licensed. No original game files needed.",
+    "adsOk": true
   }
 ]

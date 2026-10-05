@@ -119,7 +119,7 @@ export const byoCard = () =>
 // "Free & complete" is derived from `fullyFree`, not written in categories[].
 export const CATEGORY_ORDER = [
   "Free & complete", "Windows classics", "Shooters", "Platformers", "Action",
-  "Puzzle & strategy", "Racing & sports", "Pinball", "Apps & tools",
+  "Puzzle & strategy", "Educational", "Racing & sports", "Pinball", "Apps & tools",
 ];
 
 // Count titles per chip, including the derived "Free & complete".

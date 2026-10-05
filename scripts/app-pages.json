@@ -1,6 +1,7 @@
 [
   {
     "slug": "space-cadet-open",
+    "provenance": "open",
     "skipGenerate": true,
     "title": "Play 3D Pinball Space Cadet Online — Windows XP Pinball Free",
     "description": "Play 3D Pinball Space Cadet in your browser — free, instant, no download, no Windows files needed. Open-source WebAssembly build.",
@@ -117,6 +118,7 @@
   },
   {
     "slug": "wolfenstein-3d",
+    "provenance": "shareware",
     "title": "Wolfenstein 3D Unblocked — Play the Real DOS Game Free",
     "description": "The original 1992 Wolfenstein 3D, free shareware episode one, running in your browser. The real DOS game in DOSBox — no download, no sign-up, progress saved.",
     "keywords": "play wolfenstein 3d online, wolfenstein 3d in browser, wolfenstein 3d shareware free, wolfenstein 3d no download, ecwolf browser, wolf3d shareware online, classic wolfenstein 3d browser, wolfenstein 3d unblocked",
@@ -344,6 +346,7 @@
   },
   {
     "slug": "tyrian",
+    "provenance": "freeware",
     "title": "Tyrian 2000 Unblocked — Play Free Online, No Download",
     "description": "Tyrian 2000, the classic space shooter, released as freeware by its own authors. All five episodes, free and complete, playing instantly in your browser.",
     "keywords": "play tyrian 2000 online, tyrian in browser, tyrian 2000 free, tyrian shmup online no download, tyrian freeware, opentyrian2000 browser, play tyrian no install, tyrian 2000 unblocked",
@@ -543,6 +546,7 @@
   },
   {
     "slug": "doom",
+    "provenance": "shareware",
     "title": "Play DOOM (1993) Free Online — Unblocked, No Download",
     "description": "The original 1993 DOOM, running in your browser. The real DOS game in DOSBox, not a remake or a JS port — and it saves your progress. No download, no sign-up.",
     "keywords": "play doom online, doom in browser, doom online free no download, play doom no install, doom shareware online, classic doom browser, doom95 browser, knee-deep in the dead online, doom unblocked",
@@ -778,6 +782,7 @@
   },
   {
     "slug": "freedoom",
+    "provenance": "open",
     "title": "Freedoom Unblocked — Play the Complete Game Free, Not a Demo",
     "description": "Freedoom is a free, open-source game on the DOOM engine — the whole game, not a shareware episode. Plays instantly in your browser and saves your progress.",
     "keywords": "play freedoom online, freedoom in browser, freedoom no download, free doom game online, freedoom phase 1, freedoom phase 2, open source doom browser, libre doom online, freedoom unblocked",
@@ -1240,6 +1245,7 @@
   },
   {
     "slug": "solitaire-open",
+    "provenance": "clean",
     "skipGenerate": true,
     "title": "Solitaire Unblocked — Play Classic Klondike Free Online",
     "description": "Klondike Solitaire with draw 1 or draw 3, Vegas scoring, undo and the bouncing win cascade. Free, instant, no account, and it remembers your game.",
@@ -1617,6 +1623,7 @@
   },
   {
     "slug": "minesweeper-open",
+    "provenance": "clean",
     "skipGenerate": true,
     "title": "Minesweeper Unblocked — Play the Classic Windows Game Free",
     "description": "Classic Minesweeper with all three board sizes and the chording click experienced players rely on. Free, instant, no download and no account.",
@@ -1863,6 +1870,7 @@
       "text": "▶ Play now — runs natively, no emulator"
     },
     "slug": "freecell-open",
+    "provenance": "clean",
     "appName": "FreeCell",
     "title": "Play FreeCell Online Free — the Classic Windows Card Game",
     "description": "FreeCell with the real supermove rule, so how many cards you can shift depends on your free cells. Free, instant, no account, and it saves your game.",
@@ -2052,6 +2060,7 @@
       "text": "▶ Play now — runs natively, no emulator"
     },
     "slug": "spider-open",
+    "provenance": "clean",
     "appName": "Spider Solitaire",
     "title": "Play Spider Solitaire Online Free — Like Windows spider.exe",
     "description": "Spider Solitaire in one, two or four suits. Start at one suit — four is genuinely hard. Free, instant, no download, and it remembers your game.",
@@ -2202,6 +2211,7 @@
   },
   {
     "slug": "skifree",
+    "provenance": "freeware",
     "title": "Play SkiFree (1991) Free Online — No Download, No Install",
     "description": "The real 1991 SkiFree, running in your browser. No download, no install — and yes, the Yeti is still in it, and you still can't outrun him.",
     "keywords": "play skifree online, skifree in browser, skifree yeti game, skifree no download, skifree windows online, classic skifree browser, chris pirih skifree, skifree unblocked",
@@ -2527,6 +2537,7 @@
       "text": "▶ Play now — runs natively, no emulator"
     },
     "slug": "jezzball-open",
+    "provenance": "clean",
     "appName": "JezzBall",
     "title": "JezzBall Unblocked — Play the Classic Windows Game Free",
     "description": "JezzBall from the Windows Entertainment Pack, rebuilt to play in any browser. Free, instant, no download, and it picks up where you left off.",
@@ -2872,6 +2883,7 @@
   },
   {
     "slug": "commander-keen",
+    "provenance": "shareware",
     "title": "Commander Keen Unblocked — Play Marooned on Mars Free",
     "description": "Play Commander Keen: Marooned on Mars in your browser — the complete free shareware Episode 1, instant, no download, via DOSBox + WebAssembly.",
     "keywords": "play commander keen online, commander keen 1 browser, marooned on mars online, commander keen shareware, commander keen no download, commander keen unblocked",
@@ -3086,6 +3098,7 @@
   },
   {
     "slug": "scorched-earth",
+    "provenance": "freeware",
     "title": "Scorched Earth Unblocked — Play the Shareware Free Online",
     "description": "Play Scorched Earth in your browser — the 1991 artillery classic, 'the mother of all games'. Shareware, no download, runs via DOSBox + WebAssembly.",
     "keywords": "play scorched earth online, scorched earth dos game, scorched earth browser, artillery game online",
@@ -3449,6 +3462,7 @@
   },
   {
     "slug": "raptor",
+    "provenance": "shareware",
     "title": "Raptor Unblocked — Play Call of the Shadows Free Online",
     "description": "Play Raptor: Call of the Shadows shareware episode free in your browser — Apogee's 1994 vertical shooter. No download, runs via DOSBox + WebAssembly.",
     "keywords": "play raptor call of the shadows online, raptor dos game, raptor shareware, apogee raptor browser",
@@ -3716,6 +3730,7 @@
   },
   {
     "slug": "blake-stone",
+    "provenance": "shareware",
     "title": "Blake Stone Unblocked — Play Aliens of Gold Free Online",
     "description": "Play the free shareware episode of Blake Stone: Aliens of Gold in your browser — instant, no download, runs via DOSBox + WebAssembly. Episode 1 is legally free.",
     "keywords": "play blake stone online, blake stone aliens of gold browser, blake stone shareware, blake stone dosbox online, blake stone no download",
@@ -4140,6 +4155,7 @@
   },
   {
     "slug": "extract-archive",
+    "provenance": "open",
     "title": "Extract 7Z, ZIP & RAR Online Free — No Upload, No Install",
     "description": "Open a .7z, .zip, .rar or .tar in your browser and pull out the files. Nothing uploads, nothing installs, and it works on a locked-down laptop.",
     "keywords": "extract 7z online, open 7z file, unzip online, extract rar online, open archive browser, 7z extractor no download",
@@ -4176,6 +4192,7 @@
   },
   {
     "slug": "7-zip",
+    "provenance": "open",
     "title": "Run 7-Zip Online in Your Browser — Free, No Install",
     "description": "Open a .zip, .7z or .rar in your browser without installing anything. The real 7-Zip running on Wine, and your files never leave your device.",
     "keywords": "7-zip online, run 7zip in browser, extract 7z online, 7zip no install, open archive browser, 7-zip web, extract rar online, archive extractor browser",
@@ -4480,6 +4497,7 @@
   },
   {
     "slug": "keepass",
+    "provenance": "open",
     "title": "Run KeePass in Your Browser — 1.x Works, 2.x Doesn't",
     "description": "KeePass 1.x Classic, the free GPL password manager, boots one-click here via Wine + WebAssembly. 2.x won't run — version and vault-safety caveats explained.",
     "keywords": "keepass browser, run keepass online, open source password manager windows, keepass 1.x wine, kdbx in browser, keepass classic, kdb password vault",
@@ -4958,6 +4976,7 @@
   },
   {
     "slug": "sumatra-pdf",
+    "provenance": "open",
     "title": "Open a PDF in Your Browser — No Viewer to Install",
     "description": "Open a PDF in your browser using the real SumatraPDF — no viewer to install, no upload. The file is read locally and never leaves your device.",
     "keywords": "sumatra pdf online, run sumatra pdf in browser, open pdf in browser no viewer, lightweight pdf reader online, sumatra pdf wine, read epub mobi cbz online, portable pdf reader browser",
@@ -5066,6 +5085,7 @@
   },
   {
     "slug": "notepad-plus-plus",
+    "provenance": "open",
     "title": "Can You Run Notepad++ in a Browser? An Honest Wine Report",
     "description": "Notepad++ under browser Wine stops at a \"Load langs.xml failed\" dialog and never opens an editor window. Here's what we tried and what to use instead.",
     "keywords": "notepad++ online, run notepad plus plus in browser, notepad++ no download, notepad++ web editor, notepad++ wine, open source code editor browser",
@@ -5239,6 +5259,7 @@
   },
   {
     "slug": "putty",
+    "provenance": "open",
     "title": "Try PuTTY in Your Browser — The UI Runs, SSH Can't Connect",
     "description": "Launch the real PuTTY one-click via Wine + WebAssembly. The Win32 UI and config dialog work, but browsers block raw sockets — SSH and telnet can't connect.",
     "keywords": "putty online, putty in browser, run putty no download, putty ssh client browser, putty web, putty wine, free ssh client online, putty.exe browser",
@@ -6676,6 +6697,7 @@
   },
   {
     "slug": "skyroads",
+    "provenance": "freeware",
     "title": "SkyRoads Unblocked — Play the Freeware Classic Free Online",
     "description": "Play SkyRoads free in your browser — the 1993 Estonian space-racing puzzle classic, released as freeware. No download, runs via DOSBox + WebAssembly.",
     "keywords": "play skyroads online, skyroads browser, skyroads free, skyroads dos game, bluemoon skyroads",
@@ -6833,6 +6855,7 @@
   },
   {
     "slug": "jetpack",
+    "provenance": "freeware",
     "title": "Jetpack Unblocked — Play the Full Version Free Online",
     "description": "Play Jetpack free in your browser — Adept Software's 1993 puzzle-platformer, released free by its author. No download, runs via DOSBox + WebAssembly.",
     "keywords": "play jetpack online, jetpack dos game, jetpack adept software, jetpack free full version",
@@ -6986,6 +7009,7 @@
   },
   {
     "slug": "god-of-thunder",
+    "provenance": "freeware",
     "title": "God of Thunder Unblocked — Play the Freeware Free Online",
     "description": "Play God of Thunder free in your browser — the 1993 Norse action-adventure, released as freeware. No download, runs via DOSBox + WebAssembly.",
     "keywords": "play god of thunder online, god of thunder dos game, god of thunder freeware, thor dos game",
@@ -7148,6 +7172,7 @@
   },
   {
     "slug": "one-must-fall-2097",
+    "provenance": "freeware",
     "title": "One Must Fall 2097 Unblocked — Play Free Online, No Download",
     "description": "Play One Must Fall 2097 free in your browser — Epic's 1994 robot fighting classic, released as freeware. No download, runs via DOSBox + WebAssembly.",
     "keywords": "play one must fall 2097 online, omf 2097 browser, one must fall free, omf2097 dos",
@@ -7329,6 +7354,7 @@
   },
   {
     "slug": "xargon",
+    "provenance": "freeware",
     "title": "Xargon Unblocked — Play the Freeware Trilogy Free Online",
     "description": "Play Xargon free in your browser — Allen Pilgrim's 1993 platformer, released free by its author. No download, runs via DOSBox + WebAssembly.",
     "keywords": "play xargon online, xargon dos game, xargon freeware, epic megagames xargon",
@@ -7500,6 +7526,7 @@
   },
   {
     "slug": "bio-menace",
+    "provenance": "freeware",
     "title": "Bio Menace Unblocked — Play Episode One Free Online",
     "description": "Play Bio Menace free in your browser — Apogee's 1993 run-and-gun platformer, released as freeware by 3D Realms. No download, runs via DOSBox.",
     "keywords": "play bio menace online, bio menace dos game, bio menace freeware, apogee bio menace",
@@ -7671,6 +7698,7 @@
   },
   {
     "slug": "alien-carnage",
+    "provenance": "freeware",
     "title": "Alien Carnage Unblocked — Play the Freeware Free Online",
     "description": "Play Alien Carnage (Halloween Harry) free in your browser — the 1993 Apogee run-and-gun, released as freeware. No download, runs via DOSBox.",
     "keywords": "play alien carnage online, halloween harry dos, alien carnage freeware, apogee alien carnage",
@@ -7832,6 +7860,7 @@
   },
   {
     "slug": "keen4",
+    "provenance": "shareware",
     "title": "Commander Keen 4 Unblocked — Play Secret of the Oracle Free",
     "description": "Play Commander Keen 4: Secret of the Oracle free in your browser — the shareware episode of Goodbye Galaxy. No download, runs via DOSBox + WebAssembly.",
     "keywords": "play commander keen 4 online, secret of the oracle browser, keen 4 shareware, goodbye galaxy dos",
@@ -8008,6 +8037,7 @@
   },
   {
     "slug": "hearts-open",
+    "provenance": "clean",
     "skipGenerate": true,
     "title": "Play Hearts Online Free — Like Windows mshearts, No Download",
     "description": "Hearts against three opponents, with the full passing rotation and shooting the moon actually implemented. Free, instant, no account, no download.",
@@ -8094,6 +8124,7 @@
   },
   {
     "slug": "cosmo",
+    "provenance": "shareware",
     "title": "Cosmo's Cosmic Adventure Unblocked — Play the Shareware Free",
     "description": "Play Cosmo's Cosmic Adventure free in your browser — Apogee's 1992 platformer, the complete shareware episode. No download, runs via DOSBox + WebAssembly.",
     "keywords": "play cosmo's cosmic adventure online, cosmo cosmic adventure browser, apogee cosmo, cosmo dos game free",
@@ -8288,6 +8319,7 @@
   },
   {
     "slug": "hocus-pocus",
+    "provenance": "shareware",
     "title": "Hocus Pocus Unblocked — Play the Shareware Episode Free",
     "description": "Play Hocus Pocus free in your browser — Apogee's 1994 wizard platformer, the complete shareware episode. No download, runs via DOSBox + WebAssembly.",
     "keywords": "play hocus pocus online, hocus pocus dos game, hocus pocus apogee, hocus pocus browser free",
@@ -8481,6 +8513,7 @@
   },
   {
     "slug": "crystal-caves",
+    "provenance": "shareware",
     "title": "Crystal Caves Unblocked — Play the Shareware Episode Free",
     "description": "Play Crystal Caves free in your browser — Apogee's 1991 platformer, the complete shareware episode. No download, runs via DOSBox + WebAssembly.",
     "keywords": "play crystal caves online, crystal caves dos game, crystal caves apogee, crystal caves browser free",
@@ -8660,6 +8693,7 @@
   },
   {
     "slug": "monster-bash",
+    "provenance": "shareware",
     "title": "Monster Bash Unblocked — Play the Shareware Episode Free",
     "description": "Play Monster Bash free in your browser — Apogee's 1993 monster-hunting platformer. The complete shareware episode, no download, runs via DOSBox.",
     "keywords": "play monster bash online, monster bash dos game, monster bash apogee, johnny dash game",
@@ -8856,6 +8890,7 @@
       "text": "▶ Play now — runs natively, no emulator"
     },
     "slug": "rodents-open",
+    "provenance": "clean",
     "appName": "Rodent's Revenge",
     "title": "Play Rodent's Revenge Online Free — Classic Windows Game",
     "description": "Rodent's Revenge, the Windows Entertainment Pack puzzle where you trap the cats. Free, instant, nothing to download, and it saves your progress.",
@@ -8928,6 +8963,7 @@
       "text": "▶ Play now — runs natively, no emulator"
     },
     "slug": "blockdrop-open",
+    "provenance": "clean",
     "appName": "Block Drop",
     "title": "Block Drop Unblocked — Play the Falling Block Puzzle Free",
     "description": "A falling-block puzzle you can play right now, with hold, ghost piece and the standard rotation. Free, instant, no download and no account.",
@@ -8993,6 +9029,7 @@
       "text": "▶ Play now — runs natively, no emulator"
     },
     "slug": "snake-open",
+    "provenance": "clean",
     "appName": "Snake",
     "title": "Snake Unblocked — Play the Classic Arcade Game Free Online",
     "description": "The classic Snake, rebuilt to run in any browser with keyboard or swipe controls. Free, instant, no download and no account needed.",
@@ -9055,6 +9092,7 @@
       "text": "▶ Play now — runs natively, no emulator"
     },
     "slug": "pipes-open",
+    "provenance": "clean",
     "appName": "Pipe Panic",
     "title": "Pipe Panic Unblocked — Play the Pipe-Laying Puzzle Free",
     "description": "Pipe Panic: lay the pipe before the water reaches it. Follows the original Pipe Mania rules, so the flow ends the level, not your game. Free and instant.",
@@ -9120,6 +9158,7 @@
       "text": "▶ Play now — runs natively via ScummVM, no emulator"
     },
     "slug": "beneath-a-steel-sky",
+    "provenance": "freeware",
     "appName": "Beneath a Steel Sky",
     "title": "Beneath a Steel Sky Unblocked — Play the Classic Free",
     "description": "Beneath a Steel Sky, the 1994 cyberpunk adventure Revolution released as freeware. The complete game, playing in your browser with nothing to install.",
@@ -9180,6 +9219,7 @@
       "text": "▶ Play now — runs natively via ScummVM, no emulator"
     },
     "slug": "lure-of-the-temptress",
+    "provenance": "freeware",
     "appName": "Lure of the Temptress",
     "author": "Revolution Software",
     "title": "Lure of the Temptress Unblocked — Play the 1992 Adventure",
@@ -9255,6 +9295,7 @@
       "text": "▶ Play now — runs natively via ScummVM, no emulator"
     },
     "slug": "soltys",
+    "provenance": "freeware",
     "appName": "Sołtys",
     "author": "Laboratorium Komputerowe Avalon",
     "title": "Sołtys Unblocked — Polish Comedy Adventure in English",
@@ -9330,6 +9371,7 @@
       "text": "▶ Play now — runs natively via ScummVM, no emulator"
     },
     "slug": "flight-of-the-amazon-queen",
+    "provenance": "freeware",
     "appName": "Flight of the Amazon Queen",
     "author": "John Passfield & Steve Stamatiadis",
     "title": "Flight of the Amazon Queen Unblocked — Play Free Online",
@@ -9410,6 +9452,7 @@
       "text": "▶ Play now — open-source engine, no original files needed"
     },
     "slug": "openttd",
+    "provenance": "open",
     "appName": "OpenTTD",
     "title": "OpenTTD Unblocked — Play Transport Tycoon Free Online",
     "description": "OpenTTD, the open-source Transport Tycoon Deluxe, in your browser. Free engine and free graphics, so it's the complete game with nothing to download.",
@@ -9454,6 +9497,7 @@
   },
   {
     "slug": "micropolis",
+    "provenance": "open",
     "skipGenerate": true,
     "appType": "game",
     "appName": "Micropolis",
@@ -9488,6 +9532,7 @@
   },
   {
     "slug": "duke-nukem-3d",
+    "provenance": "shareware",
     "title": "Duke Nukem 3D Online — Play the Shareware Free",
     "description": "Play Duke Nukem 3D free in your browser — An Apogee Game, the official shareware episode L.A. Meltdown. No download, runs via DOSBox + WebAssembly.",
     "keywords": "duke nukem 3d online, play duke nukem 3d in browser, duke nukem 3d shareware, duke 3d free, duke nukem 3d unblocked, build engine browser",
@@ -9717,6 +9762,7 @@
   },
   {
     "slug": "rise-of-the-triad",
+    "provenance": "shareware",
     "title": "Rise of the Triad Online — Play the Shareware Free",
     "description": "Play Rise of the Triad free in your browser — An Apogee Game, the shareware episode The HUNT Begins. No download, runs via DOSBox + WebAssembly.",
     "keywords": "rise of the triad online, play rott in browser, rise of the triad shareware, rott free, rise of the triad unblocked, apogee shooter online",
@@ -9912,6 +9958,7 @@
   },
   {
     "slug": "duke-nukem",
+    "provenance": "shareware",
     "title": "Duke Nukem (1991) Online — Play the Shareware Free",
     "description": "Play the original Duke Nukem free in your browser — An Apogee Game from 1991, the shareware episode Shrapnel City. No download, runs via DOSBox.",
     "keywords": "duke nukem 1991 online, play duke nukem 1 in browser, duke nukem shareware, duke nukem 1 free, apogee platformer online",
@@ -10088,6 +10135,7 @@
   },
   {
     "slug": "duke-nukem-2",
+    "provenance": "shareware",
     "title": "Duke Nukem II Online — Play the Shareware Free",
     "description": "Play Duke Nukem II free in your browser — An Apogee Game from 1993, the shareware episode Neutron Fallout. No download, runs via DOSBox + WebAssembly.",
     "keywords": "duke nukem 2 online, play duke nukem ii in browser, duke nukem 2 shareware, duke nukem ii free, apogee platformer online",
@@ -10269,6 +10317,7 @@
   },
   {
     "slug": "wacky-wheels",
+    "provenance": "shareware",
     "title": "Wacky Wheels Online — Play the Shareware Free",
     "description": "Play Wacky Wheels free in your browser — An Apogee Game, the 1994 animal kart racer, shareware version. No download, runs via DOSBox + WebAssembly.",
     "keywords": "wacky wheels online, play wacky wheels in browser, wacky wheels shareware, dos kart racing game online, apogee racing game",
@@ -10434,6 +10483,7 @@
   },
   {
     "slug": "kens-labyrinth",
+    "provenance": "freeware",
     "title": "Ken's Labyrinth Online — Play the Full Game Free",
     "description": "Play Ken's Labyrinth free in your browser — Ken Silverman's 1993 shooter, the complete game, released free by its author with Epic's permission. Runs via DOSBox.",
     "keywords": "ken's labyrinth online, play ken's labyrinth in browser, ken silverman game, ken's labyrinth free, 1993 dos shooter online",
@@ -10612,6 +10662,7 @@
   },
   {
     "slug": "librequake",
+    "provenance": "open",
     "skipGenerate": true,
     "appType": "game",
     "author": "The LibreQuake project (WebQuake engine by Triang3l)",
@@ -10647,6 +10698,7 @@
   },
   {
     "slug": "marchers",
+    "provenance": "clean",
     "skipGenerate": true,
     "appType": "game",
     "author": "ExeBrowser (original implementation)",
@@ -10680,6 +10732,7 @@
   },
   {
     "slug": "skyrise",
+    "provenance": "clean",
     "skipGenerate": true,
     "appType": "game",
     "author": "ExeBrowser (original implementation)",
@@ -10714,6 +10767,7 @@
   },
   {
     "slug": "warzone2100",
+    "provenance": "open",
     "skipGenerate": true,
     "appType": "game",
     "author": "Warzone 2100 Project (official web build)",
@@ -10748,6 +10802,7 @@
   },
   {
     "slug": "parkhaven",
+    "provenance": "clean",
     "skipGenerate": true,
     "appType": "game",
     "author": "ExeBrowser (original implementation)",

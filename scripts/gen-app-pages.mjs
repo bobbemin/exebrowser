@@ -57,6 +57,17 @@
 //   updated      "YYYY-MM-DD" — sitemap <lastmod> + "Guide updated" line
 //   licenseReason  prose note (why hosting is legal); NOTICE.md in the app dir
 //                is the canonical provenance record
+//   provenance   REQUIRED on every hosted title — the basis it is hosted on:
+//                clean (our own work) | open (open-source licence) | freeware
+//                (rights holder released it free) | shareware (the free
+//                episode, under its own licence file) | grey (abandoned: a
+//                commercial game no store sells today, hosted under the
+//                /takedown/ policy). Grey titles never carry ads, must have
+//                public/apps/<slug>/NOTICE.md with a "Not sold:" line giving
+//                the date the stores were checked, and get the takedown note
+//                appended under the game automatically.
+//   sold         true → still commercially available; never hosted (the
+//                consistency check fails if a sold title gains an appUrl)
 //   pointerLock  true → clicking the screen captures the mouse via the Pointer
 //                Lock API and motion is fed to the game as raw deltas. Needed
 //                by any game that draws its own cursor (Scorched Earth), since
@@ -78,7 +89,7 @@
 //                screenshot/NEW-badge sort decayed into raw JSON order once
 //                every addedDate aged out of the 14-day window.
 //   categories   array from the closed set used by the filter chips: Shooters,
-//                Platformers, Action, Puzzle & strategy, Racing & sports,
+//                Platformers, Action, Puzzle & strategy, Educational, Racing & sports,
 //                Pinball, Apps & tools. ("Free & complete" is derived from
 //                `fullyFree`, not written here.) Chip order lives in two
 //                places — this file and gen-home-grid.mjs — and must match.
@@ -695,9 +706,15 @@ function downloadHtml(p) {
   )}</h3>\n      ${html}\n    </div>\n  </section>`;
 }
 
+// Grey titles get the same takedown line on every page, so the policy can't
+// be forgotten on one of them.
+const GREY_NOTE = (p) =>
+  `<p class="muted small">${esc(p.appName)} is no longer sold anywhere, and its publisher is gone or has left it unsold for decades. It is hosted here on the same footing as the Internet Archive's software collections. That is a practical position, not a legal claim. This page carries no advertising. Provenance: <a href="/apps/${p.slug}/NOTICE.md">/apps/${p.slug}/NOTICE.md</a>. Rights holders: <a href="/takedown/">it comes down within 48 hours on request</a>.</p>`;
+
 function licenseHtml(p) {
-  if (!p.licenseNote) return "";
-  return `\n    <div class="warn-box">\n      ${p.licenseNote}\n    </div>`;
+  const body = [p.licenseNote, p.provenance === "grey" ? GREY_NOTE(p) : ""].filter(Boolean).join("\n      ");
+  if (!body) return "";
+  return `\n    <div class="warn-box">\n      ${body}\n    </div>`;
 }
 
 // ── localisation ───────────────────────────────────────────────────────────
@@ -1630,10 +1647,11 @@ const STATIC_URLS = [
     mod: maxDate([c.updated, ...c.members.map((m) => m.updated), ...c.members.map((m) => m.addedDate)]),
   })),
   { loc: "/guide/", freq: "monthly", pri: "0.9", mod: "2026-07-01" },
-  { loc: "/about/", freq: "monthly", pri: "0.6", mod: "2026-07-01" },
+  { loc: "/about/", freq: "monthly", pri: "0.6", mod: "2026-10-05" },
   { loc: "/contact/", freq: "yearly", pri: "0.5", mod: "2026-07-01" },
   { loc: "/privacy/", freq: "yearly", pri: "0.4", mod: "2026-06-08" },
   { loc: "/terms/", freq: "yearly", pri: "0.4", mod: "2026-06-08" },
+  { loc: "/takedown/", freq: "yearly", pri: "0.3", mod: "2026-10-05" },
 ];
 const urlEl = (loc, freq, pri, mod) =>
   `  <url>\n    <loc>${SITE}${loc}</loc>${mod ? `\n    <lastmod>${mod}</lastmod>` : ""}\n    <changefreq>${freq}</changefreq>\n    <priority>${pri}</priority>\n  </url>`;

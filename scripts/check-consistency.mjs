@@ -37,6 +37,27 @@ for (const p of pages) {
   }
 }
 
+// ── 1a. Every hosted title says on what basis it is hosted ────────────────
+// The grey (abandoned) tier is a position, not a licence, so its guard rails
+// are mechanical: no ads beside it, a provenance note recording when the
+// stores were last checked, and nothing still sold ever gains a payload.
+const PROVENANCE = new Set(["clean", "open", "freeware", "shareware", "grey"]);
+for (const p of pages) {
+  if (p.sold && isPlayable(p)) warn(`${p.slug}: marked sold but hosted — anything still sold is never hosted`);
+  if (!isPlayable(p)) continue;
+  if (!PROVENANCE.has(p.provenance)) {
+    warn(`${p.slug}: hosted with provenance ${JSON.stringify(p.provenance)} — must be one of ${[...PROVENANCE].join(", ")}`);
+    continue;
+  }
+  if (p.provenance !== "grey") continue;
+  if (p.adsOk) warn(`${p.slug}: grey (abandoned) titles never carry ads — remove adsOk`);
+  if (p.fullyFree) warn(`${p.slug}: grey titles are not free — remove fullyFree`);
+  const notice = join(ROOT, "apps", p.slug, "NOTICE.md");
+  if (!existsSync(notice)) warn(`${p.slug}: grey title has no public/apps/${p.slug}/NOTICE.md`);
+  else if (!/^Not sold:.*\d{4}-\d{2}-\d{2}/m.test(readFileSync(notice, "utf8")))
+    warn(`${p.slug}: NOTICE.md needs a "Not sold: <stores checked> (YYYY-MM-DD)" line`);
+}
+
 // ── 1b. Titles fit in a search result ──────────────────────────────────────
 // Bing reports "Title too long" as an SEO error and truncates past roughly 65
 // characters; Google cuts around 60. On 1 Sep 2026 every one of the 83 /run/

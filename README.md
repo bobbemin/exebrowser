@@ -80,6 +80,28 @@ node scripts/build-librequake-data.mjs   # public/apps/librequake/id1/ (~79 MB)
 node scripts/build-warzone2100-data.mjs  # public/apps/warzone2100/ parts, wasm, music (~87 MB)
 ```
 
+### Adding a DOS game
+
+Every hosted title carries a `provenance` in `app-pages.json`: `clean`,
+`open`, `freeware`, `shareware` or `grey`. Grey means abandoned: a commercial
+game that no store sells today, hosted under the `/takedown/` policy. The
+consistency check holds grey titles to three rules. They never get `adsOk`.
+They need `public/apps/<slug>/NOTICE.md` with a `Not sold:` line naming the
+stores checked and the date. And no title marked `sold` may be hosted.
+
+```bash
+# 1. pin the source in scripts/dos-sources.json (url, sha256, exe, strip, cycles)
+node scripts/make-dos-bundle.mjs <slug>     # → public/apps/<slug>/<slug>.zip
+# 2. it must draw a picture before its page may say "play"
+node scripts/boot-test.mjs <slug> [--keys Enter] [--shot]
+```
+
+`boot-test.mjs` serves `public/` itself and loads the bundle into a bare DOS
+embed, so a title can be tested before it has a page. It judges the
+emulator's canvas buffer, not a page screenshot. `--shot` writes the page
+screenshot from that same canvas. Failures land in
+`assets-too-big-for-pages/boot-shots/` to look at.
+
 Steps 3 and 4 were previously undocumented, which is how `/unblocked/` came to
 sit on a stale `save-core.js` version: every other generator was bumped, that
 one was not, and it would have reverted the page the next time anyone ran it.

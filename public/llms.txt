@@ -4,7 +4,7 @@
 > install, no account, nothing uploaded. Games run client-side via DOSBox or
 > Wine compiled to WebAssembly, and DOS save games persist in the browser.
 
-89 titles are hosted and playable instantly. Everything hosted here is
+134 titles are hosted and playable instantly. Everything hosted here is
 open-source, freeware, or shareware whose licence permits free redistribution;
 commercial titles are compatibility guides only, where you supply your own copy.
 
@@ -99,6 +99,51 @@ commercial titles are compatibility guides only, where you supply your own copy.
 - [Elite](https://exebrowser.com/run/elite/): Play the original Elite in your browser: Braben and Bell's space trading and combat game in its 1987 DOS version. Trade, fight, dock. No download.
 - [Frontier: Elite II](https://exebrowser.com/run/frontier-elite-2/): Play Frontier: Elite II in your browser: David Braben's 1993 sequel with a full-scale galaxy, Newtonian flight and planetary landings. No download.
 - [Sango Fighter](https://exebrowser.com/run/sango-fighter/): Play Sango Fighter in your browser: the 1993 DOS fighting game set in the Three Kingdoms era. Twenty-two warriors, swords and spears. No download.
+- [Super Munchers](https://exebrowser.com/run/super-munchers/): Play Super Munchers in your browser: MECC's 1991 trivia game. Munch the answers that fit the category before the Troggles get you. No download.
+- [The Amazon Trail](https://exebrowser.com/run/amazon-trail/): Play The Amazon Trail in your browser: MECC's 1993 follow-up to The Oregon Trail. Canoe up the Amazon, trade, fish and find Vilcabamba. No download.
+- [Super Solvers: Gizmos & Gadgets!](https://exebrowser.com/run/gizmos-and-gadgets/): Play Super Solvers: Gizmos & Gadgets! in your browser: build cars, planes and alternative-energy vehicles and race Morty Maxwell. 1993 DOS, no downloa
+- [Operation Neptune](https://exebrowser.com/run/operation-neptune/): Play Operation Neptune in your browser: pilot a submarine through undersea caverns, recover a space capsule and solve maths problems. 1991 DOS, no dow
+- [Reader Rabbit 2](https://exebrowser.com/run/reader-rabbit-2/): Play Reader Rabbit 2 in your browser: The Learning Company's 1991 reading game with Word Mine, Vowel Pond, Match Patch and Alphabet Dance. No download
+- [Castle of Dr. Brain](https://exebrowser.com/run/castle-of-dr-brain/): Play Castle of Dr. Brain in your browser: Sierra's 1991 puzzle adventure of maths, logic, codes and mazes. Pass the tests to be his assistant. No down
+- [Mixed-Up Mother Goose](https://exebrowser.com/run/mixed-up-mother-goose/): Play Mixed-Up Mother Goose in your browser: Roberta Williams' nursery-rhyme adventure for young children, the 1991 VGA version. No download.
+- [The Incredible Machine](https://exebrowser.com/run/incredible-machine/): Play The Incredible Machine in your browser: Kevin Ryan's puzzle game of Rube Goldberg contraptions, with 87 puzzles and a freeform mode. No download.
+- [Grand Prix Circuit](https://exebrowser.com/run/grand-prix-circuit/): Play Grand Prix Circuit in your browser: Distinctive Software's 1988 Formula One racer. Three cars, eight Grand Prix tracks and a championship. No dow
+- [Ski or Die](https://exebrowser.com/run/ski-or-die/): Play Ski or Die in your browser: EA's 1990 winter sports game with snowboarding, inner tubing, aerial jumps, a downhill run and snowball fights. No do
+- [Skate or Die!](https://exebrowser.com/run/skate-or-die/): Play Skate or Die! in your browser: EA's skateboarding classic with the ramp, high jump, downhill race, downhill jam and pool joust. The DOS version.
+- [The Ancient Art of War](https://exebrowser.com/run/ancient-art-of-war/): Play The Ancient Art of War in your browser: the 1984 real-time tactics game of knights, archers and barbarians, up against Sun Tzu. The DOS version.
+- [Arctic Adventure](https://exebrowser.com/run/arctic-adventure/): Play Arctic Adventure in your browser: George Broussard's 1991 Apogee platformer. Nevada Smith hunts Viking treasure across the Arctic. Free, no downl
+- [Monuments of Mars](https://exebrowser.com/run/monuments-of-mars/): Play Monuments of Mars in your browser: Todd Replogle's Apogee puzzle-platformer. Jump, shoot switches and open doors across four episodes. Free, no d
+- [Pharaoh's Tomb](https://exebrowser.com/run/pharaohs-tomb/): Play Pharaoh's Tomb in your browser: George Broussard's 1990 Apogee platformer. Nevada Smith explores a pyramid of traps, keys and spears. Free, no do
+- [DinoPark Tycoon](https://exebrowser.com/run/dinopark-tycoon/): Play DinoPark Tycoon in your browser: MECC's 1993 management game. Buy land, dinosaurs, fences and food, hire staff and pay off the loan. No download.
+- [Budokan: The Martial Spirit](https://exebrowser.com/run/budokan/): Play Budokan: The Martial Spirit in your browser: train in karate, kendo, bo and nunchaku, then fight through the Budokan tournament. The 1989 DOS gam
+- [Nuclear War](https://exebrowser.com/run/nuclear-war/): Play Nuclear War in your browser: New World Computing's cartoon satire where five world leaders trade missiles and propaganda until one nation is left
+- [Stunt Driver](https://exebrowser.com/run/stunt-driver/): Play Stunt Driver in your browser: Spectrum HoloByte's 1990 3D stunt racer with loops, drawbridges and a track editor. The DOS original, no download.
+- [The Games: Winter Challenge](https://exebrowser.com/run/winter-challenge/): Play The Games: Winter Challenge in your browser: downhill, ski jump, luge, bobsled, biathlon and more. Accolade's 1991 winter sports game for DOS.
+- [1869](https://exebrowser.com/run/1869/): Play 1869 in your browser: Max Design's 1992 trading game from the age of clipper ships. Buy cargo in one port, sell it in another, for up to four pla
+- [Blockout](https://exebrowser.com/run/blockout/): Play Blockout in your browser: the 1989 3D take on falling blocks. Rotate pieces on three axes and fill whole layers of the pit. The DOS original.
+- [VGA Miner](https://exebrowser.com/run/vga-miner/): Play VGA Miner in your browser: dig for precious metals, sell what you bring up and plan each trip below ground. A small 1989 DOS game, no download.
+- ['Nam 1965–1975](https://exebrowser.com/run/nam-1965-1975/): Play 'Nam 1965–1975 in your browser: Domark's 1991 Vietnam War strategy game. Re-fight Tet and Khe Sanh, or run the war as Johnson or Nixon.
+- [ATAC: The Secret War Against Drugs](https://exebrowser.com/run/atac/): Play ATAC: The Secret War Against Drugs in your browser: plan strikes on a drug cartel, then fly F-22s and Apaches over South America. MicroProse, 199
+- [Air Duel: 80 Years of Dogfighting](https://exebrowser.com/run/air-duel/): Play Air Duel: 80 Years of Dogfighting in your browser: fly the Sopwith Camel, Spitfire, Phantom and F-16 in one flight sim. MicroProse, 1993, for DOS
+- [Vlak](https://exebrowser.com/run/vlak/): Play Vlak in your browser: steer a train to collect every object on the board, then reach the gate, without hitting your own wagons. Czech DOS classic
+- [Lords of Conquest](https://exebrowser.com/run/lords-of-conquest/): Play Lords of Conquest in your browser: claim territory, gather coal, gold, iron, timber and horses, and build cities. EA's 1986 strategy game for DOS
+- [President Elect: 1988 Edition](https://exebrowser.com/run/president-elect/): Play President Elect: 1988 Edition in your browser: run a US presidential campaign in any election from 1960 to 1988, real or invented. SSI's 1987 DOS
+- [Caverns of Kroz II](https://exebrowser.com/run/caverns-of-kroz/): Play Caverns of Kroz II in your browser: a later edition of a Kroz episode by Scott Miller for Apogee. Whip text-mode monsters, grab gems, find the st
+- [Dungeons of Kroz II](https://exebrowser.com/run/dungeons-of-kroz/): Play Dungeons of Kroz II in your browser: a later edition of a Kroz episode by Scott Miller. Text-mode monsters, gems, whips and secret passages.
+- [Return to Kroz](https://exebrowser.com/run/return-to-kroz/): Play Return to Kroz in your browser: a 1990 episode of Scott Miller's Kroz series. Back underground for more text-mode monsters, gems and puzzles.
+- [Temple of Kroz](https://exebrowser.com/run/temple-of-kroz/): Play Temple of Kroz in your browser: a 1990 Super Kroz episode by Scott Miller. Text-mode dungeons, whips, gems and the temple at the bottom.
+- [The Final Crusade of Kroz](https://exebrowser.com/run/final-crusade-of-kroz/): Play The Final Crusade of Kroz in your browser: the 1990 finale of Apogee's Super Kroz trilogy by Scott Miller. Text-mode monsters, gems and puzzles.
+- [The Lost Adventures of Kroz](https://exebrowser.com/run/lost-adventures-of-kroz/): Play The Lost Adventures of Kroz in your browser: the largest Kroz game, with 75 text-mode levels of monsters, gems and puzzles. Free, no download.
+- [Sopwith 2](https://exebrowser.com/run/sopwith-2/): Play Sopwith 2 in your browser: the 1985 sequel to David Clark's biplane game, adding oxen, birds and wounded planes. The DOS original, no download.
+- [Museum Madness](https://exebrowser.com/run/museum-madness/): Play Museum Madness in your browser: MECC's 1994 adventure where the exhibits of a museum have come to life and you and the robot MIKE put them right.
+- [LHX Attack Chopper](https://exebrowser.com/run/lhx-attack-chopper/): Play LHX Attack Chopper in your browser: Electronic Arts' 1990 helicopter combat simulator. Fly the Apache, Black Hawk and the LHX on missions.
+- [Heimdall](https://exebrowser.com/run/heimdall/): Play Heimdall in your browser: Core Design's 1992 Norse action-adventure. Win the arcade trials, pick a crew, then sail to recover the stolen weapons 
+- [Entity](https://exebrowser.com/run/entity/): Play Entity in your browser: Loriciel's 1994 DOS platform game with a large hand-drawn world and puzzles to unlock its levels. No download.
+- [Big Business](https://exebrowser.com/run/big-business/): Play Big Business in your browser: the 1990 DOS business simulation. Run a company against rivals, set prices, advertise and grow. Free, no download.
+- [Archon Ultra](https://exebrowser.com/run/archon-ultra/): Play Archon Ultra in your browser: SSI's 1994 version of Free Fall's Archon. A chess-like board where every capture becomes a real-time duel.
+- [Trolls](https://exebrowser.com/run/trolls/): Play Trolls in your browser: Flair Software's 1992 DOS platformer. Bounce through toy-box worlds rescuing baby trolls. Free, no download.
+- [Tongue of the Fatman](https://exebrowser.com/run/tongue-of-the-fatman/): Play Tongue of the Fatman in your browser: Activision's 1989 alien fighting game. Buy weapons and moves, then fight your way to the champion, the Fatm
+- [Microsoft Space Simulator](https://exebrowser.com/run/space-simulator/): Play Microsoft Space Simulator in your browser: the 1994 DOS space-flight simulator. Fly spacecraft from the Shuttle's MMU to starships across the sol
 
 ## Compatibility guides (bring your own copy)
 

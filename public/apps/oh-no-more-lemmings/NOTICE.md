@@ -17,7 +17,10 @@ Not sold: GOG, Steam, Antstream and PlayStation Store checked 2026-10-05; not so
 Retrieved 2026-10-05 from https://archive.org/details/OHNO_VGA
 (Internet Archive item `OHNO_VGA`; sha256 pinned in scripts/dos-sources.json).
 
-Original game files plus a `.jsdos/dosbox.conf` DOSBox configuration, which
-is the only file added.
+The game files as preserved in that Internet Archive item, plus a
+`.jsdos/dosbox.conf` DOSBox configuration, which is the only file added.
+Archived copies of DOS games from this era have often had their copy
+protection removed by a third party before they were preserved; this copy
+is published as found, and nothing in it has been altered here.
 
 ExeBrowser is not affiliated with the rights holders named above.

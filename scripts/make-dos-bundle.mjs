@@ -139,9 +139,10 @@ for (const slug of slugs) {
     const base = src.root ? path.join(work, src.root) : work;
     if (!fs.existsSync(base)) throw new Error(`root ${src.root} not in archive`);
 
-    // file_id.diz in these archives is a TOSEC catalogue card added by
-    // archivists, not part of the game; always drop it.
-    const res = ["file_id.diz", ...(src.strip || [])].map(globToRe);
+    // file_id.diz (a TOSEC catalogue card), *.ba1 launcher stubs and
+    // "Recalbox Ready.txt" are added by archivists, not part of the game;
+    // always drop them.
+    const res = ["file_id.diz", "*.ba1", "Recalbox Ready.txt", ...(src.strip || [])].map(globToRe);
     for (const rel of walk(base)) {
       if (res.some((re) => re.test(rel) || re.test(path.basename(rel)))) fs.rmSync(path.join(base, rel));
     }

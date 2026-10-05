@@ -22,6 +22,11 @@
 // at 2x, the same image the page then shows, so it cannot drift from what
 // the test saw.
 //
+// Per-title settings live with the title's source in scripts/dos-sources.json:
+// `bootColours` for CGA and text-mode games, whose real title screen has 2–4
+// colours (eyeball the shot once, then record it), and `bootKeys` for titles
+// that wait on a "press any key" screen. Command-line flags override them.
+//
 // Playwright is resolved from this machine rather than declared: the site has
 // no package.json and should keep it that way. Set PLAYWRIGHT_CORE to a
 // playwright-core directory if it isn't found.
@@ -38,8 +43,9 @@ const argv = process.argv.slice(2);
 const flag = (n, d) => { const i = argv.indexOf(`--${n}`); return i >= 0 ? argv[i + 1] : d; };
 const has = (n) => argv.includes(`--${n}`);
 const WAIT = parseFloat(flag("wait", "25")) * 1000;
-const MIN_COLOURS = parseInt(flag("colours", "6"), 10);
-const KEYS = (flag("keys", "") || "").split(",").filter(Boolean);
+const KEYS_FLAG = flag("keys", null);
+const COLOURS_FLAG = flag("colours", null);
+const SOURCES = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, "scripts", "dos-sources.json"), "utf8")); } catch { return {}; } })();
 const valued = new Set(["wait", "colours", "keys"]);
 const slugs = has("all-dos")
   ? JSON.parse(fs.readFileSync(path.join(ROOT, "scripts", "app-pages.json"), "utf8"))
@@ -95,6 +101,8 @@ let failed = 0;
 for (const slug of slugs) {
   const zip = path.join(PUB, "apps", slug, `${slug}.zip`);
   if (!fs.existsSync(zip)) { console.log(`✗ ${slug}: no bundle at public/apps/${slug}/${slug}.zip`); failed++; continue; }
+  const KEYS = (KEYS_FLAG ?? (SOURCES[slug]?.bootKeys || []).join(",")).split(",").filter(Boolean);
+  const MIN_COLOURS = parseInt(COLOURS_FLAG ?? SOURCES[slug]?.bootColours ?? 6, 10);
   const page = await browser.newPage({ viewport: { width: 1000, height: 800 } });
   const errors = [];
   page.on("pageerror", (e) => errors.push(String(e.message || e)));

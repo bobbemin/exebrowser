@@ -4,7 +4,7 @@
 > install, no account, nothing uploaded. Games run client-side via DOSBox or
 > Wine compiled to WebAssembly, and DOS save games persist in the browser.
 
-55 titles are hosted and playable instantly. Everything hosted here is
+69 titles are hosted and playable instantly. Everything hosted here is
 open-source, freeware, or shareware whose licence permits free redistribution;
 commercial titles are compatibility guides only, where you supply your own copy.
 
@@ -65,6 +65,20 @@ commercial titles are compatibility guides only, where you supply your own copy.
 - [Skyrise](https://exebrowser.com/run/skyrise/): Offices, hotels, cinemas and the elevators that hold it together. Five stars and a landmark wedding at floor 100.
 - [Warzone 2100](https://exebrowser.com/run/warzone2100/): Build a base, research 400 technologies, design your own units. The open-source 1999 RTS, playable in a browser tab.
 - [Parkhaven](https://exebrowser.com/run/parkhaven/): Paths, rides, stalls, staff and a piece-by-piece coaster builder with real ride ratings. Runs in your browser.
+- [Number Munchers](https://exebrowser.com/run/number-munchers/): Play Number Munchers in your browser: the 1990 MECC classroom game where you munch multiples, factors and primes before the Troggles get you. No downl
+- [Word Munchers](https://exebrowser.com/run/word-munchers/): Play Word Munchers in your browser: MECC's 1990 vowel-sound game, the spelling twin of Number Munchers. Munch the matching words, dodge the Troggles.
+- [New Math Blaster Plus](https://exebrowser.com/run/math-blaster/): Play New Math Blaster Plus in your browser: Davidson's 1990 DOS maths game with Blasternaut, the rocket launch and the trash zapper. Free, no download
+- [Reader Rabbit](https://exebrowser.com/run/reader-rabbit/): Play the original Reader Rabbit in your browser: The Learning Company's 1989 DOS reading game with the word train, Sorter and Labeler. Free, no downlo
+- [Treasure Mountain!](https://exebrowser.com/run/treasure-mountain/): Play Treasure Mountain! in your browser: The Learning Company's 1990 Super Solvers adventure. Trap elves, answer clues, climb to the castle. Free, no 
+- [OutNumbered!](https://exebrowser.com/run/outnumbered/): Play OutNumbered! in your browser: The Learning Company's 1990 Super Solvers maths adventure. Stop the Master of Mischief taking over the TV station.
+- [Gorillas](https://exebrowser.com/run/gorillas/): Play QBasic Gorillas in your browser: two gorillas on a city skyline throw exploding bananas, with angle, speed and wind. The MS-DOS 5 classic, no dow
+- [Nibbles](https://exebrowser.com/run/nibbles/): Play QBasic Nibbles in your browser: the snake game that shipped with MS-DOS 5. Eat the numbers, grow longer, don't hit the walls. One or two players.
+- [Alley Cat](https://exebrowser.com/run/alley-cat/): Play Alley Cat in your browser: Bill Williams' 1984 IBM PC game. Freddy the cat leaps from the fence through windows after mice, fish and a sweetheart
+- [Paratrooper](https://exebrowser.com/run/paratrooper/): Play Paratrooper in your browser: Greg Kuperberg's 1982 IBM PC game. Turn the gun, shoot the helicopters and stop four paratroopers landing on either 
+- [Digger](https://exebrowser.com/run/digger/): Play Digger in your browser: Windmill Software's 1983 IBM PC arcade game. Tunnel for emeralds, drop gold bags on the Nobbins and Hobbins. No download.
+- [Sopwith](https://exebrowser.com/run/sopwith/): Play the original Sopwith in your browser: David Clark's 1984 side-scrolling biplane game. Bomb the enemy buildings, dodge the flak, don't stall.
+- [Snipes](https://exebrowser.com/run/snipes/): Play Snipes in your browser: SuperSet Software's 1982 text-mode maze shooter, one of the first IBM PC games, built from ASCII characters. No download.
+- [Kingdom of Kroz II](https://exebrowser.com/run/kroz/): Play Kingdom of Kroz II in your browser: Scott Miller's 1990 Apogee text-mode adventure. Whip the monsters, collect gems, find the stairs. Free, no do
 
 ## Compatibility guides (bring your own copy)
 

@@ -10834,5 +10834,2437 @@
     "rank": 4.6,
     "fullyFree": "Written from scratch for ExeBrowser — original code, 3D models and sound, MIT-licensed. No original game files needed.",
     "adsOk": true
+  },
+  {
+    "slug": "number-munchers",
+    "provenance": "grey",
+    "title": "Number Munchers Online — Play the 1990 DOS Game Free",
+    "description": "Play Number Munchers in your browser: the 1990 MECC classroom game where you munch multiples, factors and primes before the Troggles get you. No download.",
+    "keywords": "number munchers online, play number munchers, number munchers dos, mecc number munchers, number munchers free",
+    "ogTitle": "Play Number Munchers (1990) Online",
+    "ogDescription": "Play Number Munchers in your browser: the 1990 MECC classroom game where you munch multiples, factors and primes before the Troggles get you. No downl",
+    "crumb": "Play Number Munchers",
+    "h1": "Play Number Munchers online — the original 1990 DOS game",
+    "appName": "Number Munchers",
+    "appType": "game",
+    "author": "MECC",
+    "genre": [
+      "Educational",
+      "Puzzle"
+    ],
+    "categories": [
+      "Educational",
+      "Puzzle & strategy"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/number-munchers/number-munchers.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Number Munchers</strong> — MECC's 1990 maths game, the one on every school computer lab's DOS machine. You steer a green Muncher round a grid of numbers, eating the ones that fit the rule at the top (multiples of 4, factors of 36, primes) while the Troggles roam the board trying to eat you. Click Play and it starts in your browser.</p>",
+    "sections": [
+      {
+        "h": "About Number Munchers",
+        "html": "<p>MECC, the Minnesota Educational Computing Consortium, made Number Munchers for the Apple II in 1986 and brought this VGA DOS version out in 1990. Its five game types are Multiples, Factors, Primes, Equality and Inequality, and the difficulty climbs from third-grade arithmetic to work that still takes some thought. Every few levels a short cartoon plays as a reward. Eat a wrong number and you lose a life.</p>"
+      },
+      {
+        "h": "Tips for getting started",
+        "html": "<p>Pick the game type and grade level from the Muncher Menu. Watch the edges of the grid: Troggles enter from the sides, and the warning \"Troggle!\" flashes just before one comes in.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Number Munchers, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Number Munchers online for free?",
+        "a": "Yes. Click Play and the original 1990 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Number Munchers hosted here?",
+        "a": "Number Munchers is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (the successors to MECC and The Learning Company (HarperCollins)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Number Munchers uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "keys-dos",
+      "hint": "1–5: menu choices · Y / N: answer · ENTER: confirm · SPACE: continue",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "1",
+          "dosKey": 49,
+          "cls": ""
+        },
+        {
+          "label": "2",
+          "dosKey": 50,
+          "cls": ""
+        },
+        {
+          "label": "3",
+          "dosKey": 51,
+          "cls": ""
+        },
+        {
+          "label": "4",
+          "dosKey": 52,
+          "cls": ""
+        },
+        {
+          "label": "5",
+          "dosKey": 53,
+          "cls": ""
+        },
+        {
+          "label": "Y",
+          "dosKey": 89,
+          "cls": ""
+        },
+        {
+          "label": "N",
+          "dosKey": 78,
+          "cls": ""
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "⌫",
+          "dosKey": 259,
+          "cls": ""
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Move the Muncher",
+        "keyboard": "Arrow keys",
+        "mouse": "—"
+      },
+      {
+        "action": "Munch the number you're on",
+        "keyboard": "Space",
+        "mouse": "—"
+      },
+      {
+        "action": "Menu choices",
+        "keyboard": "Number keys and Enter",
+        "mouse": "—"
+      },
+      {
+        "action": "Pause / quit",
+        "keyboard": "Esc",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Number Munchers (1990, MECC) is not sold in any form today; rights now sit with the successors to MECC and The Learning Company (HarperCollins). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 24
+  },
+  {
+    "slug": "word-munchers",
+    "provenance": "grey",
+    "title": "Word Munchers Online — Play the 1990 DOS Game Free",
+    "description": "Play Word Munchers in your browser: MECC's 1990 vowel-sound game, the spelling twin of Number Munchers. Munch the matching words, dodge the Troggles.",
+    "keywords": "word munchers online, play word munchers, word munchers dos, mecc word munchers",
+    "ogTitle": "Play Word Munchers (1990) Online",
+    "ogDescription": "Play Word Munchers in your browser: MECC's 1990 vowel-sound game, the spelling twin of Number Munchers. Munch the matching words, dodge the Troggles.",
+    "crumb": "Play Word Munchers",
+    "h1": "Play Word Munchers online — the original 1990 DOS game",
+    "appName": "Word Munchers",
+    "appType": "game",
+    "author": "MECC",
+    "genre": [
+      "Educational",
+      "Puzzle"
+    ],
+    "categories": [
+      "Educational"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/word-munchers/word-munchers.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Word Munchers</strong> — the reading half of MECC's Munchers pair, from 1990. The rule at the top names a sound, like the long \"a\" in <em>cake</em>, and you munch every word on the grid that contains it while the Troggles hunt you. Click Play to start.</p>",
+    "sections": [
+      {
+        "h": "About Word Munchers",
+        "html": "<p>Word Munchers came out alongside Number Munchers and plays the same way: a 5×6 grid, one Muncher, a handful of Troggles, and a rule to satisfy. Instead of arithmetic, the rules are vowel sounds and letter patterns pitched at early readers. It is shorter-lived than its maths sibling, which most people remember better, but it was on the same school disks.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Word Munchers, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Word Munchers online for free?",
+        "a": "Yes. Click Play and the original 1990 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Word Munchers hosted here?",
+        "a": "Word Munchers is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (the successors to MECC and The Learning Company (HarperCollins)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Word Munchers uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/number-munchers/",
+        "title": "Number Munchers",
+        "desc": "Play Number Munchers in your browser: the 1990 MECC classroom game where you munch multipl"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "keys-dos",
+      "hint": "1–5: menu choices · Y / N: answer · ENTER: confirm · SPACE: continue",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "1",
+          "dosKey": 49,
+          "cls": ""
+        },
+        {
+          "label": "2",
+          "dosKey": 50,
+          "cls": ""
+        },
+        {
+          "label": "3",
+          "dosKey": 51,
+          "cls": ""
+        },
+        {
+          "label": "4",
+          "dosKey": 52,
+          "cls": ""
+        },
+        {
+          "label": "5",
+          "dosKey": 53,
+          "cls": ""
+        },
+        {
+          "label": "Y",
+          "dosKey": 89,
+          "cls": ""
+        },
+        {
+          "label": "N",
+          "dosKey": 78,
+          "cls": ""
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "⌫",
+          "dosKey": 259,
+          "cls": ""
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Move the Muncher",
+        "keyboard": "Arrow keys",
+        "mouse": "—"
+      },
+      {
+        "action": "Munch the word you're on",
+        "keyboard": "Space",
+        "mouse": "—"
+      },
+      {
+        "action": "Menu choices",
+        "keyboard": "Number keys and Enter",
+        "mouse": "—"
+      },
+      {
+        "action": "Pause / quit",
+        "keyboard": "Esc",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Word Munchers (1990, MECC) is not sold in any form today; rights now sit with the successors to MECC and The Learning Company (HarperCollins). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 40
+  },
+  {
+    "slug": "math-blaster",
+    "provenance": "grey",
+    "title": "Math Blaster Online — Play New Math Blaster Plus (1990)",
+    "description": "Play New Math Blaster Plus in your browser: Davidson's 1990 DOS maths game with Blasternaut, the rocket launch and the trash zapper. Free, no download.",
+    "keywords": "math blaster online, play math blaster, new math blaster plus, math blaster dos, davidson math blaster",
+    "ogTitle": "Play New Math Blaster Plus (1990) Online",
+    "ogDescription": "Play New Math Blaster Plus in your browser: Davidson's 1990 DOS maths game with Blasternaut, the rocket launch and the trash zapper. Free, no download",
+    "crumb": "Play New Math Blaster Plus",
+    "h1": "Play New Math Blaster Plus online — the original 1990 DOS game",
+    "appName": "New Math Blaster Plus",
+    "appType": "game",
+    "author": "Davidson & Associates",
+    "genre": [
+      "Educational"
+    ],
+    "categories": [
+      "Educational"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/math-blaster/math-blaster.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>New Math Blaster Plus</strong> — Davidson's 1990 update of Math Blaster, the arithmetic game that put Blasternaut on school computers. Answer sums to build and launch a rocket, catch the right answer in a falling-number round, and zap space trash. Type your name at the first screen and press Enter to begin.</p>",
+    "sections": [
+      {
+        "h": "About New Math Blaster Plus",
+        "html": "<p>Davidson & Associates published the first Math Blaster in 1983. This 1990 edition, New Math Blaster Plus, added VGA graphics and four activities covering addition, subtraction, multiplication, division, fractions, decimals and percentages. Players pick a level and an operation, and the game keeps score across sessions. The Math Blaster name passed to Knowledge Adventure and then JumpStart, which stopped selling Math Blaster games years ago.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of New Math Blaster Plus, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play New Math Blaster Plus online for free?",
+        "a": "Yes. Click Play and the original 1990 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is New Math Blaster Plus hosted here?",
+        "a": "New Math Blaster Plus is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (JumpStart (NetDragon), which holds the Math Blaster name) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys New Math Blaster Plus uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/number-munchers/",
+        "title": "Number Munchers",
+        "desc": "Play Number Munchers in your browser: the 1990 MECC classroom game where you munch multipl"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "keys-dos",
+      "hint": "1–5: menu choices · Y / N: answer · ENTER: confirm · SPACE: continue",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "1",
+          "dosKey": 49,
+          "cls": ""
+        },
+        {
+          "label": "2",
+          "dosKey": 50,
+          "cls": ""
+        },
+        {
+          "label": "3",
+          "dosKey": 51,
+          "cls": ""
+        },
+        {
+          "label": "4",
+          "dosKey": 52,
+          "cls": ""
+        },
+        {
+          "label": "5",
+          "dosKey": 53,
+          "cls": ""
+        },
+        {
+          "label": "Y",
+          "dosKey": 89,
+          "cls": ""
+        },
+        {
+          "label": "N",
+          "dosKey": 78,
+          "cls": ""
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "⌫",
+          "dosKey": 259,
+          "cls": ""
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Type answers",
+        "keyboard": "Number keys, then Enter",
+        "mouse": "—"
+      },
+      {
+        "action": "Move Blasternaut",
+        "keyboard": "Arrow keys",
+        "mouse": "—"
+      },
+      {
+        "action": "Confirm",
+        "keyboard": "Enter",
+        "mouse": "—"
+      },
+      {
+        "action": "Back / quit",
+        "keyboard": "Esc",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "New Math Blaster Plus (1990, Davidson & Associates) is not sold in any form today; rights now sit with JumpStart (NetDragon), which holds the Math Blaster name. Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 30
+  },
+  {
+    "slug": "reader-rabbit",
+    "provenance": "grey",
+    "title": "Reader Rabbit Online — Play the 1989 DOS Game Free",
+    "description": "Play the original Reader Rabbit in your browser: The Learning Company's 1989 DOS reading game with the word train, Sorter and Labeler. Free, no download.",
+    "keywords": "reader rabbit online, play reader rabbit, reader rabbit dos, reader rabbit 1989, the learning company reader rabbit",
+    "ogTitle": "Play Reader Rabbit (1989) Online",
+    "ogDescription": "Play the original Reader Rabbit in your browser: The Learning Company's 1989 DOS reading game with the word train, Sorter and Labeler. Free, no downlo",
+    "crumb": "Play Reader Rabbit",
+    "h1": "Play Reader Rabbit online — the original 1989 DOS game",
+    "appName": "Reader Rabbit",
+    "appType": "game",
+    "author": "The Learning Company",
+    "genre": [
+      "Educational"
+    ],
+    "categories": [
+      "Educational"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/reader-rabbit/reader-rabbit.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Reader Rabbit</strong> — The Learning Company's 1989 reading game for young children, and the first appearance of the rabbit in overalls. Four activities build three- and four-letter words: sort them by letter, match them on the word train, and find pairs. Press Enter at the title screen to start.</p>",
+    "sections": [
+      {
+        "h": "About Reader Rabbit",
+        "html": "<p>Reader Rabbit began on the Apple II in 1984 and became one of the best-selling children's software series of the 1990s, with a dozen sequels. This is the 1989 DOS version with EGA graphics, aimed at ages three to six. Its activities are the Sorter, the Word Train, the Labeler and Word Match. Everything is driven by the arrow keys and Enter, so it works well on a touch screen with the buttons below.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Reader Rabbit, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Reader Rabbit online for free?",
+        "a": "Yes. Click Play and the original 1989 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Reader Rabbit hosted here?",
+        "a": "Reader Rabbit is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (the successors to The Learning Company (HarperCollins)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Reader Rabbit uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/number-munchers/",
+        "title": "Number Munchers",
+        "desc": "Play Number Munchers in your browser: the 1990 MECC classroom game where you munch multipl"
+      },
+      {
+        "href": "/run/word-munchers/",
+        "title": "Word Munchers",
+        "desc": "Play Word Munchers in your browser: MECC's 1990 vowel-sound game, the spelling twin of Num"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "keys-dos",
+      "hint": "1–5: menu choices · Y / N: answer · ENTER: confirm · SPACE: continue",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "1",
+          "dosKey": 49,
+          "cls": ""
+        },
+        {
+          "label": "2",
+          "dosKey": 50,
+          "cls": ""
+        },
+        {
+          "label": "3",
+          "dosKey": 51,
+          "cls": ""
+        },
+        {
+          "label": "4",
+          "dosKey": 52,
+          "cls": ""
+        },
+        {
+          "label": "5",
+          "dosKey": 53,
+          "cls": ""
+        },
+        {
+          "label": "Y",
+          "dosKey": 89,
+          "cls": ""
+        },
+        {
+          "label": "N",
+          "dosKey": 78,
+          "cls": ""
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "⌫",
+          "dosKey": 259,
+          "cls": ""
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Choose and move",
+        "keyboard": "Arrow keys",
+        "mouse": "—"
+      },
+      {
+        "action": "Select",
+        "keyboard": "Enter or Space",
+        "mouse": "—"
+      },
+      {
+        "action": "Back / quit",
+        "keyboard": "Esc",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Reader Rabbit (1989, The Learning Company) is not sold in any form today; rights now sit with the successors to The Learning Company (HarperCollins). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 32
+  },
+  {
+    "slug": "treasure-mountain",
+    "provenance": "grey",
+    "title": "Treasure Mountain Online — Play the 1990 Super Solvers Game",
+    "description": "Play Treasure Mountain! in your browser: The Learning Company's 1990 Super Solvers adventure. Trap elves, answer clues, climb to the castle. Free, no download.",
+    "keywords": "treasure mountain online, play treasure mountain, super solvers treasure mountain, treasure mountain dos, the learning company",
+    "ogTitle": "Play Treasure Mountain! (1990) Online",
+    "ogDescription": "Play Treasure Mountain! in your browser: The Learning Company's 1990 Super Solvers adventure. Trap elves, answer clues, climb to the castle. Free, no ",
+    "crumb": "Play Treasure Mountain!",
+    "h1": "Play Treasure Mountain! online — the original 1990 DOS game",
+    "appName": "Treasure Mountain!",
+    "appType": "game",
+    "author": "The Learning Company",
+    "genre": [
+      "Educational",
+      "Adventure"
+    ],
+    "categories": [
+      "Educational"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/treasure-mountain/treasure-mountain.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Treasure Mountain!</strong> — a 1990 Super Solvers adventure from The Learning Company. Morty Maxwell, the Master of Mischief, has hidden the treasure of Treasure Mountain. You climb its levels catching elves with a net, answering their reading and maths clues, and opening treasure chests until you reach the castle at the top. Press Enter at the title to begin.</p>",
+    "sections": [
+      {
+        "h": "About Treasure Mountain!",
+        "html": "<p>The Super Solvers series turned school skills into side-on adventures, and Treasure Mountain! is the one many people remember from primary school. The elves' riddles cover reading, simple maths and logic for ages five to nine. Each chest needs the right key, and each key comes from a clue the elves give you when caught. Three levels of mountain lead up to the castle.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Treasure Mountain!, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Treasure Mountain! online for free?",
+        "a": "Yes. Click Play and the original 1990 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Treasure Mountain! hosted here?",
+        "a": "Treasure Mountain! is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (the successors to The Learning Company (HarperCollins)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Treasure Mountain! uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/reader-rabbit/",
+        "title": "Reader Rabbit",
+        "desc": "Play the original Reader Rabbit in your browser: The Learning Company's 1989 DOS reading g"
+      },
+      {
+        "href": "/run/number-munchers/",
+        "title": "Number Munchers",
+        "desc": "Play Number Munchers in your browser: the 1990 MECC classroom game where you munch multipl"
+      },
+      {
+        "href": "/run/math-blaster/",
+        "title": "New Math Blaster Plus",
+        "desc": "Play New Math Blaster Plus in your browser: Davidson's 1990 DOS maths game with Blasternau"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "keys-dos",
+      "hint": "1–5: menu choices · Y / N: answer · ENTER: confirm · SPACE: continue",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "1",
+          "dosKey": 49,
+          "cls": ""
+        },
+        {
+          "label": "2",
+          "dosKey": 50,
+          "cls": ""
+        },
+        {
+          "label": "3",
+          "dosKey": 51,
+          "cls": ""
+        },
+        {
+          "label": "4",
+          "dosKey": 52,
+          "cls": ""
+        },
+        {
+          "label": "5",
+          "dosKey": 53,
+          "cls": ""
+        },
+        {
+          "label": "Y",
+          "dosKey": 89,
+          "cls": ""
+        },
+        {
+          "label": "N",
+          "dosKey": 78,
+          "cls": ""
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "⌫",
+          "dosKey": 259,
+          "cls": ""
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Walk",
+        "keyboard": "Arrow keys",
+        "mouse": "—"
+      },
+      {
+        "action": "Jump / climb",
+        "keyboard": "Up arrow",
+        "mouse": "—"
+      },
+      {
+        "action": "Throw net",
+        "keyboard": "Space",
+        "mouse": "—"
+      },
+      {
+        "action": "Confirm / answer",
+        "keyboard": "Enter",
+        "mouse": "—"
+      },
+      {
+        "action": "Menu",
+        "keyboard": "Esc",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Treasure Mountain! (1990, The Learning Company) is not sold in any form today; rights now sit with the successors to The Learning Company (HarperCollins). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 34
+  },
+  {
+    "slug": "outnumbered",
+    "provenance": "grey",
+    "title": "OutNumbered! Online — Play the 1990 Super Solvers Game",
+    "description": "Play OutNumbered! in your browser: The Learning Company's 1990 Super Solvers maths adventure. Stop the Master of Mischief taking over the TV station.",
+    "keywords": "outnumbered online, super solvers outnumbered, play outnumbered, outnumbered dos, learning company maths game",
+    "ogTitle": "Play OutNumbered! (1990) Online",
+    "ogDescription": "Play OutNumbered! in your browser: The Learning Company's 1990 Super Solvers maths adventure. Stop the Master of Mischief taking over the TV station.",
+    "crumb": "Play OutNumbered!",
+    "h1": "Play OutNumbered! online — the original 1990 DOS game",
+    "appName": "OutNumbered!",
+    "appType": "game",
+    "author": "The Learning Company",
+    "genre": [
+      "Educational",
+      "Adventure"
+    ],
+    "categories": [
+      "Educational"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/outnumbered/outnumbered.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>OutNumbered!</strong> — the Super Solvers maths adventure from 1990. The Master of Mischief has seized the Shady Glen TV station, and you search its rooms solving arithmetic and word problems to collect clues to the hour he will strike. Press Enter at the title to begin.</p>",
+    "sections": [
+      {
+        "h": "About OutNumbered!",
+        "html": "<p>OutNumbered! sits beside Treasure Mountain! and Midnight Rescue! in The Learning Company's Super Solvers series for ages seven to ten. Each room holds Telly robots to zap with your Zapper, and each solved problem earns a piece of the clue. Find enough clues before the time runs out and you name the time of the broadcast.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of OutNumbered!, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play OutNumbered! online for free?",
+        "a": "Yes. Click Play and the original 1990 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is OutNumbered! hosted here?",
+        "a": "OutNumbered! is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (the successors to The Learning Company (HarperCollins)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys OutNumbered! uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/treasure-mountain/",
+        "title": "Treasure Mountain!",
+        "desc": "Play Treasure Mountain! in your browser: The Learning Company's 1990 Super Solvers adventu"
+      },
+      {
+        "href": "/run/math-blaster/",
+        "title": "New Math Blaster Plus",
+        "desc": "Play New Math Blaster Plus in your browser: Davidson's 1990 DOS maths game with Blasternau"
+      },
+      {
+        "href": "/run/number-munchers/",
+        "title": "Number Munchers",
+        "desc": "Play Number Munchers in your browser: the 1990 MECC classroom game where you munch multipl"
+      },
+      {
+        "href": "/run/reader-rabbit/",
+        "title": "Reader Rabbit",
+        "desc": "Play the original Reader Rabbit in your browser: The Learning Company's 1989 DOS reading g"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "keys-dos",
+      "hint": "1–5: menu choices · Y / N: answer · ENTER: confirm · SPACE: continue",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "1",
+          "dosKey": 49,
+          "cls": ""
+        },
+        {
+          "label": "2",
+          "dosKey": 50,
+          "cls": ""
+        },
+        {
+          "label": "3",
+          "dosKey": 51,
+          "cls": ""
+        },
+        {
+          "label": "4",
+          "dosKey": 52,
+          "cls": ""
+        },
+        {
+          "label": "5",
+          "dosKey": 53,
+          "cls": ""
+        },
+        {
+          "label": "Y",
+          "dosKey": 89,
+          "cls": ""
+        },
+        {
+          "label": "N",
+          "dosKey": 78,
+          "cls": ""
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "⌫",
+          "dosKey": 259,
+          "cls": ""
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Move",
+        "keyboard": "Arrow keys",
+        "mouse": "—"
+      },
+      {
+        "action": "Zap / act",
+        "keyboard": "Space",
+        "mouse": "—"
+      },
+      {
+        "action": "Type answers",
+        "keyboard": "Number keys, then Enter",
+        "mouse": "—"
+      },
+      {
+        "action": "Menu",
+        "keyboard": "Esc",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "OutNumbered! (1990, The Learning Company) is not sold in any form today; rights now sit with the successors to The Learning Company (HarperCollins). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 42
+  },
+  {
+    "slug": "gorillas",
+    "provenance": "grey",
+    "title": "Gorillas Online — Play QBasic GORILLA.BAS Free",
+    "description": "Play QBasic Gorillas in your browser: two gorillas on a city skyline throw exploding bananas, with angle, speed and wind. The MS-DOS 5 classic, no download.",
+    "keywords": "gorillas online, qbasic gorillas, gorilla.bas, play gorillas game, gorillas banana game, ms-dos gorillas",
+    "ogTitle": "Play Gorillas (1991) Online",
+    "ogDescription": "Play QBasic Gorillas in your browser: two gorillas on a city skyline throw exploding bananas, with angle, speed and wind. The MS-DOS 5 classic, no dow",
+    "crumb": "Play Gorillas",
+    "h1": "Play Gorillas online — the original 1991 DOS game",
+    "appName": "Gorillas",
+    "appType": "game",
+    "author": "Microsoft",
+    "genre": [
+      "Artillery",
+      "Strategy"
+    ],
+    "categories": [
+      "Puzzle & strategy",
+      "Action"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/gorillas/gorillas.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Gorillas</strong> — the QBasic game that came free with MS-DOS 5.0 in 1991. Two gorillas stand on skyscrapers and take turns throwing exploding bananas at each other: type an angle and a speed, allow for the wind arrow, and blow up the other gorilla. Click Play; it runs inside the original QBasic.</p>",
+    "sections": [
+      {
+        "h": "About Gorillas",
+        "html": "<p>Microsoft shipped GORILLA.BAS with QBasic as a demonstration program, alongside Nibbles, and it became one of the most-played games on early-90s office and school PCs because it was already installed. Each round draws a random skyline. The setup asks for player names, the number of points to play to and the gravity, and pressing Enter at each takes the defaults. It plays two people on one keyboard; there is no computer opponent.</p>"
+      },
+      {
+        "h": "Tips for getting started",
+        "html": "<p>An angle near 45 and a speed around 60 is a reasonable first throw. Watch the wind arrow at the bottom of the screen: it changes every round and pushes the banana sideways.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Gorillas, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Gorillas online for free?",
+        "a": "Yes. Click Play and the original 1991 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Gorillas hosted here?",
+        "a": "Gorillas is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (Microsoft) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Is this the real QBasic Gorillas?",
+        "a": "Yes: GORILLA.BAS running in Microsoft's own QBASIC.EXE from MS-DOS, which is what the original needed."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Gorillas uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/scorched-earth/",
+        "title": "Scorched Earth",
+        "desc": "Play Scorched Earth in your browser — the 1991 artillery classic, 'the mother of all games"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "artillery-dos",
+      "hint": "D-pad: aim & power · FIRE: space · ENTER: confirm",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "FIRE",
+          "dosKey": 32,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Type angle and speed",
+        "keyboard": "Number keys, then Enter",
+        "mouse": "—"
+      },
+      {
+        "action": "Start / continue",
+        "keyboard": "Any key",
+        "mouse": "—"
+      },
+      {
+        "action": "Quit",
+        "keyboard": "Esc",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Gorillas (1991, Microsoft) is not sold in any form today; rights now sit with Microsoft. Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 14
+  },
+  {
+    "slug": "nibbles",
+    "provenance": "grey",
+    "title": "Nibbles Online — Play the QBasic Snake Game Free",
+    "description": "Play QBasic Nibbles in your browser: the snake game that shipped with MS-DOS 5. Eat the numbers, grow longer, don't hit the walls. One or two players.",
+    "keywords": "nibbles online, qbasic nibbles, nibbles.bas, play nibbles, ms-dos snake game",
+    "ogTitle": "Play Nibbles (1991) Online",
+    "ogDescription": "Play QBasic Nibbles in your browser: the snake game that shipped with MS-DOS 5. Eat the numbers, grow longer, don't hit the walls. One or two players.",
+    "crumb": "Play Nibbles",
+    "h1": "Play Nibbles online — the original 1991 DOS game",
+    "appName": "Nibbles",
+    "appType": "game",
+    "author": "Microsoft",
+    "genre": [
+      "Arcade",
+      "Snake"
+    ],
+    "categories": [
+      "Action"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/nibbles/nibbles.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Nibbles</strong> — the snake game that came with QBasic in MS-DOS 5.0. Steer your snake to the numbers 1 to 9 in order; each one makes it longer, and touching a wall or your own tail costs a life. Click Play, answer the setup questions (players, skill, speed-up) and it starts.</p>",
+    "sections": [
+      {
+        "h": "About Nibbles",
+        "html": "<p>NIBBLES.BAS was Gorillas' companion in the QBasic samples folder: a short program anyone could open, read and change, and many people learned to program that way. Two players can share the keyboard, one on the arrows and one on W, A, S and D. Each level adds walls, and the skill setting from 1 to 100 sets the speed.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Nibbles, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Nibbles online for free?",
+        "a": "Yes. Click Play and the original 1991 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Nibbles hosted here?",
+        "a": "Nibbles is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (Microsoft) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Is this the original Nibbles?",
+        "a": "Yes: NIBBLES.BAS running in Microsoft's own QBASIC.EXE from MS-DOS."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Nibbles uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/gorillas/",
+        "title": "Gorillas",
+        "desc": "Play QBasic Gorillas in your browser: two gorillas on a city skyline throw exploding banan"
+      },
+      {
+        "href": "/run/snake-open/",
+        "title": "Snake",
+        "desc": "Eat, grow, don't crash. The arcade classic with wrap-around walls and two speeds."
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "keys-dos",
+      "hint": "1–5: menu choices · Y / N: answer · ENTER: confirm · SPACE: continue",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "1",
+          "dosKey": 49,
+          "cls": ""
+        },
+        {
+          "label": "2",
+          "dosKey": 50,
+          "cls": ""
+        },
+        {
+          "label": "3",
+          "dosKey": 51,
+          "cls": ""
+        },
+        {
+          "label": "4",
+          "dosKey": 52,
+          "cls": ""
+        },
+        {
+          "label": "5",
+          "dosKey": 53,
+          "cls": ""
+        },
+        {
+          "label": "Y",
+          "dosKey": 89,
+          "cls": ""
+        },
+        {
+          "label": "N",
+          "dosKey": 78,
+          "cls": ""
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "⌫",
+          "dosKey": 259,
+          "cls": ""
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Steer (player 1)",
+        "keyboard": "Arrow keys",
+        "mouse": "—"
+      },
+      {
+        "action": "Steer (player 2)",
+        "keyboard": "W A S D",
+        "mouse": "—"
+      },
+      {
+        "action": "Pause",
+        "keyboard": "P",
+        "mouse": "—"
+      },
+      {
+        "action": "Setup answers",
+        "keyboard": "Number keys, then Enter",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Nibbles (1991, Microsoft) is not sold in any form today; rights now sit with Microsoft. Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 38
+  },
+  {
+    "slug": "alley-cat",
+    "provenance": "grey",
+    "title": "Alley Cat Online — Play the 1984 IBM PC Game Free",
+    "description": "Play Alley Cat in your browser: Bill Williams' 1984 IBM PC game. Freddy the cat leaps from the fence through windows after mice, fish and a sweetheart.",
+    "keywords": "alley cat online, alley cat game, alley cat 1984, play alley cat dos, ibm alley cat",
+    "ogTitle": "Play Alley Cat (1984) Online",
+    "ogDescription": "Play Alley Cat in your browser: Bill Williams' 1984 IBM PC game. Freddy the cat leaps from the fence through windows after mice, fish and a sweetheart",
+    "crumb": "Play Alley Cat",
+    "h1": "Play Alley Cat online — the original 1984 DOS game",
+    "appName": "Alley Cat",
+    "appType": "game",
+    "author": "IBM / Synapse Software",
+    "genre": [
+      "Arcade",
+      "Platformer"
+    ],
+    "categories": [
+      "Action",
+      "Platformers"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/alley-cat/alley-cat.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Alley Cat</strong> — the 1984 IBM PC game by Bill Williams, published by Synapse Software for IBM. Freddy the cat bounces between the bins and the fence, leaps through open windows into the rooms beyond, and chases mice, goldfish and a sweetheart cat on the top floor. Click Play and pick a skill level at the prompt.</p>",
+    "sections": [
+      {
+        "h": "About Alley Cat",
+        "html": "<p>Alley Cat was written for the IBM PCjr and runs in four-colour CGA, with PC-speaker music that anyone who heard it still remembers. Each window leads to a different room: a cheese wall full of mice, a fishbowl, a bird cage, a bookshelf with spiders. Clear a room and you return to the alley; win Felicia's heart at the top and the level speeds up. The game counts on 1984 CPU speed, so it is tuned here to match.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Alley Cat, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Alley Cat online for free?",
+        "a": "Yes. Click Play and the original 1984 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Alley Cat hosted here?",
+        "a": "Alley Cat is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (IBM (Synapse Software no longer exists)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Alley Cat uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "platformer-dos",
+      "hint": "D-pad: move · CTRL / ALT: jump and fire · ENTER/ESC: menus",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "CTRL",
+          "dosKey": 341,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "ALT",
+          "dosKey": 342,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": ""
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": ""
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Move and jump",
+        "keyboard": "Arrow keys",
+        "mouse": "—"
+      },
+      {
+        "action": "Choose skill level",
+        "keyboard": "A–Z then 1–9 at the prompt",
+        "mouse": "—"
+      },
+      {
+        "action": "Quit",
+        "keyboard": "Esc",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Alley Cat (1984, IBM / Synapse Software) is not sold in any form today; rights now sit with IBM (Synapse Software no longer exists). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 28
+  },
+  {
+    "slug": "paratrooper",
+    "provenance": "grey",
+    "title": "Paratrooper Online — Play the 1982 IBM PC Game Free",
+    "description": "Play Paratrooper in your browser: Greg Kuperberg's 1982 IBM PC game. Turn the gun, shoot the helicopters and stop four paratroopers landing on either side.",
+    "keywords": "paratrooper game online, paratrooper 1982, play paratrooper, paratrooper dos, helicopter gun game",
+    "ogTitle": "Play Paratrooper (1982) Online",
+    "ogDescription": "Play Paratrooper in your browser: Greg Kuperberg's 1982 IBM PC game. Turn the gun, shoot the helicopters and stop four paratroopers landing on either ",
+    "crumb": "Play Paratrooper",
+    "h1": "Play Paratrooper online — the original 1982 DOS game",
+    "appName": "Paratrooper",
+    "appType": "game",
+    "author": "Orion Software",
+    "genre": [
+      "Arcade",
+      "Shooter"
+    ],
+    "categories": [
+      "Action",
+      "Shooters"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/paratrooper/paratrooper.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Paratrooper</strong> — Greg Kuperberg's 1982 shooting game for the IBM PC. Your gun sits at the bottom of the screen; helicopters cross overhead and drop paratroopers, and jets drop bombs. If four soldiers land on one side of the gun they climb over and take it. Press Space on the title screen for keyboard play.</p>",
+    "sections": [
+      {
+        "h": "About Paratrooper",
+        "html": "<p>Paratrooper is one of the first widely-copied PC games. It runs in CGA's cyan-and-magenta palette and plays in short, increasingly frantic rounds. Shooting a helicopter scores more than shooting a falling soldier; hitting a soldier's parachute sends him straight down, and he can crush the men already on the ground.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Paratrooper, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Paratrooper online for free?",
+        "a": "Yes. Click Play and the original 1982 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Paratrooper hosted here?",
+        "a": "Paratrooper is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (Greg Kuperberg (Orion Software)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Paratrooper uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/alley-cat/",
+        "title": "Alley Cat",
+        "desc": "Play Alley Cat in your browser: Bill Williams' 1984 IBM PC game. Freddy the cat leaps from"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "shmup-dos",
+      "hint": "D-pad: fly · FIRE: ctrl · ALT: secondary · ESC: menu",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "FIRE",
+          "dosKey": 341,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "ALT",
+          "dosKey": 342,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": ""
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Turn the gun",
+        "keyboard": "Left / right arrows",
+        "mouse": "—"
+      },
+      {
+        "action": "Fire",
+        "keyboard": "Up arrow",
+        "mouse": "—"
+      },
+      {
+        "action": "Start (keyboard play)",
+        "keyboard": "Space",
+        "mouse": "—"
+      },
+      {
+        "action": "Instructions",
+        "keyboard": "I",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Paratrooper (1982, Orion Software) is not sold in any form today; rights now sit with Greg Kuperberg (Orion Software). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 36
+  },
+  {
+    "slug": "digger",
+    "provenance": "grey",
+    "title": "Digger Online — Play the 1983 Windmill Software Game Free",
+    "description": "Play Digger in your browser: Windmill Software's 1983 IBM PC arcade game. Tunnel for emeralds, drop gold bags on the Nobbins and Hobbins. No download.",
+    "keywords": "digger game online, digger 1983, windmill software digger, play digger dos, nobbins hobbins",
+    "ogTitle": "Play Digger (1983) Online",
+    "ogDescription": "Play Digger in your browser: Windmill Software's 1983 IBM PC arcade game. Tunnel for emeralds, drop gold bags on the Nobbins and Hobbins. No download.",
+    "crumb": "Play Digger",
+    "h1": "Play Digger online — the original 1983 DOS game",
+    "appName": "Digger",
+    "appType": "game",
+    "author": "Windmill Software",
+    "genre": [
+      "Arcade",
+      "Maze"
+    ],
+    "categories": [
+      "Action"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/digger/digger.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Digger</strong> — Windmill Software's 1983 arcade game for the IBM PC, a cousin of Mr. Do!. Dig tunnels through the earth to collect emeralds, loosen gold bags so they fall on the Nobbins and Hobbins chasing you, and fire when the gun is charged. Click Play and press a key at the high-score screen to begin.</p>",
+    "sections": [
+      {
+        "h": "About Digger",
+        "html": "<p>Windmill Software, a small Toronto firm, sold Digger on a self-booting disk with a copy-protection scheme of its own, and the game was everywhere on CGA PCs in the mid-80s. A Nobbin turns into a Hobbin that can dig after a while. Collect eight emeralds in a row for a bonus, and eat the cherry to turn the tables on the monsters for a few seconds.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Digger, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Digger online for free?",
+        "a": "Yes. Click Play and the original 1983 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Digger hosted here?",
+        "a": "Digger is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (Windmill Software (defunct); designer Rob Sleath) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Digger uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/alley-cat/",
+        "title": "Alley Cat",
+        "desc": "Play Alley Cat in your browser: Bill Williams' 1984 IBM PC game. Freddy the cat leaps from"
+      },
+      {
+        "href": "/run/paratrooper/",
+        "title": "Paratrooper",
+        "desc": "Play Paratrooper in your browser: Greg Kuperberg's 1982 IBM PC game. Turn the gun, shoot t"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "platformer-dos",
+      "hint": "D-pad: move · CTRL / ALT: jump and fire · ENTER/ESC: menus",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "CTRL",
+          "dosKey": 341,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "ALT",
+          "dosKey": 342,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": ""
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": ""
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Dig",
+        "keyboard": "Arrow keys",
+        "mouse": "—"
+      },
+      {
+        "action": "Fire",
+        "keyboard": "F1",
+        "mouse": "—"
+      },
+      {
+        "action": "Start",
+        "keyboard": "Any key",
+        "mouse": "—"
+      },
+      {
+        "action": "Quit",
+        "keyboard": "Esc",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Digger (1983, Windmill Software) is not sold in any form today; rights now sit with Windmill Software (defunct); designer Rob Sleath. Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 31
+  },
+  {
+    "slug": "sopwith",
+    "provenance": "grey",
+    "title": "Sopwith Online — Play the 1984 Biplane Game Free",
+    "description": "Play the original Sopwith in your browser: David Clark's 1984 side-scrolling biplane game. Bomb the enemy buildings, dodge the flak, don't stall.",
+    "keywords": "sopwith game online, sopwith camel dos, play sopwith, sopwith 1984, biplane game",
+    "ogTitle": "Play Sopwith (1984) Online",
+    "ogDescription": "Play the original Sopwith in your browser: David Clark's 1984 side-scrolling biplane game. Bomb the enemy buildings, dodge the flak, don't stall.",
+    "crumb": "Play Sopwith",
+    "h1": "Play Sopwith online — the original 1984 DOS game",
+    "appName": "Sopwith",
+    "appType": "game",
+    "author": "BMB Compuscience",
+    "genre": [
+      "Arcade",
+      "Flight"
+    ],
+    "categories": [
+      "Action",
+      "Shooters"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/sopwith/sopwith.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Sopwith</strong> — David L. Clark's 1984 biplane game, written at BMB Compuscience in Canada as a demo for their networking hardware. You fly a Sopwith Camel left and right over a scrolling landscape, bombing enemy buildings and shooting down their planes, while landing back at your base to refuel. Press S at the title for single player.</p>",
+    "sections": [
+      {
+        "h": "About Sopwith",
+        "html": "<p>Sopwith runs in CGA and is controlled entirely from the keyboard. The controls take a minute to learn: comma and slash pitch the nose, full stop flips the plane, X and Z set the throttle, Space fires and B drops a bomb. Fly too slowly and you stall. Destroy all the enemy buildings to finish a level. The author later released the source code.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Sopwith, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Sopwith online for free?",
+        "a": "Yes. Click Play and the original 1984 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Sopwith hosted here?",
+        "a": "Sopwith is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (David L. Clark (author)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Sopwith uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/paratrooper/",
+        "title": "Paratrooper",
+        "desc": "Play Paratrooper in your browser: Greg Kuperberg's 1982 IBM PC game. Turn the gun, shoot t"
+      },
+      {
+        "href": "/run/alley-cat/",
+        "title": "Alley Cat",
+        "desc": "Play Alley Cat in your browser: Bill Williams' 1984 IBM PC game. Freddy the cat leaps from"
+      },
+      {
+        "href": "/run/digger/",
+        "title": "Digger",
+        "desc": "Play Digger in your browser: Windmill Software's 1983 IBM PC arcade game. Tunnel for emera"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "keys-dos",
+      "hint": "1–5: menu choices · Y / N: answer · ENTER: confirm · SPACE: continue",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "1",
+          "dosKey": 49,
+          "cls": ""
+        },
+        {
+          "label": "2",
+          "dosKey": 50,
+          "cls": ""
+        },
+        {
+          "label": "3",
+          "dosKey": 51,
+          "cls": ""
+        },
+        {
+          "label": "4",
+          "dosKey": 52,
+          "cls": ""
+        },
+        {
+          "label": "5",
+          "dosKey": 53,
+          "cls": ""
+        },
+        {
+          "label": "Y",
+          "dosKey": 89,
+          "cls": ""
+        },
+        {
+          "label": "N",
+          "dosKey": 78,
+          "cls": ""
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "⌫",
+          "dosKey": 259,
+          "cls": ""
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Pull up / push down",
+        "keyboard": ", and /",
+        "mouse": "—"
+      },
+      {
+        "action": "Flip over",
+        "keyboard": ".",
+        "mouse": "—"
+      },
+      {
+        "action": "Fire",
+        "keyboard": "Space",
+        "mouse": "—"
+      },
+      {
+        "action": "Drop bomb",
+        "keyboard": "B",
+        "mouse": "—"
+      },
+      {
+        "action": "Throttle",
+        "keyboard": "X (faster) and Z (slower)",
+        "mouse": "—"
+      },
+      {
+        "action": "Single player",
+        "keyboard": "S at the start",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Sopwith (1984, BMB Compuscience) is not sold in any form today; rights now sit with David L. Clark (author). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 37
+  },
+  {
+    "slug": "snipes",
+    "provenance": "grey",
+    "title": "Snipes Online — Play the 1982 Text-Mode Game Free",
+    "description": "Play Snipes in your browser: SuperSet Software's 1982 text-mode maze shooter, one of the first IBM PC games, built from ASCII characters. No download.",
+    "keywords": "snipes game online, snipes 1982, play snipes dos, novell snipes, text mode game",
+    "ogTitle": "Play Snipes (1982) Online",
+    "ogDescription": "Play Snipes in your browser: SuperSet Software's 1982 text-mode maze shooter, one of the first IBM PC games, built from ASCII characters. No download.",
+    "crumb": "Play Snipes",
+    "h1": "Play Snipes online — the original 1982 DOS game",
+    "appName": "Snipes",
+    "appType": "game",
+    "author": "SuperSet Software",
+    "genre": [
+      "Arcade",
+      "Maze",
+      "Shooter"
+    ],
+    "categories": [
+      "Action",
+      "Shooters"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/snipes/snipes.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Snipes</strong> — a 1982 maze shooter for the IBM PC, drawn entirely in text-mode characters. You roam a maze bigger than the screen, destroying the hives that spawn Snipes and shooting the Snipes themselves before they corner you. Answer the skill-level prompt to start.</p>",
+    "sections": [
+      {
+        "h": "About Snipes",
+        "html": "<p>Snipes was written by SuperSet Software, the team that wrote NetWare for Novell, and a networked version of it was used to test NetWare. It is one of the oldest games on the PC, from before graphics cards were standard, which is why everything is built from ASCII art. Higher skill letters add ricocheting shots and tougher Snipes.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Snipes, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Snipes online for free?",
+        "a": "Yes. Click Play and the original 1982 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Snipes hosted here?",
+        "a": "Snipes is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (the original SuperSet Software authors) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Snipes uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/paratrooper/",
+        "title": "Paratrooper",
+        "desc": "Play Paratrooper in your browser: Greg Kuperberg's 1982 IBM PC game. Turn the gun, shoot t"
+      },
+      {
+        "href": "/run/digger/",
+        "title": "Digger",
+        "desc": "Play Digger in your browser: Windmill Software's 1983 IBM PC arcade game. Tunnel for emera"
+      },
+      {
+        "href": "/run/alley-cat/",
+        "title": "Alley Cat",
+        "desc": "Play Alley Cat in your browser: Bill Williams' 1984 IBM PC game. Freddy the cat leaps from"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "keys-dos",
+      "hint": "1–5: menu choices · Y / N: answer · ENTER: confirm · SPACE: continue",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "1",
+          "dosKey": 49,
+          "cls": ""
+        },
+        {
+          "label": "2",
+          "dosKey": 50,
+          "cls": ""
+        },
+        {
+          "label": "3",
+          "dosKey": 51,
+          "cls": ""
+        },
+        {
+          "label": "4",
+          "dosKey": 52,
+          "cls": ""
+        },
+        {
+          "label": "5",
+          "dosKey": 53,
+          "cls": ""
+        },
+        {
+          "label": "Y",
+          "dosKey": 89,
+          "cls": ""
+        },
+        {
+          "label": "N",
+          "dosKey": 78,
+          "cls": ""
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "⌫",
+          "dosKey": 259,
+          "cls": ""
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Move",
+        "keyboard": "Arrow keys",
+        "mouse": "—"
+      },
+      {
+        "action": "Fire",
+        "keyboard": "The keys the game lists before play",
+        "mouse": "—"
+      },
+      {
+        "action": "Skill level",
+        "keyboard": "A–Z then 1–9 at the prompt",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Snipes (1982, SuperSet Software) is not sold in any form today; rights now sit with the original SuperSet Software authors. Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 44
+  },
+  {
+    "slug": "kroz",
+    "provenance": "freeware",
+    "title": "Kingdom of Kroz II Online — Play Free in Your Browser",
+    "description": "Play Kingdom of Kroz II in your browser: Scott Miller's 1990 Apogee text-mode adventure. Whip the monsters, collect gems, find the stairs. Free, no download.",
+    "keywords": "kroz online, kingdom of kroz, play kroz, apogee kroz, scott miller kroz",
+    "ogTitle": "Play Kingdom of Kroz II (1990) Online",
+    "ogDescription": "Play Kingdom of Kroz II in your browser: Scott Miller's 1990 Apogee text-mode adventure. Whip the monsters, collect gems, find the stairs. Free, no do",
+    "crumb": "Play Kingdom of Kroz II",
+    "h1": "Play Kingdom of Kroz II online — the original 1990 DOS game",
+    "appName": "Kingdom of Kroz II",
+    "appType": "game",
+    "author": "Apogee Software",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Puzzle"
+    ],
+    "categories": [
+      "Action",
+      "Puzzle & strategy"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/kroz/kroz.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Kingdom of Kroz II</strong> — Scott Miller's text-mode dungeon game, from the series that launched Apogee Software. You are an archaeologist hunting the Amulet of Kroz through levels of monsters, gems, whips and traps, all drawn in coloured ASCII. Press C at the first question for colour.</p>",
+    "sections": [
+      {
+        "h": "About Kingdom of Kroz II",
+        "html": "<p>The Kroz games were Apogee's first releases, sold through the shareware model that Scott Miller pioneered and which later carried Commander Keen and Wolfenstein 3D. Monsters move toward you every turn; whip them, or spend gems as hit points. Teleport scrolls, keys and secret tunnels fill out each level. Apogee released the whole Kroz series as freeware in 2009.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Kingdom of Kroz II, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Kingdom of Kroz II online for free?",
+        "a": "Yes. Click Play and the original 1990 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Kingdom of Kroz II hosted here?",
+        "a": "Apogee released the whole Kroz series as freeware in March 2009. The original files are hosted unmodified."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Kingdom of Kroz II uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/snipes/",
+        "title": "Snipes",
+        "desc": "Play Snipes in your browser: SuperSet Software's 1982 text-mode maze shooter, one of the f"
+      },
+      {
+        "href": "/run/commander-keen/",
+        "title": "Commander Keen",
+        "desc": "id Software's 1990 platforming classic in your browser — the complete free shareware episo"
+      },
+      {
+        "href": "/run/cosmo/",
+        "title": "Cosmo's Cosmic Adventure",
+        "desc": "Apogee's 1992 platformer in your browser — the complete shareware episode, no download or "
+      },
+      {
+        "href": "/run/digger/",
+        "title": "Digger",
+        "desc": "Play Digger in your browser: Windmill Software's 1983 IBM PC arcade game. Tunnel for emera"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "keys-dos",
+      "hint": "1–5: menu choices · Y / N: answer · ENTER: confirm · SPACE: continue",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "1",
+          "dosKey": 49,
+          "cls": ""
+        },
+        {
+          "label": "2",
+          "dosKey": 50,
+          "cls": ""
+        },
+        {
+          "label": "3",
+          "dosKey": 51,
+          "cls": ""
+        },
+        {
+          "label": "4",
+          "dosKey": 52,
+          "cls": ""
+        },
+        {
+          "label": "5",
+          "dosKey": 53,
+          "cls": ""
+        },
+        {
+          "label": "Y",
+          "dosKey": 89,
+          "cls": ""
+        },
+        {
+          "label": "N",
+          "dosKey": 78,
+          "cls": ""
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "⌫",
+          "dosKey": 259,
+          "cls": ""
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Move",
+        "keyboard": "Arrow keys",
+        "mouse": "—"
+      },
+      {
+        "action": "Whip",
+        "keyboard": "W",
+        "mouse": "—"
+      },
+      {
+        "action": "Teleport",
+        "keyboard": "T",
+        "mouse": "—"
+      },
+      {
+        "action": "Save / restore",
+        "keyboard": "S / R",
+        "mouse": "—"
+      },
+      {
+        "action": "Colour or mono prompt",
+        "keyboard": "C",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Apogee released the whole Kroz series as freeware in March 2009.",
+    "screenshot": true,
+    "licenseNote": "<p class=\"muted small\">Apogee released the whole Kroz series as freeware in March 2009. Provenance: <a href=\"/apps/kroz/NOTICE.md\">/apps/kroz/NOTICE.md</a>.</p>",
+    "rank": 46
   }
 ]

@@ -1,1 +1,149 @@
-{}
+{
+  "number-munchers": {
+    "url": "https://archive.org/download/msdos_Number_Munchers_1990/Number_Munchers_1990.zip",
+    "exe": "NumbMunc/NM.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Number_Munchers_1990",
+    "sha256": "e7bc54d89a4c9080e24c1907a90548fc1ea9db2622849cd681689c4968f68b66"
+  },
+  "word-munchers": {
+    "url": "https://archive.org/download/msdos_Word_Munchers_1990/Word_Munchers_1990.zip",
+    "exe": "WordMunc/WM.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Word_Munchers_1990",
+    "strip": [
+      "IAFIX.BAT"
+    ],
+    "sha256": "a5af4537bb58a4a3b9ff2f7899c60c17a675b04d39736820d2ad49335b3ee75a"
+  },
+  "math-blaster": {
+    "url": "https://archive.org/download/msdos_Math_Blaster_Plus_1987/Math_Blaster_Plus_1987.zip",
+    "exe": "MathBlaP/MATH.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Math_Blaster_Plus_1987",
+    "sha256": "bca3ac14a193602147d68b419a60d8b2954e7eb17e0b731f78692511fa8a2e47"
+  },
+  "reader-rabbit": {
+    "url": "https://archive.org/download/msdos_Reader_Rabbit_1989/Reader_Rabbit_1989.zip",
+    "exe": "ReadRab/RR.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Reader_Rabbit_1989",
+    "sha256": "766660480b48032a10bdc4c2a021ad250718548f0f9425a59f7719aefa2e80c9"
+  },
+  "treasure-mountain": {
+    "url": "https://archive.org/download/msdos_Super_Solvers_Treasure_Mountain_1990/Super_Solvers_Treasure_Mountain_1990.zip",
+    "exe": "SSTM/SST.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Super_Solvers_Treasure_Mountain_1990",
+    "sha256": "6cae59f8769a32e907d27999efe5a7ba9b9cfb251c387922d72ea49f8e05b93f"
+  },
+  "midnight-rescue": {
+    "url": "https://archive.org/download/msdos_Super_Solvers_Midnight_Rescue_1989/Super_Solvers_Midnight_Rescue_1989.zip",
+    "exe": "SSMR/SSR.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Super_Solvers_Midnight_Rescue_1989"
+  },
+  "outnumbered": {
+    "url": "https://archive.org/download/msdos_Super_Solvers_OutNumbered_1990/Super_Solvers_OutNumbered_1990.zip",
+    "exe": "SSOUTN/SSO.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Super_Solvers_OutNumbered_1990",
+    "sha256": "27e63a0028d3bf1fc5b27b5cc3e52b3402cdb1c8101818d8312cc6c9bfb9b65c"
+  },
+  "gorillas": {
+    "url": "https://archive.org/download/GorillasQbasic/gorillas_qbasic.zip",
+    "exe": "QBASIC.EXE",
+    "retrieved": "2026-10-05",
+    "item": "GorillasQbasic",
+    "args": "/RUN GORILLA.BAS",
+    "bootColours": 6,
+    "bootKeys": [
+      "Space",
+      "Enter",
+      "Enter",
+      "Enter",
+      "Enter",
+      "Enter",
+      "p"
+    ],
+    "sha256": "5f93ece093c063aa8f961385ccf583bacf3ca97ba2a232d8b0d7a2d3050d0179"
+  },
+  "nibbles": {
+    "url": "https://archive.org/download/NibblesQbasic/nibbles.zip",
+    "exe": "QBASIC.EXE",
+    "retrieved": "2026-10-05",
+    "item": "NibblesQbasic",
+    "args": "/RUN NIBBLES.BAS",
+    "bootColours": 4,
+    "bootKeys": [
+      "Space",
+      "1",
+      "Enter",
+      "Enter",
+      "5",
+      "Enter",
+      "n",
+      "Enter",
+      "c",
+      "Enter"
+    ],
+    "sha256": "72eb883734879e1ee5bf5b02cd3bceeca6a1cac19b11d71be6ee1cfe3ef9852b"
+  },
+  "alley-cat": {
+    "url": "https://archive.org/download/msdos_Alley_Cat_1984/Alley_Cat_1984.zip",
+    "exe": "AlleyCat/CAT.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Alley_Cat_1984",
+    "bootColours": 3,
+    "sha256": "7fadfa306416ce2a6b57da6d6fc44a3f11ee70180c50ab2f34e69b3c4e23bc09"
+  },
+  "paratrooper": {
+    "url": "https://archive.org/download/msdos_Paratrooper_1982/Paratrooper_1982.zip",
+    "exe": "Paratroo/trooper.com",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Paratrooper_1982",
+    "bootColours": 3,
+    "sha256": "4bf03d8df2a5f63a3572775d6eeb8443a54e35b10000f5fc47ae5506f5119ee5"
+  },
+  "digger": {
+    "url": "https://archive.org/download/msdos_Digger_1983/Digger_1983.zip",
+    "exe": "Digger83/digger.com",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Digger_1983",
+    "strip": [
+      "IAFIX.BAT"
+    ],
+    "bootColours": 3,
+    "sha256": "56f9175f869fdef5d98386fbf1d0ebee4d5a5a4a2b4fddd34623c4650a5ed2d1"
+  },
+  "sopwith": {
+    "url": "https://archive.org/download/msdos_Sopwith_1985/Sopwith_1985.zip",
+    "exe": "Sopwith/SOPWITH.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Sopwith_1985",
+    "bootColours": 3,
+    "sha256": "eecc217462932d2fcecccbd7751c84c4df3bf38da8b2544d33fe6a000664eac4"
+  },
+  "snipes": {
+    "url": "https://archive.org/download/msdos_Snipes_1982/Snipes_1982.zip",
+    "exe": "Snipes/SNIPE.COM",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Snipes_1982",
+    "strip": [
+      "IAFIX.BAT"
+    ],
+    "bootColours": 2,
+    "sha256": "8d22ff413aebaf61ec5246a2a61d95d72a07dda84549f79165e2c913b3e47467"
+  },
+  "kroz": {
+    "url": "https://archive.org/download/msdos_Kingdom_of_Kroz_II_1990/Kingdom_of_Kroz_II_1990.zip",
+    "exe": "KingKrz2/KINGDOM.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Kingdom_of_Kroz_II_1990",
+    "strip": [
+      "IAFIX.BAT"
+    ],
+    "bootColours": 2,
+    "sha256": "a3a1e88d0b954b9252a1ba8ac83be6295f0d4d361d9f11ffc4a3b442d1cc3554"
+  }
+}

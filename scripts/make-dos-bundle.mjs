@@ -25,7 +25,9 @@
 //   root      optional directory inside the archive to treat as the root (for
 //             archives that wrap the game in a folder we don't want)
 //   strip     optional array of paths or *.ext globs the archive added (site
-//             banners, .url shortcuts, the archive's own dosbox.conf)
+//             banners, .url shortcuts, the archive's own dosbox.conf).
+//             file_id.diz is always stripped. Never take a source that ships
+//             a cracking group's .nfo or intro: pick another item instead.
 //   cycles    DOSBox cycles; default 8000. "max" for later 386/486 games.
 //   inner     optional zip inside the archive that holds the game (some items
 //             wrap the real zip in another one)
@@ -82,9 +84,11 @@ pcspeaker=true
 pcrate=44100
 
 [autoexec]
+@echo off
 SET BLASTER=A220 I7 D1 H5 T6
-mount c .
+mount c . >NUL
 c:
+cls
 ${cd}${exe}${src.args ? " " + src.args : ""}
 `;
 }
@@ -135,7 +139,9 @@ for (const slug of slugs) {
     const base = src.root ? path.join(work, src.root) : work;
     if (!fs.existsSync(base)) throw new Error(`root ${src.root} not in archive`);
 
-    const res = (src.strip || []).map(globToRe);
+    // file_id.diz in these archives is a TOSEC catalogue card added by
+    // archivists, not part of the game; always drop it.
+    const res = ["file_id.diz", ...(src.strip || [])].map(globToRe);
     for (const rel of walk(base)) {
       if (res.some((re) => re.test(rel) || re.test(path.basename(rel)))) fs.rmSync(path.join(base, rel));
     }

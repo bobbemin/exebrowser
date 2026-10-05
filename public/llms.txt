@@ -4,7 +4,7 @@
 > install, no account, nothing uploaded. Games run client-side via DOSBox or
 > Wine compiled to WebAssembly, and DOS save games persist in the browser.
 
-69 titles are hosted and playable instantly. Everything hosted here is
+89 titles are hosted and playable instantly. Everything hosted here is
 open-source, freeware, or shareware whose licence permits free redistribution;
 commercial titles are compatibility guides only, where you supply your own copy.
 
@@ -25,6 +25,7 @@ commercial titles are compatibility guides only, where you supply your own copy.
 - [Scorched Earth](https://exebrowser.com/run/scorched-earth/): Play Scorched Earth in your browser — the 1991 artillery classic, 'the mother of all games'. Shareware, no download, runs via DOSBox + WebAssembly.
 - [Raptor](https://exebrowser.com/run/raptor/): Play Raptor: Call of the Shadows shareware episode free in your browser — Apogee's 1994 vertical shooter. No download, runs via DOSBox + WebAssembly.
 - [Blake Stone](https://exebrowser.com/run/blake-stone/): Apogee's 1993 sci-fi FPS in your browser — the complete free shareware episode, no download or install. Runs via DOSBox + WebAssembly.
+- [Prince of Persia](https://exebrowser.com/run/prince-of-persia/): Play the original Prince of Persia in your browser: Jordan Mechner's 1990 DOS game. Sixty minutes to escape the dungeon and save the princess. No down
 - [Archive Extractor](https://exebrowser.com/run/extract-archive/): Drop an archive, browse it, pull out what you need. Nothing uploads and nothing installs.
 - [7-Zip](https://exebrowser.com/run/7-zip/): Open and extract 7z, zip, rar, tar and more with real 7-Zip in your browser via Wine + WebAssembly. Free, open-source, nothing to install.
 - [KeePass](https://exebrowser.com/run/keepass/): The KeePass 1.x Classic build loads with one click and runs in your browser via Wine + WebAssembly. KeePass 2.x won't work here — read the version and safety caveats first.
@@ -79,6 +80,25 @@ commercial titles are compatibility guides only, where you supply your own copy.
 - [Sopwith](https://exebrowser.com/run/sopwith/): Play the original Sopwith in your browser: David Clark's 1984 side-scrolling biplane game. Bomb the enemy buildings, dodge the flak, don't stall.
 - [Snipes](https://exebrowser.com/run/snipes/): Play Snipes in your browser: SuperSet Software's 1982 text-mode maze shooter, one of the first IBM PC games, built from ASCII characters. No download.
 - [Kingdom of Kroz II](https://exebrowser.com/run/kroz/): Play Kingdom of Kroz II in your browser: Scott Miller's 1990 Apogee text-mode adventure. Whip the monsters, collect gems, find the stairs. Free, no do
+- [Lemmings](https://exebrowser.com/run/lemmings/): Play the original Lemmings in your browser: DMA Design's 1991 puzzle classic. Give lemmings jobs, dig, build and block to save them. No download.
+- [Oh No! More Lemmings](https://exebrowser.com/run/oh-no-more-lemmings/): Play Oh No! More Lemmings in your browser: the 1991 sequel with 100 harder levels, from Tame to Havoc. The DOS original, no download.
+- [Lemmings 2: The Tribes](https://exebrowser.com/run/lemmings-2/): Play Lemmings 2: The Tribes in your browser: twelve lemming tribes, more than fifty skills, and the talisman to rebuild. The 1993 DOS game, no downloa
+- [Prince of Persia 2](https://exebrowser.com/run/prince-of-persia-2/): Play Prince of Persia 2: The Shadow and the Flame in your browser. The 1993 DOS sequel: flee the palace, cross the sea, face Jaffar again. No download
+- [SimCity Classic](https://exebrowser.com/run/simcity-classic/): Play SimCity Classic in your browser: Will Wright's original city builder, the DOS version. Zone, build power, fight disasters. Free, no download.
+- [SimAnt](https://exebrowser.com/run/simant/): Play SimAnt in your browser: Maxis' 1991 ant colony simulator. Lead the black ants against the red colony and take over the backyard. No download.
+- [SimEarth](https://exebrowser.com/run/simearth/): Play SimEarth in your browser: Maxis' 1990 planet simulator. Shape a world from molten rock to intelligent life using the Gaia hypothesis. No download
+- [SimFarm](https://exebrowser.com/run/simfarm/): Play SimFarm in your browser: Maxis' 1993 farming simulator. Plant crops, raise livestock, buy equipment and ride out the weather. No download.
+- [SimLife](https://exebrowser.com/run/simlife/): Play SimLife in your browser: Maxis' 1992 artificial-life simulator. Design plants and animals, set their genes, and watch an ecosystem evolve.
+- [Dune II](https://exebrowser.com/run/dune-2/): Play Dune II in your browser: Westwood's 1992 game that founded real-time strategy. Harvest spice, build a base, and fight for Arrakis. No download.
+- [Stunts](https://exebrowser.com/run/stunts/): Play Stunts (4D Sports Driving) in your browser: the 1990 3D racer with loops, jumps, corkscrews and a track editor. The DOS original, no download.
+- [Test Drive](https://exebrowser.com/run/test-drive/): Play the original Test Drive in your browser: Accolade's 1987 sports-car racer. Pick a Ferrari, Lamborghini or Porsche and outrun the police.
+- [Test Drive II: The Duel](https://exebrowser.com/run/test-drive-2/): Play Test Drive II: The Duel in your browser: Accolade's 1989 head-to-head racer. Porsche 959 against Ferrari F40 on open roads, with the police after
+- [Test Drive III: The Passion](https://exebrowser.com/run/test-drive-3/): Play Test Drive III: The Passion in your browser: Accolade's 1990 racer with filled 3D graphics, open roads and a Lamborghini Diablo. No download.
+- [Civilization](https://exebrowser.com/run/civilization/): Play Sid Meier's original Civilization in your browser: the 1991 DOS game. Grow from a settler to a space race over six thousand years. No download.
+- [Railroad Tycoon](https://exebrowser.com/run/railroad-tycoon/): Play Sid Meier's Railroad Tycoon in your browser: the 1990 DOS original. Lay track, run trains, build stations and outplay rival barons.
+- [Elite](https://exebrowser.com/run/elite/): Play the original Elite in your browser: Braben and Bell's space trading and combat game in its 1987 DOS version. Trade, fight, dock. No download.
+- [Frontier: Elite II](https://exebrowser.com/run/frontier-elite-2/): Play Frontier: Elite II in your browser: David Braben's 1993 sequel with a full-scale galaxy, Newtonian flight and planetary landings. No download.
+- [Sango Fighter](https://exebrowser.com/run/sango-fighter/): Play Sango Fighter in your browser: the 1993 DOS fighting game set in the Three Kingdoms era. Twenty-two warriors, swords and spears. No download.
 
 ## Compatibility guides (bring your own copy)
 
@@ -98,7 +118,6 @@ commercial titles are compatibility guides only, where you supply your own copy.
 - [Jazz Jackrabbit](https://exebrowser.com/run/jazz-jackrabbit-shareware/): The 1994 Epic classic is a DOS game, so the original JAZZ.EXE won't run under Win32 Wine. The open-source OpenJazz engine can play the shareware levels in a tab — you supply the files.
 - [OMF 2097](https://exebrowser.com/run/one-must-fall/): Epic's 1994 robot fighting classic is free freeware — but it's a DOS game, so it won't boot under raw Win32 Wine. The honest paths: DOSBox-in-Wine or the open-source OpenOMF remake.
 - [Heretic & Hexen](https://exebrowser.com/run/hexen-heretic-shareware/): The DOS originals won't boot here, but a small Win32 source port (Chocolate Heretic/Hexen) plus the shareware WAD runs on Wine + WebAssembly. You bring both files; this guide shows the setup.
-- [Prince of Persia](https://exebrowser.com/run/prince-of-persia/): The original Prince of Persia is a commercial DOS game, so it won't simply boot here. The free, open-source SDLPoP reimplementation ships as a Win32 EXE — load your copy and it runs in your tab.
 - [Full Tilt! Pinball](https://exebrowser.com/run/full-tilt-pinball/): The three-table parent of Space Cadet is commercial, so you load your own retail copy. The table EXEs have a real shot under Wine + WebAssembly; the launcher and movies are the fiddly part.
 - [WinRAR](https://exebrowser.com/run/winrar/): A guide to running WinRAR under browser-based Wine: bring a 32-bit build from rarlab.com, bundle your archive, and extract the files entirely on your machine.
 - [Notepad & utilities](https://exebrowser.com/run/notepad/): Tiny single-purpose Win32 utilities are the most reliable category under browser Wine. Load your own text editor, hex editor or notepad.exe and it runs client-side — nothing goes to a server.

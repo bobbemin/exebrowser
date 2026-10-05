@@ -93,7 +93,7 @@
     <p>Every program was launched in the same sandbox that powers the rest of this site: a 32-bit Wine runtime compiled to WebAssembly for Windows <code>.exe</code> files, a 16-bit "win3x" mode for Windows 3.x-era software, and a DOSBox runtime for anything that's really a DOS program wearing a Windows costume. No native install, no virtual machine, no server doing the work behind the scenes — the emulator runs inside the browser tab itself. (If you want the background on why a browser needs <em>both</em> an emulator and Wine, we wrote that up in <a href="/blog/wine-vs-emulator-explained/">Wine vs. an emulator</a>.)</p>
     <p>For each app we recorded one of four outcomes:</p>
     <ul>
-      <li><strong>✅ Plays here</strong> — hosted on this site with a legally redistributable copy, so it boots in the tab with one click, nothing to download.</li>
+      <li><strong>✅ Plays here</strong> — hosted on this site (each game's page says on what basis), so it boots in the tab with one click, nothing to download.</li>
       <li><strong>✅ Works</strong> — runs reliably in the runtime; for commercial titles you bring your own legally obtained copy and load it into the sandbox.</li>
       <li><strong>⚠️ Partial</strong> — launches and is usable, but something is off: audio drops out, a dialog crashes, networking is dead, or only an older build cooperates.</li>
       <li><strong>❌ No</strong> — doesn't meaningfully run in the browser today, and we'll tell you why on the guide page rather than pretend otherwise.</li>
@@ -158,7 +158,7 @@
       <tr><td><a href="/run/jezzball/">JezzBall</a></td><td>Game</td><td>⚠️ Partial</td><td>Runs in the 16-bit (win3x) runtime — bring your own copy</td></tr>
       <tr><td><a href="/run/mspaint/">MS Paint</a></td><td>App</td><td>⚠️ Partial</td><td>Classic builds work — bring your own copy</td></tr>
       <tr><td><a href="/run/one-must-fall-2097/">OMF 2097</a></td><td>Game</td><td>✅ Plays here</td><td>Works — official freeware release runs via DOSBox in your browser</td></tr>
-      <tr><td><a href="/run/prince-of-persia/">Prince of Persia</a></td><td>Game</td><td>⚠️ Partial</td><td>Partial — not the DOS original; the free SDLPoP port is the realistic path</td></tr>
+      <tr><td><a href="/run/prince-of-persia/">Prince of Persia</a></td><td>Game</td><td>✅ Plays here</td><td>Works — the full original game runs via DOSBox in your browser</td></tr>
       <tr><td><a href="/run/raptor/">Raptor</a></td><td>Game</td><td>✅ Plays here</td><td>Works — shareware Episode 1 runs via DOSBox in your browser</td></tr>
       <tr><td><a href="/run/winamp/">Winamp</a></td><td>App</td><td>⚠️ Partial</td><td>Partial — UI yes, audio is iffy</td></tr>
       <tr><td><a href="/run/winrar/">WinRAR</a></td><td>App</td><td>⚠️ Partial</td><td>Works with older 32-bit builds</td></tr>

@@ -37,12 +37,6 @@
     "item": "msdos_Super_Solvers_Treasure_Mountain_1990",
     "sha256": "6cae59f8769a32e907d27999efe5a7ba9b9cfb251c387922d72ea49f8e05b93f"
   },
-  "midnight-rescue": {
-    "url": "https://archive.org/download/msdos_Super_Solvers_Midnight_Rescue_1989/Super_Solvers_Midnight_Rescue_1989.zip",
-    "exe": "SSMR/SSR.EXE",
-    "retrieved": "2026-10-05",
-    "item": "msdos_Super_Solvers_Midnight_Rescue_1989"
-  },
   "outnumbered": {
     "url": "https://archive.org/download/msdos_Super_Solvers_OutNumbered_1990/Super_Solvers_OutNumbered_1990.zip",
     "exe": "SSOUTN/SSO.EXE",
@@ -145,5 +139,429 @@
     ],
     "bootColours": 2,
     "sha256": "a3a1e88d0b954b9252a1ba8ac83be6295f0d4d361d9f11ffc4a3b442d1cc3554"
+  },
+  "lemmings": {
+    "url": "https://archive.org/download/lemmings_20230825/Lemmings.zip",
+    "exe": "LEMMINGS/VGALEMMI.EXE",
+    "retrieved": "2026-10-05",
+    "item": "lemmings_20230825",
+    "sha256": "7aee05f4df4c29edb490f9dc498f85d42ad9f2a0ccc039b6276960374a1dd4be",
+    "bootKeys": [
+      "1",
+      "Enter",
+      "Enter",
+      "Enter"
+    ]
+  },
+  "oh-no-more-lemmings": {
+    "url": "https://archive.org/download/OHNO_VGA/OHNO.zip",
+    "exe": "VGALEMM2.exe",
+    "retrieved": "2026-10-05",
+    "item": "OHNO_VGA",
+    "sha256": "3ee77ea2a34ca2b11d88014b14d9b5150ef469de5c25de5c43a351282487eb67",
+    "bootKeys": [
+      "1",
+      "Enter",
+      "Enter",
+      "Enter"
+    ]
+  },
+  "lemmings-2": {
+    "url": "https://archive.org/download/lemmings_2_the_tribes_1992/lemmings.zip",
+    "exe": "L2.EXE",
+    "retrieved": "2026-10-05",
+    "item": "lemmings_2_the_tribes_1992",
+    "cycles": "max",
+    "sha256": "5e3a96dc9e898aff5bc930484719925bdb6d728dc31f91fb96ab08496544c65b"
+  },
+  "prince-of-persia": {
+    "url": "https://archive.org/download/msdos_Prince_of_Persia_1990/Prince_of_Persia_1990.zip",
+    "exe": "Ppersia/PRINCE.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Prince_of_Persia_1990",
+    "sha256": "a07ef61798ee7b08a54aec7686503e088e29fa665eec31db0dcf46a648580495"
+  },
+  "prince-of-persia-2": {
+    "url": "https://archive.org/download/Prince_of_Persia_2_The_Shadow_and_The_Flame/prince2.zip",
+    "exe": "prince2/PRINCE.EXE",
+    "retrieved": "2026-10-05",
+    "item": "Prince_of_Persia_2_The_Shadow_and_The_Flame",
+    "cycles": "max",
+    "sha256": "ba72aa617e9d25d5d8009dc9b5816cc88d142d47047fc9acb8f0b1e85ecbbe64"
+  },
+  "simcity-classic": {
+    "url": "https://archive.org/download/msdos_SimCity_Classic_1994/SimCity_Classic_1994.zip",
+    "exe": "SimCityC/SIMCITY.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_SimCity_Classic_1994",
+    "cycles": "max",
+    "sha256": "fe618cc766cc937212e2db33c368b150e4a6ab80dbd70e415fcfeb3d65e382a9"
+  },
+  "simant": {
+    "url": "https://archive.org/download/msdos_SimAnt_-_The_Electronic_Ant_Colony_1991/SimAnt_-_The_Electronic_Ant_Colony_1991.zip",
+    "exe": "simant/SIMANT.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_SimAnt_-_The_Electronic_Ant_Colony_1991",
+    "cycles": 20000,
+    "sha256": "dc2cb4cc6d70b367f03d0754661827e03407ce8d66b5f0320d004cf17ae45103"
+  },
+  "simearth": {
+    "url": "https://archive.org/download/msdos_SimEarth_-_The_Living_Planet_1990/SimEarth_-_The_Living_Planet_1990.zip",
+    "exe": "simearth/SIMEARTH/SIMEARTH.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_SimEarth_-_The_Living_Planet_1990",
+    "cycles": 20000,
+    "sha256": "bd89d368f5bef3b497748af38c92f7411c0d05e1444a3a693a4a4fc6194dae27"
+  },
+  "simfarm": {
+    "url": "https://archive.org/download/msdos_SimFarm_1993/SimFarm_1993.zip",
+    "exe": "SimFarm/SIMFARM.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_SimFarm_1993",
+    "cycles": "max",
+    "sha256": "b82cd3b75c320146f3f24e74a69d974a0fa86765db4cc196ad70bbd4508d6896"
+  },
+  "simlife": {
+    "url": "https://archive.org/download/msdos_SimLife_1992/SimLife_1992.zip",
+    "exe": "SimLife/SIMLIFE.BAT",
+    "retrieved": "2026-10-05",
+    "item": "msdos_SimLife_1992",
+    "cycles": "max",
+    "sha256": "c9e36991a1981cb81fa5586e1b448201c4e4e6f00e6e65e1d32b2b26b07ffd36"
+  },
+  "dune-2": {
+    "url": "https://archive.org/download/msdos_Dune_2_-_The_Building_of_a_Dynasty_1992/Dune_2_-_The_Building_of_a_Dynasty_1992.zip",
+    "exe": "dune2/DUNE2.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Dune_2_-_The_Building_of_a_Dynasty_1992",
+    "cycles": "max",
+    "sha256": "2283f036c00f440ea377d3b35bdc546baaa694dc197f4f7b9e7bf671d1def6fc",
+    "bootWait": 60,
+    "bootKeys": [
+      "Escape",
+      "Escape"
+    ]
+  },
+  "stunts": {
+    "url": "https://archive.org/download/msdos_Stunts_1990/Stunts_1990.zip",
+    "exe": "Stunts/STUNTS.COM",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Stunts_1990",
+    "cycles": 20000,
+    "sha256": "04329e5dea65e87bbec5ef843b4f701f5afea2c7e55d6e2d6e3eea4c0ea8b08f"
+  },
+  "test-drive": {
+    "url": "https://archive.org/download/msdos_Test_Drive_1987/Test_Drive_1987.zip",
+    "exe": "TstDriv/TD.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Test_Drive_1987",
+    "sha256": "0a12cbd789bd0b3e407bb9f087c3ae12c368aa9bd9eae99b0bbd263cf8a9ef96",
+    "bootKeys": [
+      "2",
+      "Enter",
+      "Enter"
+    ],
+    "bootWait": 40,
+    "bootColours": 4
+  },
+  "test-drive-2": {
+    "url": "https://archive.org/download/msdos_Test_Drive_II_-_The_Collection_1990/Test_Drive_II_-_The_Collection_1990.zip",
+    "exe": "TstDriv2/TD2EGA.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Test_Drive_II_-_The_Collection_1990",
+    "sha256": "2cb4ecc6bc59c7b06a749f81e7bd6bb35f0b19b5f81758ca19b34f411b91a1e0",
+    "bootColours": 2
+  },
+  "test-drive-3": {
+    "url": "https://archive.org/download/msdos_Test_Drive_III_The_Passion_1990/Test_Drive_III_The_Passion_1990.zip",
+    "exe": "TstDriv3/TD3.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Test_Drive_III_The_Passion_1990",
+    "strip": [
+      "SSPECTRE.NFO"
+    ],
+    "cycles": 20000,
+    "sha256": "0b572d47fd53c40dc4bfddd8aa956bb5426baf73f2b444e88013173395478fd8"
+  },
+  "civilization": {
+    "url": "https://archive.org/download/CIVILIZATION_201902/CIVILIZATION.zip",
+    "exe": "CIV.EXE",
+    "retrieved": "2026-10-05",
+    "item": "CIVILIZATION_201902",
+    "cycles": 20000,
+    "sha256": "d5583007cb01adf2d36c73ceb9425dc61bb19b3170c3afd529308cff5b3651e2",
+    "bootKeys": [
+      "1",
+      "4",
+      "1"
+    ]
+  },
+  "railroad-tycoon": {
+    "url": "https://archive.org/download/railroad_tycoon_1990/railroad.zip",
+    "exe": "RAILS.BAT",
+    "retrieved": "2026-10-05",
+    "item": "railroad_tycoon_1990",
+    "cycles": 20000,
+    "sha256": "6a6e3d64a2ebca527b4364c71a25e1c55f15486dc8c39c49d33c119254544446",
+    "bootKeys": [
+      "1",
+      "4",
+      "1"
+    ]
+  },
+  "elite": {
+    "url": "https://archive.org/download/msdos_Elite_1987/Elite_1987.zip",
+    "exe": "elite/elite.exe",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Elite_1987",
+    "sha256": "20b242814fbfa53a79562473ac93dd695bd7ec96f3255fc8fce56939ff2cd0c3",
+    "bootColours": 3
+  },
+  "frontier-elite-2": {
+    "url": "https://archive.org/download/frontier_202512/frontier.zip",
+    "exe": "FRONTIER.EXE",
+    "retrieved": "2026-10-05",
+    "item": "frontier_202512",
+    "cycles": "max",
+    "sha256": "1d3fac312c0eb9cf637855cf67ba7ab95a44d0d9889e19ca67f2e73711f18d0e",
+    "bootKeys": [
+      "2"
+    ]
+  },
+  "sango-fighter": {
+    "url": "https://archive.org/download/msdos_Sango_Fighter_1993/Sango_Fighter_1993.zip",
+    "exe": "SangoFig/SANGO.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Sango_Fighter_1993",
+    "cycles": "max",
+    "sha256": "fe9cc677dedae2bc3ab537a8c1fcdce5b0d5656693745eceb474e338a4966c8e"
+  },
+  "super-munchers": {
+    "url": "https://archive.org/download/msdos_Super_Munchers_-_The_Challenge_Continues..._1991/Super_Munchers_-_The_Challenge_Continues..._1991.zip",
+    "exe": "SuperMun/SM.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Super_Munchers_-_The_Challenge_Continues..._1991"
+  },
+  "amazon-trail": {
+    "url": "https://archive.org/download/msdos_Amazon_Trail_1993/Amazon_Trail_1993.zip",
+    "exe": "amaztrai/AMAZON.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Amazon_Trail_1993"
+  },
+  "gizmos-and-gadgets": {
+    "url": "https://archive.org/download/msdos_Super_Solvers_Gizmos_and_Gadgets_1993/Super_Solvers_Gizmos_and_Gadgets_1993.zip",
+    "exe": "SSGG/ssg.bat",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Super_Solvers_Gizmos_and_Gadgets_1993"
+  },
+  "operation-neptune": {
+    "url": "https://archive.org/download/msdos_Super_Solvers_Operation_Neptune_1990/Super_Solvers_Operation_Neptune_1990.zip",
+    "exe": "SSON/OPNEP.BAT",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Super_Solvers_Operation_Neptune_1990"
+  },
+  "reader-rabbit-2": {
+    "url": "https://archive.org/download/msdos_Reader_Rabbit_2_1991/msdos_Reader_Rabbit_2_1991.zip",
+    "exe": "ReadRab2/TLC/RR2/RR2.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Reader_Rabbit_2_1991"
+  },
+  "castle-of-dr-brain": {
+    "url": "https://archive.org/download/msdos_Castle_of_Dr._Brain_1991/Castle_of_Dr._Brain_1991.zip",
+    "exe": "castleb/BRAIN.BAT",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Castle_of_Dr._Brain_1991"
+  },
+  "mixed-up-mother-goose": {
+    "url": "https://archive.org/download/msdos_Mixed-Up_Mother_Goose_1991/Mixed-Up_Mother_Goose_1991.zip",
+    "exe": "mugoose/MG.BAT",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Mixed-Up_Mother_Goose_1991"
+  },
+  "incredible-machine": {
+    "url": "https://archive.org/download/the_incredible_machine_1992/tim1.zip",
+    "exe": "TIM.EXE",
+    "retrieved": "2026-10-05",
+    "item": "the_incredible_machine_1992"
+  },
+  "grand-prix-circuit": {
+    "url": "https://archive.org/download/grand_prix_circuit_1988/gprix2.zip",
+    "exe": "GP.EXE",
+    "retrieved": "2026-10-05",
+    "item": "grand_prix_circuit_1988"
+  },
+  "street-rod": {
+    "url": "https://archive.org/download/msdos_Street_Rod_1989/Street_Rod_1989.zip",
+    "exe": "StrtRods/SR.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Street_Rod_1989"
+  },
+  "street-rod-2": {
+    "url": "https://archive.org/download/msdos_Street_Rod_2_The_Next_Generation_1991/Street_Rod_2_The_Next_Generation_1991.zip",
+    "exe": "StreetRo/SR.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Street_Rod_2_The_Next_Generation_1991"
+  },
+  "ski-or-die": {
+    "url": "https://archive.org/download/msdos_Ski_or_Die_1990/Ski_or_Die_1990.zip",
+    "exe": "SkiorDie/SKI.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Ski_or_Die_1990"
+  },
+  "skate-or-die": {
+    "url": "https://archive.org/download/msdos_Skate_or_Die_1988/Skate_or_Die_1988.zip",
+    "exe": "SkateorD/IAFIX.BAT",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Skate_or_Die_1988"
+  },
+  "f-15-strike-eagle": {
+    "url": "https://archive.org/download/msdos_F-15_Strike_Eagle_1985/F-15_Strike_Eagle_1985.zip",
+    "exe": "f15se/IAFIX.BAT",
+    "retrieved": "2026-10-05",
+    "item": "msdos_F-15_Strike_Eagle_1985"
+  },
+  "ancient-art-of-war": {
+    "url": "https://archive.org/download/msdos_Ancient_Art_of_War_1984/Ancient_Art_of_War_1984.zip",
+    "exe": "anciaw/WAR.BAT",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Ancient_Art_of_War_1984"
+  },
+  "arctic-adventure": {
+    "url": "https://archive.org/download/msdos_Arctic_Adventure_1991/Arctic_Adventure_1991.zip",
+    "exe": "ArcticAd/AA1.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Arctic_Adventure_1991"
+  },
+  "dark-ages": {
+    "url": "https://archive.org/download/msdos_Dark_Ages_1991/Dark_Ages_1991.zip",
+    "exe": "DarkAges/1/DA1.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Dark_Ages_1991"
+  },
+  "monuments-of-mars": {
+    "url": "https://archive.org/download/msdos_Monuments_of_Mars_1991/Monuments_of_Mars_1991.zip",
+    "exe": "Monument/IAFIX.BAT",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Monuments_of_Mars_1991"
+  },
+  "pharaohs-tomb": {
+    "url": "https://archive.org/download/msdos_Pharaohs_Tomb_1990/Pharaohs_Tomb_1990.zip",
+    "exe": "PharaohT/PTOMB1.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Pharaohs_Tomb_1990"
+  },
+  "centurion": {
+    "url": "https://archive.org/download/msdos_Centurion_-_Defender_of_Rome_1990/Centurion_-_Defender_of_Rome_1990.zip",
+    "exe": "centdor/centurio.exe",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Centurion_-_Defender_of_Rome_1990"
+  },
+  "crosscountry-canada": {
+    "url": "https://archive.org/download/msdos_Crosscountry_Canada_1991/Crosscountry_Canada_1991.zip",
+    "exe": "Crosscou/CCAN.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Crosscountry_Canada_1991"
+  },
+  "budokan": {
+    "url": "https://archive.org/download/msdos_Budokan_The_Martial_Spirit_1989/Budokan_The_Martial_Spirit_1989.zip",
+    "exe": "BudokanT/BUDO.COM",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Budokan_The_Martial_Spirit_1989"
+  },
+  "nuclear-war": {
+    "url": "https://archive.org/download/msdos_Nuclear_War_1989/Nuclear_War_1989.zip",
+    "exe": "NuclearW/nukewar.exe",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Nuclear_War_1989"
+  },
+  "stunt-driver": {
+    "url": "https://archive.org/download/msdos_Stunt_Driver_1990/Stunt_Driver_1990.zip",
+    "exe": "StuntDri/STUNT.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Stunt_Driver_1990"
+  },
+  "winter-challenge": {
+    "url": "https://archive.org/download/msdos_The_Games_-_Winter_Challenge_1991/The_Games_-_Winter_Challenge_1991.zip",
+    "exe": "TGameWnC/WINTER.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_The_Games_-_Winter_Challenge_1991"
+  },
+  "f-14-tomcat": {
+    "url": "https://archive.org/download/msdos_F-14_Tomcat_1990/F-14_Tomcat_1990.zip",
+    "exe": "F-14Tomc/TC.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_F-14_Tomcat_1990"
+  },
+  "1869": {
+    "url": "https://archive.org/download/msdos_1869_1992/1869_1992.zip",
+    "exe": "1869/1869.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_1869_1992"
+  },
+  "blockout": {
+    "url": "https://archive.org/download/msdos_Blockout_1989/Blockout_1989.zip",
+    "exe": "blkout/BL.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Blockout_1989"
+  },
+  "vga-miner": {
+    "url": "https://archive.org/download/msdos_VGA_Miner_1989/VGA_Miner_1989.zip",
+    "exe": "VGAMiner/MINERVGA.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_VGA_Miner_1989"
+  },
+  "nam-1965-1975": {
+    "url": "https://archive.org/download/msdos_Nam_1965-1975_1991/Nam_1965-1975_1991.zip",
+    "exe": "nam6575/NAM.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Nam_1965-1975_1991"
+  },
+  "world-circuit": {
+    "url": "https://archive.org/download/msdos_World_Circuit_1992/World_Circuit_1992.zip",
+    "exe": "WorldCir/MPS/GPRIX/GP.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_World_Circuit_1992"
+  },
+  "atac": {
+    "url": "https://archive.org/download/msdos_Advanced_Tactical_Air_Command_1992_Microprose_Software_Inc/Advanced_Tactical_Air_Command_1992_Microprose_Software_Inc.zip",
+    "exe": "game.exe",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Advanced_Tactical_Air_Command_1992_Microprose_Software_Inc"
+  },
+  "air-duel": {
+    "url": "https://archive.org/download/msdos_Air_Duel_80_Years_of_Dogfighting_1993/Air_Duel_80_Years_of_Dogfighting_1993.zip",
+    "exe": "AirDuel8/dog.exe",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Air_Duel_80_Years_of_Dogfighting_1993"
+  },
+  "vlak": {
+    "url": "https://archive.org/download/msdos_Vlak_1993/Vlak_1993.zip",
+    "exe": "Vlak93/VLAK.COM",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Vlak_1993"
+  },
+  "dinopark-tycoon": {
+    "url": "https://archive.org/download/msdos_Dinopark_Tycoon_1993/Dinopark_Tycoon_1993.zip",
+    "exe": "dinopark/DINOPARK.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Dinopark_Tycoon_1993"
+  },
+  "wings-of-fury": {
+    "url": "https://archive.org/download/msdos_Wings_of_Fury_1989/Wings_of_Fury_1989.zip",
+    "exe": "WingsofF/WINGS.COM",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Wings_of_Fury_1989"
+  },
+  "lords-of-conquest": {
+    "url": "https://archive.org/download/msdos_Lords_of_Conquest_1985/Lords_of_Conquest_1985.zip",
+    "exe": "lordofcq/LOC.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_Lords_of_Conquest_1985"
+  },
+  "president-elect": {
+    "url": "https://archive.org/download/msdos_President_Elect_-_1988_Edition_1987/President_Elect_-_1988_Edition_1987.zip",
+    "exe": "Presiden/PE.EXE",
+    "retrieved": "2026-10-05",
+    "item": "msdos_President_Elect_-_1988_Edition_1987"
   }
 }

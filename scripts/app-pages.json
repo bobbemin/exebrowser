@@ -3945,111 +3945,174 @@
   },
   {
     "slug": "prince-of-persia",
-    "title": "Play Classic Prince of Persia in a Browser (SDLPoP)",
-    "description": "The 1990 DOS original won't boot under browser Wine and is still sold by Ubisoft — but SDLPoP, the open-source remake, runs. A bring-your-own-copy guide.",
-    "keywords": "play prince of persia online, prince of persia browser, prince of persia 1989 online, prince of persia dos in browser, sdlpop browser, classic prince of persia no download, prince of persia wine",
-    "ogTitle": "How to Play Classic Prince of Persia in a Browser (via SDLPoP)",
-    "ogDescription": "The original Prince of Persia is a commercial DOS game, so it won't simply boot here. The free, open-source SDLPoP reimplementation ships as a Win32 EXE — load your copy and it runs in your tab.",
-    "crumb": "Prince of Persia guide",
-    "h1": "Can you play the classic Prince of Persia in your browser?",
+    "provenance": "grey",
+    "title": "Prince of Persia Online — Play the 1990 DOS Original Free",
+    "description": "Play the original Prince of Persia in your browser: Jordan Mechner's 1990 DOS game. Sixty minutes to escape the dungeon and save the princess. No download.",
+    "keywords": "prince of persia online, play prince of persia, prince of persia 1990, prince of persia dos, original prince of persia",
+    "ogTitle": "Play Prince of Persia (1990) Online",
+    "ogDescription": "Play the original Prince of Persia in your browser: Jordan Mechner's 1990 DOS game. Sixty minutes to escape the dungeon and save the princess. No down",
+    "crumb": "Play Prince of Persia",
+    "h1": "Play Prince of Persia online — the original 1990 DOS game",
     "appName": "Prince of Persia",
     "appType": "game",
-    "variant": "default",
-    "hostable": false,
-    "appUrl": "",
-    "entry": "",
-    "author": "Brøderbund / Jordan Mechner",
+    "author": "Broderbund",
     "genre": [
       "Platformer",
-      "Cinematic platformer",
       "Action"
     ],
+    "categories": [
+      "Platformers",
+      "Action"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/prince-of-persia/prince-of-persia.zip",
     "verdict": {
-      "kind": "partial",
-      "text": "Partial — not the DOS original; the free SDLPoP port is the realistic path"
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
     },
-    "licenseReason": "The classic Prince of Persia is a commercial title (Brøderbund, now Ubisoft) and is not ours to redistribute; the open-source SDLPoP reimplementation is GPLv3 and free, but ExeBrowser does not host it for you.",
-    "licenseNote": "<strong>Read this before you hunt for a download.</strong> The original <strong>Prince of Persia</strong> (1989 Apple II, 1990 MS-DOS) is a <strong>commercial game</strong> published by Brøderbund; the franchise is owned today by <strong>Ubisoft</strong>. Jordan Mechner released the original <em>Apple II source code</em> for study, but that grant explicitly does <strong>not</strong> give anyone the right to copy or distribute the game itself. So we do <strong>not</strong> host the game here. If you want the genuine article, buy the legitimate re-release — it is sold on <a href=\"https://www.gog.com/\" target=\"_blank\" rel=\"noopener\">GOG</a> and <a href=\"https://store.steampowered.com/\" target=\"_blank\" rel=\"noopener\">Steam</a> (search \"Prince of Persia\"). The free, legal way to play the classic gameplay is the open-source <a href=\"https://github.com/NagyD/SDLPoP\" target=\"_blank\" rel=\"noopener\">SDLPoP</a> reimplementation described below. Please don't grab \"abandonware\" rips — the game is still being sold.",
-    "intro": "<p>Yes, you can relive the wall-running, sword-fighting, one-hour countdown of the original <strong>Prince of Persia</strong> in a browser — but let's be straight about <em>how</em>, because the obvious route doesn't work. The 1989/1990 classic is a <strong>DOS game</strong>, and ExeBrowser runs <strong>Win32</strong> programs (Wine 1.7.55 on a WebAssembly x86 emulator). A raw DOS <code>PRINCE.EXE</code> has no Windows to talk to here, so it won't simply boot. The original is also a <strong>commercial Ubisoft-owned title</strong>, so it isn't ours to hand you. The realistic, honest, fully-legal path is <strong>SDLPoP</strong> — a faithful open-source (GPLv3) reimplementation of the DOS game that ships as a Win32 EXE and includes free game data. Below we explain exactly what to expect, and why even that comes with caveats.</p>",
+    "intro": "<p><strong>Prince of Persia</strong> — Jordan Mechner's 1989 game in its 1990 DOS release. The Grand Vizier Jaffar has seized the throne, and the prince has sixty real-time minutes to escape the dungeons, climb through twelve levels of traps and swordsmen, and reach the princess before her time runs out. Click Play; the intro starts on its own, and any key begins the game.</p>",
     "sections": [
       {
-        "h": "Why the original DOS game won't just run here",
-        "html": "<p>This trips a lot of people up, so here it is plainly. The classic Prince of Persia is an <strong>MS-DOS</strong> program from 1990. ExeBrowser's engine is <strong>Wine</strong> — it implements the <em>Windows</em> API, not DOS. When you hand Wine a 16-bit DOS executable like <code>PRINCE.EXE</code>, there is no DOS environment underneath it, so it typically refuses to start or exits immediately. That's not a bug in your file; it's simply the wrong kind of program for this tool.</p><p>The right tool for the <em>unmodified</em> DOS original is a DOS emulator such as DOSBox. ExeBrowser is for Windows <code>.exe</code> files. So if your goal is the byte-for-byte 1990 release, you want a DOSBox-based setup (and a legally purchased copy from <a href=\"https://www.gog.com/\" target=\"_blank\" rel=\"noopener\">GOG</a>, where it's pre-packaged with DOSBox), not this page.</p>"
+        "h": "About Prince of Persia",
+        "html": "<p>Mechner animated the prince by rotoscoping video of his brother running and jumping, which is why the movement still looks remarkably natural. There is no health bar to refill freely: potions restore one triangle, spikes and long falls kill outright, and the clock never stops. Shift is the key that matters most. It turns a run into a careful step, grabs ledges as you fall, and draws your sword when a guard appears.</p>"
       },
       {
-        "h": "The realistic path: SDLPoP, the open-source reimplementation",
-        "html": "<p><a href=\"https://github.com/NagyD/SDLPoP\" target=\"_blank\" rel=\"noopener\">SDLPoP</a> is a beloved, actively-maintained, open-source (GPLv3) port built from a disassembly of the DOS game, with Jordan Mechner's blessing for the community effort. It plays exactly like the classic — same levels, same physics, same 60-minute clock — but as a modern, cross-platform program. Crucially for legality, the standard SDLPoP release <strong>bundles free game data</strong>, so it runs standalone without any commercial files. It ships a Windows build (<code>prince.exe</code>), which means it's a Win32 program ExeBrowser can <em>attempt</em> to run.</p><p>We don't host it for you (it's not our binary to redistribute pre-configured, and it updates often), but it's a one-click download from the project. Grab the Windows release, unzip the whole folder (the EXE needs its <code>data/</code> directory and SDL DLLs beside it), then use <strong>“Load your own copy → a folder”</strong> in the player above and pick that unzipped folder.</p>"
+        "h": "Tips for getting started",
+        "html": "<p>Hold Shift and tap an arrow to step right up to the edge of a gap. Ctrl+A restarts the current level at the cost of the time spent. Ctrl+G saves from level 3 onward.</p>"
       },
       {
-        "h": "What to expect — and the honest caveat",
-        "html": "<p>Here's where we won't overpromise. SDLPoP is built on <strong>SDL</strong> and leans on hardware-accelerated rendering. Boxedwine's graphics support is limited and software-driven, so SDL-based games are hit-or-miss: some boot to a playable (if slow) window, others throw a renderer error or show a black screen. Combine that with the x86-on-WebAssembly speed penalty (~10–40% of native) and you may get choppy frames. The good news is that Prince of Persia is a tiny, low-resolution game, so when it <em>does</em> render it often stays playable.</p><p>If SDLPoP refuses to start, it's worth trying the <strong>r18</strong> Wine variant (an older Boxedwine engine that sometimes succeeds where the default crashes) before giving up. There's no guarantee — this is firmly a “try it and see” title, which is why we mark it <strong>partial</strong> rather than promising it works.</p><table class=\"spec-table\"><tr><th>What you actually run</th><td>SDLPoP (open-source Win32 build), <em>not</em> the commercial DOS original</td></tr><tr><th>Best Wine variant</th><td><strong>default</strong>; if it crashes, try <strong>r18</strong></td></tr><tr><th>Game data</th><td>SDLPoP ships free data — no commercial files needed</td></tr><tr><th>Expected result</th><td>Hit-or-miss: SDL rendering may or may not initialize under Boxedwine</td></tr><tr><th>The DOS original</th><td>Won't run here (it's DOS, not Win32); use DOSBox + a legit copy</td></tr></table>"
+        "h": "Prefer an open-source version? SDLPoP",
+        "html": "<p><a href=\"https://github.com/NagyD/SDLPoP\" target=\"_blank\" rel=\"noopener\">SDLPoP</a> is a faithful open-source (GPLv3) port of the DOS game, rebuilt from a disassembly of the original. It runs natively on Windows, macOS and Linux, adds quicksave and widescreen options, and fixes a handful of original bugs. If you want to keep playing outside the browser, it is the best way to do it.</p>"
       },
       {
-        "h": "Step by step (SDLPoP)",
-        "html": "<ol><li>Download the latest <strong>Windows</strong> release from the <a href=\"https://github.com/NagyD/SDLPoP/releases\" target=\"_blank\" rel=\"noopener\">SDLPoP releases page</a>.</li><li>Unzip the whole archive on your computer — keep <code>prince.exe</code>, the <code>data/</code> folder, and the SDL DLLs together in one folder.</li><li>Click <strong>▶ Play</strong> above, then choose <strong>Load your own copy → a folder</strong> and select that unzipped SDLPoP folder.</li><li>The player will pick <code>prince.exe</code> as the entry point; click <strong>Run in Wine</strong>.</li><li>If it boots: arrow keys move, <kbd>Shift</kbd> grabs ledges / draws sword, <kbd>↑</kbd> jumps. If it errors or shows black, retry with the <strong>r18</strong> variant.</li></ol>"
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Prince of Persia, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
       }
     ],
     "faq": [
       {
-        "q": "Can I play the original Prince of Persia online for free with no download?",
-        "a": "Not the genuine 1990 DOS original — that's a commercial Ubisoft-owned game, and it's a DOS program that doesn't run under ExeBrowser's Windows engine anyway. What you <em>can</em> play for free and legally is <strong>SDLPoP</strong>, an open-source reimplementation that includes free game data. You download SDLPoP (one click) and load its folder here; whether it renders depends on Boxedwine's limited SDL support."
+        "q": "Can I play Prince of Persia online for free?",
+        "a": "Yes. Click Play and the original 1990 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
       },
       {
-        "q": "Why won't the DOS PRINCE.EXE start in the browser here?",
-        "a": "Because it's a DOS executable, not a Windows one. ExeBrowser runs Wine, which implements the Windows API — there's no DOS layer underneath, so a raw DOS game like the original Prince of Persia has nothing to run against. For the unmodified DOS original you'd use a DOSBox-based setup instead."
+        "q": "Why is Prince of Persia hosted here?",
+        "a": "Prince of Persia is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (Ubisoft) asks, it comes down within 48 hours."
       },
       {
-        "q": "Is it legal to play Prince of Persia on ExeBrowser?",
-        "a": "Playing the free, open-source <strong>SDLPoP</strong> port is completely legal — it's GPLv3 and ships its own free data. The original commercial game is owned by Ubisoft and isn't free to copy; we don't host it, and we'd steer you to buy it on <a href=\"https://www.gog.com/\" target=\"_blank\" rel=\"noopener\">GOG</a> or <a href=\"https://store.steampowered.com/\" target=\"_blank\" rel=\"noopener\">Steam</a> rather than grab an abandonware rip."
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
       },
       {
-        "q": "Didn't Jordan Mechner release the source code? Doesn't that make it free?",
-        "a": "Mechner released the original <em>Apple II source code</em> for people to study and learn from — and that's wonderful — but he was explicit that it does <strong>not</strong> grant any rights to make or distribute Prince of Persia itself; that's Ubisoft's franchise. The community port SDLPoP is the freely-distributable way to actually play, because it's an independent GPLv3 codebase with its own free data."
-      },
-      {
-        "q": "Will SDLPoP definitely work in ExeBrowser?",
-        "a": "No guarantees, which is why this page is marked partial. SDLPoP uses SDL and hardware rendering, and Boxedwine's graphics support is limited and software-only, so it may launch fine, run slowly, or fail to initialize the display. It's worth trying the default variant first, then the r18 variant if that crashes. The game itself is tiny, so when it renders it's often playable."
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Prince of Persia uses appear under the game on touch devices."
       }
     ],
     "related": [
       {
-        "href": "/run/prince-of-persia/",
-        "title": "Prince of Persia (you're here)",
-        "desc": "The honest guide to the wall-running classic in a tab."
+        "href": "/run/lemmings/",
+        "title": "Lemmings",
+        "desc": "Play the original Lemmings in your browser: DMA Design's 1991 puzzle classic. Give lemming"
       },
       {
-        "href": "/run/doom/",
-        "title": "Play DOOM",
-        "desc": "The free 1993 shareware episode, fully playable here."
+        "href": "/run/duke-nukem/",
+        "title": "Duke Nukem",
+        "desc": "Apogee's 1991 platformer that introduced Duke: the shareware episode, in your browser."
       },
       {
         "href": "/run/commander-keen/",
         "title": "Commander Keen",
-        "desc": "Another DOS-era platformer classic — what to expect."
+        "desc": "id Software's 1990 platforming classic in your browser — the complete free shareware episo"
       },
       {
-        "href": "/run/scorched-earth/",
-        "title": "Scorched Earth",
-        "desc": "The mother of all artillery games."
-      },
-      {
-        "href": "/run/space-cadet-open/",
-        "title": "3D Pinball Space Cadet",
-        "desc": "The classic XP table — open-source build, instant play."
-      },
-      {
-        "href": "/guide/",
-        "title": "Compatibility guide",
-        "desc": "Why DOS games and SDL titles are hit-or-miss here."
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
       },
       {
         "href": "https://macemu.com/run/prince-of-persia/?utm_source=exebrowser&utm_medium=referral",
         "title": "Prince of Persia on a Macintosh",
-        "desc": "The 1992 Mac version, playable on an emulated Mac at macemu.com."
+        "desc": "The 1992 Mac version, playable on an emulated Mac at macemu.com, our sister site."
       }
     ],
-    "updated": "2026-07-01",
-    "rank": 24
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "platformer-dos",
+      "hint": "D-pad: run, jump, crouch · SHIFT: careful step, grab, sword · ENTER/ESC: menus",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "SHIFT",
+          "dosKey": 340,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": ""
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Run / turn",
+        "keyboard": "Left / right arrows",
+        "mouse": "—"
+      },
+      {
+        "action": "Jump up / climb",
+        "keyboard": "Up arrow",
+        "mouse": "—"
+      },
+      {
+        "action": "Crouch / climb down",
+        "keyboard": "Down arrow",
+        "mouse": "—"
+      },
+      {
+        "action": "Careful step, grab a ledge, draw sword",
+        "keyboard": "Shift",
+        "mouse": "—"
+      },
+      {
+        "action": "Restart the level",
+        "keyboard": "Ctrl+A",
+        "mouse": "—"
+      },
+      {
+        "action": "Show time left",
+        "keyboard": "Space",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Prince of Persia (1990, Broderbund) is not sold in any form today; rights now sit with Ubisoft. Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 2.7
   },
   {
     "slug": "full-tilt-pinball",
@@ -11435,6 +11498,11 @@
         "href": "/dos-emulator/",
         "title": "Run your own DOS game",
         "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      },
+      {
+        "href": "https://macemu.com/run/reader-rabbit/?utm_source=exebrowser&utm_medium=referral",
+        "title": "Reader Rabbit on a Macintosh",
+        "desc": "The Mac version, on an emulated Mac at macemu.com, our sister site."
       }
     ],
     "updated": "2026-10-05",
@@ -13266,5 +13334,2776 @@
     "screenshot": true,
     "licenseNote": "<p class=\"muted small\">Apogee released the whole Kroz series as freeware in March 2009. Provenance: <a href=\"/apps/kroz/NOTICE.md\">/apps/kroz/NOTICE.md</a>.</p>",
     "rank": 46
+  },
+  {
+    "slug": "lemmings",
+    "provenance": "grey",
+    "title": "Lemmings Online — Play the 1991 DOS Original Free",
+    "description": "Play the original Lemmings in your browser: DMA Design's 1991 puzzle classic. Give lemmings jobs, dig, build and block to save them. No download.",
+    "keywords": "lemmings online, play lemmings, lemmings dos, lemmings 1991, lemmings browser game, dma design lemmings",
+    "ogTitle": "Play Lemmings (1991) Online",
+    "ogDescription": "Play the original Lemmings in your browser: DMA Design's 1991 puzzle classic. Give lemmings jobs, dig, build and block to save them. No download.",
+    "crumb": "Play Lemmings",
+    "h1": "Play Lemmings online — the original 1991 DOS game",
+    "appName": "Lemmings",
+    "appType": "game",
+    "author": "Psygnosis",
+    "genre": [
+      "Puzzle",
+      "Strategy"
+    ],
+    "categories": [
+      "Puzzle & strategy"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/lemmings/lemmings.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Lemmings</strong> — DMA Design's 1991 puzzle game, published by Psygnosis. A trapdoor opens, lemmings stream out and walk straight ahead whatever lies there, and you assign them jobs (climber, floater, bomber, blocker, builder, basher, miner, digger) to steer enough of them to the exit. Click Play; at the setup screens press 1 and then Enter to accept the defaults.</p>",
+    "sections": [
+      {
+        "h": "About Lemmings",
+        "html": "<p>Lemmings began on the Amiga and was ported to almost everything, the DOS version included. Its 120 levels are split into four difficulty ratings, Fun, Tricky, Taxing and Mayhem, and each has a password so you can come back to it. Each level gives you a fixed number of each skill and a minimum number of lemmings to save. The puzzle is in spending them well: a blocker in the right place turns the whole crowd, and one builder too few means a fall.</p>"
+      },
+      {
+        "h": "Tips for getting started",
+        "html": "<p>Use P to pause and plan. The plus and minus icons change the release rate. Write down the level password shown after each success: it is how the game remembers your progress.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Lemmings, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Lemmings online for free?",
+        "a": "Yes. Click Play and the original 1991 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Lemmings hosted here?",
+        "a": "Lemmings is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (Sony Interactive Entertainment (Psygnosis)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Lemmings uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/prince-of-persia/",
+        "title": "Prince of Persia",
+        "desc": "The original Prince of Persia is a commercial DOS game, so it won't simply boot here. The "
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      },
+      {
+        "href": "https://macemu.com/run/lemmings/?utm_source=exebrowser&utm_medium=referral",
+        "title": "Lemmings on a Macintosh",
+        "desc": "The Mac port, on an emulated Mac at macemu.com, our sister site."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "mouse-dos",
+      "hint": "Tap the screen to click · ENTER: confirm · ESC: menu",
+      "buttons": [
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Pick a skill",
+        "keyboard": "Click its icon (or F1–F10)",
+        "mouse": "Click"
+      },
+      {
+        "action": "Give it to a lemming",
+        "keyboard": "—",
+        "mouse": "Click a lemming"
+      },
+      {
+        "action": "Pause",
+        "keyboard": "P",
+        "mouse": "—"
+      },
+      {
+        "action": "Nuke the level",
+        "keyboard": "—",
+        "mouse": "Double-click the mushroom cloud"
+      },
+      {
+        "action": "Setup prompts",
+        "keyboard": "1, then Enter",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Lemmings (1991, Psygnosis) is not sold in any form today; rights now sit with Sony Interactive Entertainment (Psygnosis). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 2.8,
+    "pointerLock": true
+  },
+  {
+    "slug": "oh-no-more-lemmings",
+    "provenance": "grey",
+    "title": "Oh No! More Lemmings Online — Play the DOS Game Free",
+    "description": "Play Oh No! More Lemmings in your browser: the 1991 sequel with 100 harder levels, from Tame to Havoc. The DOS original, no download.",
+    "keywords": "oh no more lemmings online, play oh no more lemmings, lemmings 2 levels, oh no more lemmings dos",
+    "ogTitle": "Play Oh No! More Lemmings (1991) Online",
+    "ogDescription": "Play Oh No! More Lemmings in your browser: the 1991 sequel with 100 harder levels, from Tame to Havoc. The DOS original, no download.",
+    "crumb": "Play Oh No! More Lemmings",
+    "h1": "Play Oh No! More Lemmings online — the original 1991 DOS game",
+    "appName": "Oh No! More Lemmings",
+    "appType": "game",
+    "author": "Psygnosis",
+    "genre": [
+      "Puzzle",
+      "Strategy"
+    ],
+    "categories": [
+      "Puzzle & strategy"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/oh-no-more-lemmings/oh-no-more-lemmings.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Oh No! More Lemmings</strong> — the 1991 follow-up to Lemmings, with 100 new levels and the same eight skills. It starts where the original's hardest levels left off. Click Play; at the setup screens press 1 and then Enter.</p>",
+    "sections": [
+      {
+        "h": "About Oh No! More Lemmings",
+        "html": "<p>DMA Design built Oh No! More Lemmings as a data disk for Amiga owners, and the DOS release is a standalone game. The difficulty ratings are Tame, Crazy, Wild, Wicked and Havoc, twenty levels each. Tame is gentle; Havoc is among the hardest puzzles in the series. Passwords after each level let you continue later.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Oh No! More Lemmings, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Oh No! More Lemmings online for free?",
+        "a": "Yes. Click Play and the original 1991 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Oh No! More Lemmings hosted here?",
+        "a": "Oh No! More Lemmings is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (Sony Interactive Entertainment (Psygnosis)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Oh No! More Lemmings uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/lemmings/",
+        "title": "Lemmings",
+        "desc": "Play the original Lemmings in your browser: DMA Design's 1991 puzzle classic. Give lemming"
+      },
+      {
+        "href": "/run/prince-of-persia/",
+        "title": "Prince of Persia",
+        "desc": "The original Prince of Persia is a commercial DOS game, so it won't simply boot here. The "
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      },
+      {
+        "href": "https://macemu.com/run/oh-no-more-lemmings/?utm_source=exebrowser&utm_medium=referral",
+        "title": "Oh No! More Lemmings on a Macintosh",
+        "desc": "The Mac version, on an emulated Mac at macemu.com, our sister site."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "mouse-dos",
+      "hint": "Tap the screen to click · ENTER: confirm · ESC: menu",
+      "buttons": [
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Pick a skill",
+        "keyboard": "Click its icon (or F1–F10)",
+        "mouse": "Click"
+      },
+      {
+        "action": "Give it to a lemming",
+        "keyboard": "—",
+        "mouse": "Click a lemming"
+      },
+      {
+        "action": "Pause",
+        "keyboard": "P",
+        "mouse": "—"
+      },
+      {
+        "action": "Setup prompts",
+        "keyboard": "1, then Enter",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Oh No! More Lemmings (1991, Psygnosis) is not sold in any form today; rights now sit with Sony Interactive Entertainment (Psygnosis). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 21,
+    "pointerLock": true
+  },
+  {
+    "slug": "lemmings-2",
+    "provenance": "grey",
+    "title": "Lemmings 2: The Tribes Online — Play the DOS Game Free",
+    "description": "Play Lemmings 2: The Tribes in your browser: twelve lemming tribes, more than fifty skills, and the talisman to rebuild. The 1993 DOS game, no download.",
+    "keywords": "lemmings 2 online, lemmings 2 the tribes, play lemmings 2, lemmings tribes dos",
+    "ogTitle": "Play Lemmings 2: The Tribes (1993) Online",
+    "ogDescription": "Play Lemmings 2: The Tribes in your browser: twelve lemming tribes, more than fifty skills, and the talisman to rebuild. The 1993 DOS game, no downloa",
+    "crumb": "Play Lemmings 2: The Tribes",
+    "h1": "Play Lemmings 2: The Tribes online — the original 1993 DOS game",
+    "appName": "Lemmings 2: The Tribes",
+    "appType": "game",
+    "author": "Psygnosis",
+    "genre": [
+      "Puzzle",
+      "Strategy"
+    ],
+    "categories": [
+      "Puzzle & strategy"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/lemmings-2/lemmings-2.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Lemmings 2: The Tribes</strong> — Psygnosis' 1993 sequel. Lemming Island is sinking, and twelve tribes (Beach, Cavelem, Circus, Classic, Egyptian, Highland, Medieval, Outdoor, Polar, Shadow, Space and Sports) each have ten levels to escape through, with over fifty skills between them. Click Play and the menu appears.</p>",
+    "sections": [
+      {
+        "h": "About Lemmings 2: The Tribes",
+        "html": "<p>The Tribes replaced the original's eight skills with dozens of tribe-specific ones, from surfers and pole-vaulters to magic-carpet riders. Every lemming saved in a level carries on to the next, so losing many early makes later levels harder. Rescue all twelve tribes and the pieces of the talisman come together. It runs in 256-colour VGA, and this version supports Sound Blaster music.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Lemmings 2: The Tribes, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 2&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Lemmings 2: The Tribes online for free?",
+        "a": "Yes. Click Play and the original 1993 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Lemmings 2: The Tribes hosted here?",
+        "a": "Lemmings 2: The Tribes is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (Sony Interactive Entertainment (Psygnosis)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Lemmings 2: The Tribes uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/lemmings/",
+        "title": "Lemmings",
+        "desc": "Play the original Lemmings in your browser: DMA Design's 1991 puzzle classic. Give lemming"
+      },
+      {
+        "href": "/run/oh-no-more-lemmings/",
+        "title": "Oh No! More Lemmings",
+        "desc": "Play Oh No! More Lemmings in your browser: the 1991 sequel with 100 harder levels, from Ta"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "mouse-dos",
+      "hint": "Tap the screen to click · ENTER: confirm · ESC: menu",
+      "buttons": [
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Choose skills and lemmings",
+        "keyboard": "—",
+        "mouse": "Click"
+      },
+      {
+        "action": "Fan (blow lemmings)",
+        "keyboard": "—",
+        "mouse": "Click the fan icon, then click"
+      },
+      {
+        "action": "Pause",
+        "keyboard": "P",
+        "mouse": "—"
+      },
+      {
+        "action": "Menu",
+        "keyboard": "Esc",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Lemmings 2: The Tribes (1993, Psygnosis) is not sold in any form today; rights now sit with Sony Interactive Entertainment (Psygnosis). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 22,
+    "pointerLock": true
+  },
+  {
+    "slug": "prince-of-persia-2",
+    "provenance": "grey",
+    "title": "Prince of Persia 2 Online — Play The Shadow and the Flame",
+    "description": "Play Prince of Persia 2: The Shadow and the Flame in your browser. The 1993 DOS sequel: flee the palace, cross the sea, face Jaffar again. No download.",
+    "keywords": "prince of persia 2 online, the shadow and the flame, play prince of persia 2, prince of persia 2 dos",
+    "ogTitle": "Play Prince of Persia 2 (1993) Online",
+    "ogDescription": "Play Prince of Persia 2: The Shadow and the Flame in your browser. The 1993 DOS sequel: flee the palace, cross the sea, face Jaffar again. No download",
+    "crumb": "Play Prince of Persia 2",
+    "h1": "Play Prince of Persia 2 online — the original 1993 DOS game",
+    "appName": "Prince of Persia 2",
+    "appType": "game",
+    "author": "Broderbund",
+    "genre": [
+      "Platformer",
+      "Action"
+    ],
+    "categories": [
+      "Platformers",
+      "Action"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/prince-of-persia-2/prince-of-persia-2.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Prince of Persia 2: The Shadow and the Flame</strong> — Broderbund's 1993 sequel. Jaffar returns disguised as the prince and has him driven from the palace, and the escape runs across rooftops, a shipwreck, a ruined city and a cavern temple. Click Play; the intro starts on its own.</p>",
+    "sections": [
+      {
+        "h": "About Prince of Persia 2",
+        "html": "<p>The sequel keeps the original's controls and its seventy-five-minute clock but adds detailed 256-colour backgrounds, more varied enemies (skeletons, snakes, birdmen) and long chase sequences. Fights are harder, with several opponents at once in places. Saving works from the menu as in the first game.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Prince of Persia 2, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 5&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Prince of Persia 2 online for free?",
+        "a": "Yes. Click Play and the original 1993 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Prince of Persia 2 hosted here?",
+        "a": "Prince of Persia 2 is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (Ubisoft) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Prince of Persia 2 uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/prince-of-persia/",
+        "title": "Prince of Persia",
+        "desc": "Play the original Prince of Persia in your browser: Jordan Mechner's 1990 DOS game. Sixty "
+      },
+      {
+        "href": "/run/lemmings-2/",
+        "title": "Lemmings 2: The Tribes",
+        "desc": "Play Lemmings 2: The Tribes in your browser: twelve lemming tribes, more than fifty skills"
+      },
+      {
+        "href": "/run/duke-nukem-2/",
+        "title": "Duke Nukem II",
+        "desc": "Apogee's 1993 VGA platformer: the shareware episode, in your browser, no download."
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "platformer-dos",
+      "hint": "D-pad: run, jump, crouch · SHIFT: careful step, grab, sword · ENTER/ESC: menus",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "SHIFT",
+          "dosKey": 340,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": ""
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Run / turn",
+        "keyboard": "Left / right arrows",
+        "mouse": "—"
+      },
+      {
+        "action": "Jump up / climb",
+        "keyboard": "Up arrow",
+        "mouse": "—"
+      },
+      {
+        "action": "Crouch",
+        "keyboard": "Down arrow",
+        "mouse": "—"
+      },
+      {
+        "action": "Step, grab, draw sword",
+        "keyboard": "Shift",
+        "mouse": "—"
+      },
+      {
+        "action": "Restart the level",
+        "keyboard": "Ctrl+A",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Prince of Persia 2 (1993, Broderbund) is not sold in any form today; rights now sit with Ubisoft. Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 23
+  },
+  {
+    "slug": "simcity-classic",
+    "provenance": "grey",
+    "title": "SimCity Classic Online — Play the Original DOS SimCity",
+    "description": "Play SimCity Classic in your browser: Will Wright's original city builder, the DOS version. Zone, build power, fight disasters. Free, no download.",
+    "keywords": "simcity classic online, play simcity, original simcity, simcity dos, simcity 1989 browser",
+    "ogTitle": "Play SimCity Classic (1989) Online",
+    "ogDescription": "Play SimCity Classic in your browser: Will Wright's original city builder, the DOS version. Zone, build power, fight disasters. Free, no download.",
+    "crumb": "Play SimCity Classic",
+    "h1": "Play SimCity Classic online — the original 1989 DOS game",
+    "appName": "SimCity Classic",
+    "appType": "game",
+    "author": "Maxis",
+    "genre": [
+      "Simulation",
+      "Strategy"
+    ],
+    "categories": [
+      "Puzzle & strategy"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/simcity-classic/simcity-classic.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>SimCity Classic</strong> — Maxis' 1989 city simulator in its DOS release. Lay down residential, commercial and industrial zones, wire them to a power plant, connect them with roads and rail, and keep taxes, crime, pollution and traffic in balance as the Sims move in. Click Play and choose Start New City or a scenario.</p>",
+    "sections": [
+      {
+        "h": "About SimCity Classic",
+        "html": "<p>Will Wright started SimCity after realising he enjoyed building the maps in his first game more than playing it. The result had no score and no way to win, which publishers doubted until it sold over a million copies. The scenarios set you a task with a deadline: rebuild San Francisco after the 1906 earthquake, fix Detroit's crime, or survive a monster in Tokyo. This page also links the open-source Micropolis, the GPL release of the same engine that EA made in 2008.</p>"
+      },
+      {
+        "h": "Tips for getting started",
+        "html": "<p>Start with a coal plant, a block of residential zones next to commercial and industrial ones, and roads between them. Watch the R/C/I demand bars in the corner to see what the city wants next.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of SimCity Classic, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 6&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play SimCity Classic online for free?",
+        "a": "Yes. Click Play and the original 1989 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is SimCity Classic hosted here?",
+        "a": "SimCity Classic is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (Electronic Arts (Maxis)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys SimCity Classic uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/micropolis/",
+        "title": "Micropolis",
+        "desc": "The open-source city simulator, running natively in your browser. Zone, build, tax and wat"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      },
+      {
+        "href": "https://macemu.com/run/simcity/?utm_source=exebrowser&utm_medium=referral",
+        "title": "SimCity on a Macintosh",
+        "desc": "The original black-and-white Mac SimCity, on an emulated Mac at macemu.com, our sister site."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "mouse-dos",
+      "hint": "Tap the screen to click · ENTER: confirm · ESC: menu",
+      "buttons": [
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Pick a tool",
+        "keyboard": "—",
+        "mouse": "Click the icon"
+      },
+      {
+        "action": "Build / zone",
+        "keyboard": "—",
+        "mouse": "Click or drag on the map"
+      },
+      {
+        "action": "Menus",
+        "keyboard": "Alt+letter",
+        "mouse": "Click the menu bar"
+      },
+      {
+        "action": "Scroll the map",
+        "keyboard": "Arrow keys",
+        "mouse": "Drag"
+      }
+    ],
+    "licenseReason": "SimCity Classic (1989, Maxis) is not sold in any form today; rights now sit with Electronic Arts (Maxis). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 5.1,
+    "pointerLock": true
+  },
+  {
+    "slug": "simant",
+    "provenance": "grey",
+    "title": "SimAnt Online — Play The Electronic Ant Colony Free",
+    "description": "Play SimAnt in your browser: Maxis' 1991 ant colony simulator. Lead the black ants against the red colony and take over the backyard. No download.",
+    "keywords": "simant online, play simant, simant electronic ant colony, simant dos, maxis simant",
+    "ogTitle": "Play SimAnt (1991) Online",
+    "ogDescription": "Play SimAnt in your browser: Maxis' 1991 ant colony simulator. Lead the black ants against the red colony and take over the backyard. No download.",
+    "crumb": "Play SimAnt",
+    "h1": "Play SimAnt online — the original 1991 DOS game",
+    "appName": "SimAnt",
+    "appType": "game",
+    "author": "Maxis",
+    "genre": [
+      "Simulation",
+      "Strategy"
+    ],
+    "categories": [
+      "Puzzle & strategy"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/simant/simant.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>SimAnt: The Electronic Ant Colony</strong> — Will Wright's 1991 game at Maxis. You are one yellow ant in a black colony, recruiting nestmates, foraging for food and breeding new queens, while a red colony competes for the same garden and the house beyond it. Click Play to start.</p>",
+    "sections": [
+      {
+        "h": "About SimAnt",
+        "html": "<p>Wright based SimAnt on E. O. Wilson's research into ant behaviour, and the game includes a short course on how real colonies work. There are three ways to play: a quick game on a single patch, the full game across the whole yard and house, and an experimental mode for building your own conditions. Ants lay scent trails others follow, and the colony's caste balance is yours to set.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of SimAnt, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play SimAnt online for free?",
+        "a": "Yes. Click Play and the original 1991 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is SimAnt hosted here?",
+        "a": "SimAnt is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (Electronic Arts (Maxis)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys SimAnt uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/simcity-classic/",
+        "title": "SimCity Classic",
+        "desc": "Play SimCity Classic in your browser: Will Wright's original city builder, the DOS version"
+      },
+      {
+        "href": "/run/lemmings/",
+        "title": "Lemmings",
+        "desc": "Play the original Lemmings in your browser: DMA Design's 1991 puzzle classic. Give lemming"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "mouse-dos",
+      "hint": "Tap the screen to click · ENTER: confirm · ESC: menu",
+      "buttons": [
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Move your yellow ant",
+        "keyboard": "—",
+        "mouse": "Click where to go"
+      },
+      {
+        "action": "Pick up / drop",
+        "keyboard": "—",
+        "mouse": "Click with the hand tool"
+      },
+      {
+        "action": "Menus and views",
+        "keyboard": "Alt+letter",
+        "mouse": "Click"
+      }
+    ],
+    "licenseReason": "SimAnt (1991, Maxis) is not sold in any form today; rights now sit with Electronic Arts (Maxis). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 26,
+    "pointerLock": true
+  },
+  {
+    "slug": "simearth",
+    "provenance": "grey",
+    "title": "SimEarth Online — Play The Living Planet Free",
+    "description": "Play SimEarth in your browser: Maxis' 1990 planet simulator. Shape a world from molten rock to intelligent life using the Gaia hypothesis. No download.",
+    "keywords": "simearth online, play simearth, simearth living planet, simearth dos, maxis simearth",
+    "ogTitle": "Play SimEarth (1990) Online",
+    "ogDescription": "Play SimEarth in your browser: Maxis' 1990 planet simulator. Shape a world from molten rock to intelligent life using the Gaia hypothesis. No download",
+    "crumb": "Play SimEarth",
+    "h1": "Play SimEarth online — the original 1990 DOS game",
+    "appName": "SimEarth",
+    "appType": "game",
+    "author": "Maxis",
+    "genre": [
+      "Simulation"
+    ],
+    "categories": [
+      "Puzzle & strategy"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/simearth/simearth.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>SimEarth: The Living Planet</strong> — Will Wright's 1990 follow-up to SimCity. Instead of a city you manage a whole planet across geological time: tune the atmosphere, oceans and climate, seed life, and nurse it toward a species intelligent enough to leave the planet. Click Play to begin.</p>",
+    "sections": [
+      {
+        "h": "About SimEarth",
+        "html": "<p>SimEarth was built on James Lovelock's Gaia hypothesis, the idea that a planet's life and environment regulate each other. Scenarios include terraforming Mars and Venus, an Earth in the Cambrian era, and a Daisyworld. The model panels let you change rates of volcanism, solar input and mutation, and the planet answers over thousands of years at a time.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of SimEarth, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 2&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play SimEarth online for free?",
+        "a": "Yes. Click Play and the original 1990 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is SimEarth hosted here?",
+        "a": "SimEarth is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (Electronic Arts (Maxis)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys SimEarth uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/simant/",
+        "title": "SimAnt",
+        "desc": "Play SimAnt in your browser: Maxis' 1991 ant colony simulator. Lead the black ants against"
+      },
+      {
+        "href": "/run/simcity-classic/",
+        "title": "SimCity Classic",
+        "desc": "Play SimCity Classic in your browser: Will Wright's original city builder, the DOS version"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      },
+      {
+        "href": "https://macemu.com/run/simearth/?utm_source=exebrowser&utm_medium=referral",
+        "title": "SimEarth on a Macintosh",
+        "desc": "The Mac version, on an emulated Mac at macemu.com, our sister site."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "mouse-dos",
+      "hint": "Tap the screen to click · ENTER: confirm · ESC: menu",
+      "buttons": [
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Choose tools and windows",
+        "keyboard": "—",
+        "mouse": "Click"
+      },
+      {
+        "action": "Place life, terraform",
+        "keyboard": "—",
+        "mouse": "Click on the map"
+      },
+      {
+        "action": "Menus",
+        "keyboard": "Alt+letter",
+        "mouse": "Click the menu bar"
+      }
+    ],
+    "licenseReason": "SimEarth (1990, Maxis) is not sold in any form today; rights now sit with Electronic Arts (Maxis). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 27,
+    "pointerLock": true
+  },
+  {
+    "slug": "simfarm",
+    "provenance": "grey",
+    "title": "SimFarm Online — Play the 1993 Maxis Farm Game Free",
+    "description": "Play SimFarm in your browser: Maxis' 1993 farming simulator. Plant crops, raise livestock, buy equipment and ride out the weather. No download.",
+    "keywords": "simfarm online, play simfarm, simfarm dos, maxis farm game",
+    "ogTitle": "Play SimFarm (1993) Online",
+    "ogDescription": "Play SimFarm in your browser: Maxis' 1993 farming simulator. Plant crops, raise livestock, buy equipment and ride out the weather. No download.",
+    "crumb": "Play SimFarm",
+    "h1": "Play SimFarm online — the original 1993 DOS game",
+    "appName": "SimFarm",
+    "appType": "game",
+    "author": "Maxis",
+    "genre": [
+      "Simulation"
+    ],
+    "categories": [
+      "Puzzle & strategy"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/simfarm/simfarm.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>SimFarm</strong> — Maxis' 1993 farm simulator. Pick a region of the United States, choose crops and animals that suit its soil and climate, buy machinery and buildings, and keep the farm solvent through droughts, pests and market swings. A small town grows beside you as you prosper. Click Play to begin.</p>",
+    "sections": [
+      {
+        "h": "About SimFarm",
+        "html": "<p>SimFarm was designed with the help of agricultural researchers, and much of the challenge is matching crops to conditions: corn and wheat need different rain, cattle need feed you either grow or buy. Seasons pass in real time, with planting, spraying and harvesting each needing the right equipment at the right moment.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of SimFarm, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play SimFarm online for free?",
+        "a": "Yes. Click Play and the original 1993 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is SimFarm hosted here?",
+        "a": "SimFarm is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (Electronic Arts (Maxis)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys SimFarm uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/simcity-classic/",
+        "title": "SimCity Classic",
+        "desc": "Play SimCity Classic in your browser: Will Wright's original city builder, the DOS version"
+      },
+      {
+        "href": "/run/simant/",
+        "title": "SimAnt",
+        "desc": "Play SimAnt in your browser: Maxis' 1991 ant colony simulator. Lead the black ants against"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "mouse-dos",
+      "hint": "Tap the screen to click · ENTER: confirm · ESC: menu",
+      "buttons": [
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Choose tools",
+        "keyboard": "—",
+        "mouse": "Click"
+      },
+      {
+        "action": "Plant, build, buy",
+        "keyboard": "—",
+        "mouse": "Click on the farm"
+      },
+      {
+        "action": "Menus",
+        "keyboard": "Alt+letter",
+        "mouse": "Click the menu bar"
+      }
+    ],
+    "licenseReason": "SimFarm (1993, Maxis) is not sold in any form today; rights now sit with Electronic Arts (Maxis). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 48,
+    "pointerLock": true
+  },
+  {
+    "slug": "simlife",
+    "provenance": "grey",
+    "title": "SimLife Online — Play the 1992 Maxis Genetic Playground",
+    "description": "Play SimLife in your browser: Maxis' 1992 artificial-life simulator. Design plants and animals, set their genes, and watch an ecosystem evolve.",
+    "keywords": "simlife online, play simlife, simlife dos, maxis simlife, genetic playground",
+    "ogTitle": "Play SimLife (1992) Online",
+    "ogDescription": "Play SimLife in your browser: Maxis' 1992 artificial-life simulator. Design plants and animals, set their genes, and watch an ecosystem evolve.",
+    "crumb": "Play SimLife",
+    "h1": "Play SimLife online — the original 1992 DOS game",
+    "appName": "SimLife",
+    "appType": "game",
+    "author": "Maxis",
+    "genre": [
+      "Simulation"
+    ],
+    "categories": [
+      "Puzzle & strategy"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/simlife/simlife.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>SimLife: The Genetic Playground</strong> — Maxis' 1992 simulator of evolution. Design species of plants and animals gene by gene, release them into a world whose terrain and climate you control, and watch them compete, mutate and die out or thrive. Click Play to begin.</p>",
+    "sections": [
+      {
+        "h": "About SimLife",
+        "html": "<p>SimLife is the most open-ended of the Maxis 'Sim' games. Each creature has editable genes for size, speed, diet, lifespan and more, and the simulation tracks food chains and population graphs as generations pass. Scenarios set tasks like keeping a species alive on a hostile island, but the experimental mode has no goal at all.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of SimLife, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play SimLife online for free?",
+        "a": "Yes. Click Play and the original 1992 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is SimLife hosted here?",
+        "a": "SimLife is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (Electronic Arts (Maxis)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys SimLife uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/simearth/",
+        "title": "SimEarth",
+        "desc": "Play SimEarth in your browser: Maxis' 1990 planet simulator. Shape a world from molten roc"
+      },
+      {
+        "href": "/run/simant/",
+        "title": "SimAnt",
+        "desc": "Play SimAnt in your browser: Maxis' 1991 ant colony simulator. Lead the black ants against"
+      },
+      {
+        "href": "/run/simcity-classic/",
+        "title": "SimCity Classic",
+        "desc": "Play SimCity Classic in your browser: Will Wright's original city builder, the DOS version"
+      },
+      {
+        "href": "/run/simfarm/",
+        "title": "SimFarm",
+        "desc": "Play SimFarm in your browser: Maxis' 1993 farming simulator. Plant crops, raise livestock,"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "mouse-dos",
+      "hint": "Tap the screen to click · ENTER: confirm · ESC: menu",
+      "buttons": [
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Choose tools and windows",
+        "keyboard": "—",
+        "mouse": "Click"
+      },
+      {
+        "action": "Place species",
+        "keyboard": "—",
+        "mouse": "Click on the map"
+      },
+      {
+        "action": "Menus",
+        "keyboard": "Alt+letter",
+        "mouse": "Click the menu bar"
+      }
+    ],
+    "licenseReason": "SimLife (1992, Maxis) is not sold in any form today; rights now sit with Electronic Arts (Maxis). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 49,
+    "pointerLock": true
+  },
+  {
+    "slug": "dune-2",
+    "provenance": "grey",
+    "title": "Dune II Online — Play The Building of a Dynasty Free",
+    "description": "Play Dune II in your browser: Westwood's 1992 game that founded real-time strategy. Harvest spice, build a base, and fight for Arrakis. No download.",
+    "keywords": "dune 2 online, dune ii, play dune 2, dune 2 building of a dynasty, dune 2 dos, westwood dune",
+    "ogTitle": "Play Dune II (1992) Online",
+    "ogDescription": "Play Dune II in your browser: Westwood's 1992 game that founded real-time strategy. Harvest spice, build a base, and fight for Arrakis. No download.",
+    "crumb": "Play Dune II",
+    "h1": "Play Dune II online — the original 1992 DOS game",
+    "appName": "Dune II",
+    "appType": "game",
+    "author": "Westwood Studios / Virgin Games",
+    "genre": [
+      "Strategy",
+      "Real-time strategy"
+    ],
+    "categories": [
+      "Puzzle & strategy"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/dune-2/dune-2.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Dune II: The Building of a Dynasty</strong> — Westwood's 1992 game, and the template for every real-time strategy game since. Choose House Atreides, Harkonnen or Ordos, harvest spice to fund a base, and build an army to drive the other Houses off Arrakis while sandworms swallow anything left on open sand. The intro takes a while to load; press Esc to skip it.</p>",
+    "sections": [
+      {
+        "h": "About Dune II",
+        "html": "<p>Dune II introduced the building blocks of the genre: resource harvesting, a build tree that opens as you construct buildings, a fog of war over an unexplored map, and units that fight in real time. Westwood built Command & Conquer on the same design three years later. Units are ordered one at a time, which was standard in 1992; select a unit, click an order such as Move or Attack, then click the target.</p>"
+      },
+      {
+        "h": "Tips for getting started",
+        "html": "<p>Build a second Spice Refinery and a couple of harvesters early; credits limit everything else. Concrete slabs under buildings stop them crumbling. Keep harvesters off open sand when a worm sign appears.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Dune II, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 10&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Dune II online for free?",
+        "a": "Yes. Click Play and the original 1992 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Dune II hosted here?",
+        "a": "Dune II is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (Electronic Arts (Westwood), with the Dune licence held by Herbert Properties) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Dune II uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/warzone2100/",
+        "title": "Warzone 2100",
+        "desc": "Build a base, research 400 technologies, design your own units. The open-source 1999 RTS, "
+      },
+      {
+        "href": "/run/openttd/",
+        "title": "OpenTTD",
+        "desc": "Build railways, roads and airports and run a transport empire. Free and instant."
+      },
+      {
+        "href": "/run/prince-of-persia-2/",
+        "title": "Prince of Persia 2",
+        "desc": "Play Prince of Persia 2: The Shadow and the Flame in your browser. The 1993 DOS sequel: fl"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "mouse-dos",
+      "hint": "Tap the screen to click · ENTER: confirm · ESC: menu",
+      "buttons": [
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Select a unit or building",
+        "keyboard": "—",
+        "mouse": "Click"
+      },
+      {
+        "action": "Order: move, attack, harvest",
+        "keyboard": "Click the order button",
+        "mouse": "Then click the target"
+      },
+      {
+        "action": "Build",
+        "keyboard": "—",
+        "mouse": "Click your Construction Yard, then the item"
+      },
+      {
+        "action": "Skip the intro",
+        "keyboard": "Esc",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Dune II (1992, Westwood Studios / Virgin Games) is not sold in any form today; rights now sit with Electronic Arts (Westwood), with the Dune licence held by Herbert Properties. Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 5.2,
+    "pointerLock": true
+  },
+  {
+    "slug": "stunts",
+    "provenance": "grey",
+    "title": "Stunts Online — Play the 1990 Racing Game Free",
+    "description": "Play Stunts (4D Sports Driving) in your browser: the 1990 3D racer with loops, jumps, corkscrews and a track editor. The DOS original, no download.",
+    "keywords": "stunts online, play stunts, stunts 1990, 4d sports driving, stunts dos racing game",
+    "ogTitle": "Play Stunts (1990) Online",
+    "ogDescription": "Play Stunts (4D Sports Driving) in your browser: the 1990 3D racer with loops, jumps, corkscrews and a track editor. The DOS original, no download.",
+    "crumb": "Play Stunts",
+    "h1": "Play Stunts online — the original 1990 DOS game",
+    "appName": "Stunts",
+    "appType": "game",
+    "author": "Broderbund",
+    "genre": [
+      "Racing"
+    ],
+    "categories": [
+      "Racing & sports"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/stunts/stunts.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Stunts</strong> (also sold as <em>4D Sports Driving</em>) — Distinctive Software's 1990 racing game, published by Broderbund. Race a Lamborghini, Porsche or Ferrari round tracks with loops, ramps, corkscrews and pipes, against one of six opponents or the clock, then watch the replay from any camera. Click Play to start.</p>",
+    "sections": [
+      {
+        "h": "About Stunts",
+        "html": "<p>Stunts ran full 3D polygon graphics on a 286, which was rare in 1990, and it shipped with a track editor that kept people building and trading courses for decades; it still has an active community racing on shared tracks. The replay system lets you rewind and view a run from several angles. Each car has its own handling, and the opponents each drive a fixed car with a personality to match.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Stunts, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Stunts online for free?",
+        "a": "Yes. Click Play and the original 1990 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Stunts hosted here?",
+        "a": "Stunts is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (unclear; Distinctive Software became EA Canada) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Stunts uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/skyroads/",
+        "title": "SkyRoads",
+        "desc": "Play SkyRoads free in your browser — the 1993 Estonian space-racing puzzle classic, releas"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "racer-dos",
+      "hint": "D-pad: steer, accelerate, brake · ENTER: menus · ESC: pause",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Accelerate / brake",
+        "keyboard": "Up / down arrows",
+        "mouse": "—"
+      },
+      {
+        "action": "Steer",
+        "keyboard": "Left / right arrows",
+        "mouse": "—"
+      },
+      {
+        "action": "Change gear (manual)",
+        "keyboard": "A / Z",
+        "mouse": "—"
+      },
+      {
+        "action": "Restart / replay",
+        "keyboard": "Esc, then menu",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Stunts (1990, Broderbund) is not sold in any form today; rights now sit with unclear; Distinctive Software became EA Canada. Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 16.5
+  },
+  {
+    "slug": "test-drive",
+    "provenance": "grey",
+    "title": "Test Drive (1987) Online — Play the DOS Original Free",
+    "description": "Play the original Test Drive in your browser: Accolade's 1987 sports-car racer. Pick a Ferrari, Lamborghini or Porsche and outrun the police.",
+    "keywords": "test drive 1987 online, play test drive, test drive dos, accolade test drive",
+    "ogTitle": "Play Test Drive (1987) Online",
+    "ogDescription": "Play the original Test Drive in your browser: Accolade's 1987 sports-car racer. Pick a Ferrari, Lamborghini or Porsche and outrun the police.",
+    "crumb": "Play Test Drive",
+    "h1": "Play Test Drive online — the original 1987 DOS game",
+    "appName": "Test Drive",
+    "appType": "game",
+    "author": "Accolade",
+    "genre": [
+      "Racing"
+    ],
+    "categories": [
+      "Racing & sports"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/test-drive/test-drive.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Test Drive</strong> — Accolade's 1987 driving game. Choose one of five sports cars, from the Ferrari Testarossa to the Lamborghini Countach, and drive it up a mountain road, passing traffic and staying ahead of the police radar. Click Play and press 2 at the graphics prompt for 16-colour EGA.</p>",
+    "sections": [
+      {
+        "h": "About Test Drive",
+        "html": "<p>Test Drive puts you in the driver's seat with a full dashboard, and between cars each has a page of real specifications: engine, top speed, 0–60 time, price. The road twists up a cliffside; crash and you lose a life, get caught speeding and the police pull you over. It started a series that continued for decades.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Test Drive, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Test Drive online for free?",
+        "a": "Yes. Click Play and the original 1987 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Test Drive hosted here?",
+        "a": "Test Drive is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (Nacon (owner of the Test Drive series)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Test Drive uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/stunts/",
+        "title": "Stunts",
+        "desc": "Play Stunts (4D Sports Driving) in your browser: the 1990 3D racer with loops, jumps, cork"
+      },
+      {
+        "href": "/run/skyroads/",
+        "title": "SkyRoads",
+        "desc": "Play SkyRoads free in your browser — the 1993 Estonian space-racing puzzle classic, releas"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "racer-dos",
+      "hint": "D-pad: steer, accelerate, brake · ENTER: menus · ESC: pause",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Accelerate / brake",
+        "keyboard": "Up / down arrows",
+        "mouse": "—"
+      },
+      {
+        "action": "Steer",
+        "keyboard": "Left / right arrows",
+        "mouse": "—"
+      },
+      {
+        "action": "Gear up / down",
+        "keyboard": "The keys shown at the start",
+        "mouse": "—"
+      },
+      {
+        "action": "Graphics prompt",
+        "keyboard": "2 (EGA)",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Test Drive (1987, Accolade) is not sold in any form today; rights now sit with Nacon (owner of the Test Drive series). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 50
+  },
+  {
+    "slug": "test-drive-2",
+    "provenance": "grey",
+    "title": "Test Drive II: The Duel Online — Play Free in Your Browser",
+    "description": "Play Test Drive II: The Duel in your browser: Accolade's 1989 head-to-head racer. Porsche 959 against Ferrari F40 on open roads, with the police after both.",
+    "keywords": "test drive 2 online, test drive ii the duel, play test drive 2, test drive 2 dos",
+    "ogTitle": "Play Test Drive II: The Duel (1989) Online",
+    "ogDescription": "Play Test Drive II: The Duel in your browser: Accolade's 1989 head-to-head racer. Porsche 959 against Ferrari F40 on open roads, with the police after",
+    "crumb": "Play Test Drive II: The Duel",
+    "h1": "Play Test Drive II: The Duel online — the original 1989 DOS game",
+    "appName": "Test Drive II: The Duel",
+    "appType": "game",
+    "author": "Accolade",
+    "genre": [
+      "Racing"
+    ],
+    "categories": [
+      "Racing & sports"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/test-drive-2/test-drive-2.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Test Drive II: The Duel</strong> — the 1989 sequel. This time you race a rival car down the same road, Porsche 959 against Ferrari F40, with traffic, police and petrol stops along the way. This copy includes the extra car and scenery disks. Click Play and the attract screens start; press Enter to reach the menu.</p>",
+    "sections": [
+      {
+        "h": "About Test Drive II: The Duel",
+        "html": "<p>Distinctive Software developed The Duel for Accolade, and its roads run through desert, mountain and coast with branching scenery sets. Each leg ends at a petrol station, and a crash or a ticket costs time. The car disks added more vehicles, and the scenery disks added new roads.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Test Drive II: The Duel, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Test Drive II: The Duel online for free?",
+        "a": "Yes. Click Play and the original 1989 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Test Drive II: The Duel hosted here?",
+        "a": "Test Drive II: The Duel is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (Nacon (owner of the Test Drive series)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Test Drive II: The Duel uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/test-drive/",
+        "title": "Test Drive",
+        "desc": "Play the original Test Drive in your browser: Accolade's 1987 sports-car racer. Pick a Fer"
+      },
+      {
+        "href": "/run/stunts/",
+        "title": "Stunts",
+        "desc": "Play Stunts (4D Sports Driving) in your browser: the 1990 3D racer with loops, jumps, cork"
+      },
+      {
+        "href": "/run/skyroads/",
+        "title": "SkyRoads",
+        "desc": "Play SkyRoads free in your browser — the 1993 Estonian space-racing puzzle classic, releas"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "racer-dos",
+      "hint": "D-pad: steer, accelerate, brake · ENTER: menus · ESC: pause",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Accelerate / brake",
+        "keyboard": "Up / down arrows",
+        "mouse": "—"
+      },
+      {
+        "action": "Steer",
+        "keyboard": "Left / right arrows",
+        "mouse": "—"
+      },
+      {
+        "action": "Menus",
+        "keyboard": "Enter",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Test Drive II: The Duel (1989, Accolade) is not sold in any form today; rights now sit with Nacon (owner of the Test Drive series). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 51
+  },
+  {
+    "slug": "test-drive-3",
+    "provenance": "grey",
+    "title": "Test Drive III: The Passion Online — Play Free",
+    "description": "Play Test Drive III: The Passion in your browser: Accolade's 1990 racer with filled 3D graphics, open roads and a Lamborghini Diablo. No download.",
+    "keywords": "test drive 3 online, test drive iii the passion, play test drive 3, test drive 3 dos",
+    "ogTitle": "Play Test Drive III: The Passion (1990) Online",
+    "ogDescription": "Play Test Drive III: The Passion in your browser: Accolade's 1990 racer with filled 3D graphics, open roads and a Lamborghini Diablo. No download.",
+    "crumb": "Play Test Drive III: The Passion",
+    "h1": "Play Test Drive III: The Passion online — the original 1990 DOS game",
+    "appName": "Test Drive III: The Passion",
+    "appType": "game",
+    "author": "Accolade",
+    "genre": [
+      "Racing"
+    ],
+    "categories": [
+      "Racing & sports"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/test-drive-3/test-drive-3.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Test Drive III: The Passion</strong> — Accolade's 1990 game, the first in the series with full 3D roads you can drive off. Choose a car, then race through Californian countryside and towns with traffic and police. Click Play to start.</p>",
+    "sections": [
+      {
+        "h": "About Test Drive III: The Passion",
+        "html": "<p>Test Drive III swapped the earlier games' fixed roads for filled-polygon 3D, so you can leave the road, take short cuts and drive in any direction. It added weather, day and night, and a replay. The cars include the Lamborghini Diablo and Chevrolet CERV III.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Test Drive III: The Passion, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Test Drive III: The Passion online for free?",
+        "a": "Yes. Click Play and the original 1990 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Test Drive III: The Passion hosted here?",
+        "a": "Test Drive III: The Passion is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (Nacon (owner of the Test Drive series)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Test Drive III: The Passion uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/test-drive-2/",
+        "title": "Test Drive II: The Duel",
+        "desc": "Play Test Drive II: The Duel in your browser: Accolade's 1989 head-to-head racer. Porsche "
+      },
+      {
+        "href": "/run/test-drive/",
+        "title": "Test Drive",
+        "desc": "Play the original Test Drive in your browser: Accolade's 1987 sports-car racer. Pick a Fer"
+      },
+      {
+        "href": "/run/stunts/",
+        "title": "Stunts",
+        "desc": "Play Stunts (4D Sports Driving) in your browser: the 1990 3D racer with loops, jumps, cork"
+      },
+      {
+        "href": "/run/skyroads/",
+        "title": "SkyRoads",
+        "desc": "Play SkyRoads free in your browser — the 1993 Estonian space-racing puzzle classic, releas"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "racer-dos",
+      "hint": "D-pad: steer, accelerate, brake · ENTER: menus · ESC: pause",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Accelerate / brake",
+        "keyboard": "Up / down arrows",
+        "mouse": "—"
+      },
+      {
+        "action": "Steer",
+        "keyboard": "Left / right arrows",
+        "mouse": "—"
+      },
+      {
+        "action": "Menus",
+        "keyboard": "Enter",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Test Drive III: The Passion (1990, Accolade) is not sold in any form today; rights now sit with Nacon (owner of the Test Drive series). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 52
+  },
+  {
+    "slug": "civilization",
+    "provenance": "grey",
+    "title": "Civilization (1991) Online — Play Sid Meier's Original",
+    "description": "Play Sid Meier's original Civilization in your browser: the 1991 DOS game. Grow from a settler to a space race over six thousand years. No download.",
+    "keywords": "civilization 1 online, play civilization 1991, sid meier's civilization dos, civ 1 browser, original civilization",
+    "ogTitle": "Play Civilization (1991) Online",
+    "ogDescription": "Play Sid Meier's original Civilization in your browser: the 1991 DOS game. Grow from a settler to a space race over six thousand years. No download.",
+    "crumb": "Play Civilization",
+    "h1": "Play Civilization online — the original 1991 DOS game",
+    "appName": "Civilization",
+    "appType": "game",
+    "author": "MicroProse",
+    "genre": [
+      "Strategy",
+      "Turn-based strategy"
+    ],
+    "categories": [
+      "Puzzle & strategy"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/civilization/civilization.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Civilization</strong> — Sid Meier's 1991 game for MicroProse. Start with one band of settlers in 4000 BC, found cities, research from bronze working to space flight, and grow an empire that outlasts its rivals or reaches Alpha Centauri first. Click Play and answer the setup questions: 1 for VGA, 4 for sound, 1 for mouse and keyboard.</p>",
+    "sections": [
+      {
+        "h": "About Civilization",
+        "html": "<p>Civilization made the \"one more turn\" game. Every city sets what it builds and how its people work the land around it; every turn you choose research, move units and handle diplomacy with leaders from Lincoln to Genghis Khan. Wonders of the World give permanent bonuses. You win by conquest or by landing a colony ship on Alpha Centauri. The game asks a question from its manual early on as copy protection; the answer is in the Civilopedia.</p>"
+      },
+      {
+        "h": "Tips for getting started",
+        "html": "<p>Found your first city on the spot unless the land is poor; every turn spent wandering costs growth. Build settlers early, and put warriors in every city before the barbarians arrive.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Civilization, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 2&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Civilization online for free?",
+        "a": "Yes. Click Play and the original 1991 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Civilization hosted here?",
+        "a": "Civilization is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (Take-Two Interactive (2K)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Civilization uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/dune-2/",
+        "title": "Dune II",
+        "desc": "Play Dune II in your browser: Westwood's 1992 game that founded real-time strategy. Harves"
+      },
+      {
+        "href": "/run/simearth/",
+        "title": "SimEarth",
+        "desc": "Play SimEarth in your browser: Maxis' 1990 planet simulator. Shape a world from molten roc"
+      },
+      {
+        "href": "/run/openttd/",
+        "title": "OpenTTD",
+        "desc": "Build railways, roads and airports and run a transport empire. Free and instant."
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "keys-dos",
+      "hint": "1–5: menu choices · Y / N: answer · ENTER: confirm · SPACE: continue",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "1",
+          "dosKey": 49,
+          "cls": ""
+        },
+        {
+          "label": "2",
+          "dosKey": 50,
+          "cls": ""
+        },
+        {
+          "label": "3",
+          "dosKey": 51,
+          "cls": ""
+        },
+        {
+          "label": "4",
+          "dosKey": 52,
+          "cls": ""
+        },
+        {
+          "label": "5",
+          "dosKey": 53,
+          "cls": ""
+        },
+        {
+          "label": "Y",
+          "dosKey": 89,
+          "cls": ""
+        },
+        {
+          "label": "N",
+          "dosKey": 78,
+          "cls": ""
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "⌫",
+          "dosKey": 259,
+          "cls": ""
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Move a unit",
+        "keyboard": "Arrow keys or numeric keypad",
+        "mouse": "Click the destination"
+      },
+      {
+        "action": "Found a city",
+        "keyboard": "B",
+        "mouse": "—"
+      },
+      {
+        "action": "Fortify / sleep",
+        "keyboard": "F / S",
+        "mouse": "—"
+      },
+      {
+        "action": "End turn",
+        "keyboard": "Enter",
+        "mouse": "—"
+      },
+      {
+        "action": "Setup prompts",
+        "keyboard": "1, then 4, then 1",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Civilization (1991, MicroProse) is not sold in any form today; rights now sit with Take-Two Interactive (2K). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 4.9,
+    "pointerLock": true
+  },
+  {
+    "slug": "railroad-tycoon",
+    "provenance": "freeware",
+    "title": "Railroad Tycoon (1990) Online — Play Sid Meier's Original",
+    "description": "Play Sid Meier's Railroad Tycoon in your browser: the 1990 DOS original. Lay track, run trains, build stations and outplay rival barons.",
+    "keywords": "railroad tycoon online, play railroad tycoon, railroad tycoon 1990, sid meier railroad tycoon dos",
+    "ogTitle": "Play Railroad Tycoon (1990) Online",
+    "ogDescription": "Play Sid Meier's Railroad Tycoon in your browser: the 1990 DOS original. Lay track, run trains, build stations and outplay rival barons.",
+    "crumb": "Play Railroad Tycoon",
+    "h1": "Play Railroad Tycoon online — the original 1990 DOS game",
+    "appName": "Railroad Tycoon",
+    "appType": "game",
+    "author": "MicroProse",
+    "genre": [
+      "Strategy",
+      "Simulation"
+    ],
+    "categories": [
+      "Puzzle & strategy"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/railroad-tycoon/railroad-tycoon.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Railroad Tycoon</strong> — Sid Meier's 1990 railway game for MicroProse. Start a railroad in the eastern United States, Britain or Europe, lay track between cities, schedule trains to carry passengers, mail and freight, and grow rich enough to buy out rival companies. Click Play and answer the setup questions: 1 for VGA, 4 for sound, 1 for mouse and keyboard.</p>",
+    "sections": [
+      {
+        "h": "About Railroad Tycoon",
+        "html": "<p>Railroad Tycoon combines a working train simulation with a stock market. Track costs money, so every route has to earn its keep, and industries along the line change what cargo pays. Rival barons build into your cities and compete for business; buy enough of their stock and you take them over. Meier made Civilization next, and it shows.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Railroad Tycoon, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Railroad Tycoon online for free?",
+        "a": "Yes. Click Play and the original 1990 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Railroad Tycoon hosted here?",
+        "a": "2K Games released the original DOS Railroad Tycoon as a free download in 2006. The original files are hosted unmodified."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Railroad Tycoon uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/civilization/",
+        "title": "Civilization",
+        "desc": "Play Sid Meier's original Civilization in your browser: the 1991 DOS game. Grow from a set"
+      },
+      {
+        "href": "/run/openttd/",
+        "title": "OpenTTD",
+        "desc": "Build railways, roads and airports and run a transport empire. Free and instant."
+      },
+      {
+        "href": "/run/simcity-classic/",
+        "title": "SimCity Classic",
+        "desc": "Play SimCity Classic in your browser: Will Wright's original city builder, the DOS version"
+      },
+      {
+        "href": "/run/simfarm/",
+        "title": "SimFarm",
+        "desc": "Play SimFarm in your browser: Maxis' 1993 farming simulator. Plant crops, raise livestock,"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "keys-dos",
+      "hint": "1–5: menu choices · Y / N: answer · ENTER: confirm · SPACE: continue",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "1",
+          "dosKey": 49,
+          "cls": ""
+        },
+        {
+          "label": "2",
+          "dosKey": 50,
+          "cls": ""
+        },
+        {
+          "label": "3",
+          "dosKey": 51,
+          "cls": ""
+        },
+        {
+          "label": "4",
+          "dosKey": 52,
+          "cls": ""
+        },
+        {
+          "label": "5",
+          "dosKey": 53,
+          "cls": ""
+        },
+        {
+          "label": "Y",
+          "dosKey": 89,
+          "cls": ""
+        },
+        {
+          "label": "N",
+          "dosKey": 78,
+          "cls": ""
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "⌫",
+          "dosKey": 259,
+          "cls": ""
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Build track",
+        "keyboard": "—",
+        "mouse": "Click the build tool, then drag"
+      },
+      {
+        "action": "Trains and stations",
+        "keyboard": "—",
+        "mouse": "Click"
+      },
+      {
+        "action": "Menus",
+        "keyboard": "Alt+letter",
+        "mouse": "Click the menu bar"
+      },
+      {
+        "action": "Setup prompts",
+        "keyboard": "1, then 4, then 1",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "2K Games released the original DOS Railroad Tycoon as a free download in 2006.",
+    "screenshot": true,
+    "licenseNote": "<p class=\"muted small\">2K Games released the original DOS Railroad Tycoon as a free download in 2006. Provenance: <a href=\"/apps/railroad-tycoon/NOTICE.md\">/apps/railroad-tycoon/NOTICE.md</a>.</p>",
+    "rank": 25,
+    "pointerLock": true
+  },
+  {
+    "slug": "elite",
+    "provenance": "grey",
+    "title": "Elite (1987) Online — Play the DOS Space Trading Game",
+    "description": "Play the original Elite in your browser: Braben and Bell's space trading and combat game in its 1987 DOS version. Trade, fight, dock. No download.",
+    "keywords": "elite 1987 online, play elite, elite dos, elite space game, braben bell elite",
+    "ogTitle": "Play Elite (1987) Online",
+    "ogDescription": "Play the original Elite in your browser: Braben and Bell's space trading and combat game in its 1987 DOS version. Trade, fight, dock. No download.",
+    "crumb": "Play Elite",
+    "h1": "Play Elite online — the original 1987 DOS game",
+    "appName": "Elite",
+    "appType": "game",
+    "author": "Firebird / Acornsoft",
+    "genre": [
+      "Simulation",
+      "Space"
+    ],
+    "categories": [
+      "Action"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/elite/elite.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Elite</strong> — David Braben and Ian Bell's open-ended space game, in its 1987 PC version. You start with 100 credits, a Cobra Mk III and a galaxy of eight charts; trade between planets, fight pirates, take bounties, and work your rating up from Harmless to Elite. Click Play and press a key at the rotating ships.</p>",
+    "sections": [
+      {
+        "h": "About Elite",
+        "html": "<p>Elite fitted thousands of procedurally generated star systems into a 1984 home computer, and the PC version brought the same game to CGA. Docking with the rotating space station is the first test everyone remembers; save up for a docking computer if you keep crashing. Trading routes between agricultural and industrial worlds pay steadily, and illegal goods pay more but attract the police.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Elite, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 1&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Elite online for free?",
+        "a": "Yes. Click Play and the original 1987 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Elite hosted here?",
+        "a": "Elite is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (Ian Bell and David Braben) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Elite uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/tyrian/",
+        "title": "Tyrian 2000",
+        "desc": "The legendary vertical shooter Tyrian 2000, released as freeware, playable in a browser ta"
+      },
+      {
+        "href": "/run/sopwith/",
+        "title": "Sopwith",
+        "desc": "Play the original Sopwith in your browser: David Clark's 1984 side-scrolling biplane game."
+      },
+      {
+        "href": "/run/civilization/",
+        "title": "Civilization",
+        "desc": "Play Sid Meier's original Civilization in your browser: the 1991 DOS game. Grow from a set"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "keys-dos",
+      "hint": "1–5: menu choices · Y / N: answer · ENTER: confirm · SPACE: continue",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "1",
+          "dosKey": 49,
+          "cls": ""
+        },
+        {
+          "label": "2",
+          "dosKey": 50,
+          "cls": ""
+        },
+        {
+          "label": "3",
+          "dosKey": 51,
+          "cls": ""
+        },
+        {
+          "label": "4",
+          "dosKey": 52,
+          "cls": ""
+        },
+        {
+          "label": "5",
+          "dosKey": 53,
+          "cls": ""
+        },
+        {
+          "label": "Y",
+          "dosKey": 89,
+          "cls": ""
+        },
+        {
+          "label": "N",
+          "dosKey": 78,
+          "cls": ""
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "⌫",
+          "dosKey": 259,
+          "cls": ""
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Pitch / roll",
+        "keyboard": "Arrow keys (or S X < >)",
+        "mouse": "—"
+      },
+      {
+        "action": "Fire laser",
+        "keyboard": "A",
+        "mouse": "—"
+      },
+      {
+        "action": "Speed up / down",
+        "keyboard": "Space / ?",
+        "mouse": "—"
+      },
+      {
+        "action": "Hyperspace",
+        "keyboard": "H",
+        "mouse": "—"
+      },
+      {
+        "action": "Docking computer",
+        "keyboard": "C",
+        "mouse": "—"
+      },
+      {
+        "action": "Market and status",
+        "keyboard": "F1–F10",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Elite (1987, Firebird / Acornsoft) is not sold in any form today; rights now sit with Ian Bell and David Braben. Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 45
+  },
+  {
+    "slug": "frontier-elite-2",
+    "provenance": "grey",
+    "title": "Frontier: Elite II Online — Play the 1993 DOS Game Free",
+    "description": "Play Frontier: Elite II in your browser: David Braben's 1993 sequel with a full-scale galaxy, Newtonian flight and planetary landings. No download.",
+    "keywords": "frontier elite 2 online, play frontier elite ii, frontier elite 2 dos, elite 2 browser",
+    "ogTitle": "Play Frontier: Elite II (1993) Online",
+    "ogDescription": "Play Frontier: Elite II in your browser: David Braben's 1993 sequel with a full-scale galaxy, Newtonian flight and planetary landings. No download.",
+    "crumb": "Play Frontier: Elite II",
+    "h1": "Play Frontier: Elite II online — the original 1993 DOS game",
+    "appName": "Frontier: Elite II",
+    "appType": "game",
+    "author": "GameTek / Konami",
+    "genre": [
+      "Simulation",
+      "Space"
+    ],
+    "categories": [
+      "Action"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/frontier-elite-2/frontier-elite-2.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Frontier: Elite II</strong> — David Braben's 1993 sequel to Elite. The galaxy is the Milky Way at real scale, ships fly by Newtonian physics, and you can land on planets and dock at cities on their surface. Start with a ship and some credits and trade, fight or run missions for the Federation and Empire. Click Play and press 2 at the sound prompt.</p>",
+    "sections": [
+      {
+        "h": "About Frontier: Elite II",
+        "html": "<p>Frontier modelled orbits and gravity properly, so a trip across a star system means accelerating, flipping round and braking, usually under time acceleration. The economy, military ranks and missions are far deeper than the original's. It was one of the most ambitious games of its time, and Braben's studio later made Elite Dangerous on the same idea.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Frontier: Elite II, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 7&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Frontier: Elite II online for free?",
+        "a": "Yes. Click Play and the original 1993 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Frontier: Elite II hosted here?",
+        "a": "Frontier: Elite II is not sold anywhere today; we checked the stores listed in its provenance note. It is preserved here the way the Internet Archive preserves old software. That is a practical position, not a legal claim. If the rights holder (David Braben (Frontier Developments)) asks, it comes down within 48 hours."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Frontier: Elite II uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/elite/",
+        "title": "Elite",
+        "desc": "Play the original Elite in your browser: Braben and Bell's space trading and combat game i"
+      },
+      {
+        "href": "/run/tyrian/",
+        "title": "Tyrian 2000",
+        "desc": "The legendary vertical shooter Tyrian 2000, released as freeware, playable in a browser ta"
+      },
+      {
+        "href": "/run/civilization/",
+        "title": "Civilization",
+        "desc": "Play Sid Meier's original Civilization in your browser: the 1991 DOS game. Grow from a set"
+      },
+      {
+        "href": "/run/dune-2/",
+        "title": "Dune II",
+        "desc": "Play Dune II in your browser: Westwood's 1992 game that founded real-time strategy. Harves"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "keys-dos",
+      "hint": "1–5: menu choices · Y / N: answer · ENTER: confirm · SPACE: continue",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "1",
+          "dosKey": 49,
+          "cls": ""
+        },
+        {
+          "label": "2",
+          "dosKey": 50,
+          "cls": ""
+        },
+        {
+          "label": "3",
+          "dosKey": 51,
+          "cls": ""
+        },
+        {
+          "label": "4",
+          "dosKey": 52,
+          "cls": ""
+        },
+        {
+          "label": "5",
+          "dosKey": 53,
+          "cls": ""
+        },
+        {
+          "label": "Y",
+          "dosKey": 89,
+          "cls": ""
+        },
+        {
+          "label": "N",
+          "dosKey": 78,
+          "cls": ""
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "SPACE",
+          "dosKey": 32,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "⌫",
+          "dosKey": 259,
+          "cls": ""
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Steer",
+        "keyboard": "Hold the right mouse button and move the mouse",
+        "mouse": "Right-drag"
+      },
+      {
+        "action": "Function panels",
+        "keyboard": "F1–F10",
+        "mouse": "Click the icons along the bottom"
+      },
+      {
+        "action": "Sound prompt",
+        "keyboard": "2",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Frontier: Elite II (1993, GameTek / Konami) is not sold in any form today; rights now sit with David Braben (Frontier Developments). Hosted as abandoned software under the /takedown/ policy, ad-free.",
+    "screenshot": true,
+    "rank": 33,
+    "pointerLock": true
+  },
+  {
+    "slug": "sango-fighter",
+    "provenance": "freeware",
+    "title": "Sango Fighter Online — Play the 1993 Fighting Game Free",
+    "description": "Play Sango Fighter in your browser: the 1993 DOS fighting game set in the Three Kingdoms era. Twenty-two warriors, swords and spears. No download.",
+    "keywords": "sango fighter online, play sango fighter, sango fighter dos, three kingdoms fighting game",
+    "ogTitle": "Play Sango Fighter (1993) Online",
+    "ogDescription": "Play Sango Fighter in your browser: the 1993 DOS fighting game set in the Three Kingdoms era. Twenty-two warriors, swords and spears. No download.",
+    "crumb": "Play Sango Fighter",
+    "h1": "Play Sango Fighter online — the original 1993 DOS game",
+    "appName": "Sango Fighter",
+    "appType": "game",
+    "author": "Panda Entertainment / Accend",
+    "genre": [
+      "Fighting"
+    ],
+    "categories": [
+      "Action"
+    ],
+    "dosRuntime": true,
+    "hostable": true,
+    "appUrl": "/apps/sango-fighter/sango-fighter.zip",
+    "verdict": {
+      "kind": "good",
+      "text": "Works — the full original game runs via DOSBox in your browser"
+    },
+    "intro": "<p><strong>Sango Fighter</strong> — a 1993 one-on-one fighting game from Taiwan's Panda Entertainment, set among the generals of China's Three Kingdoms. Pick a warrior, fight through the rest, and in the story mode build a kingdom by recruiting the generals you defeat. Click Play to start.</p>",
+    "sections": [
+      {
+        "h": "About Sango Fighter",
+        "html": "<p>Sango Fighter was one of the few PC fighting games of its era with large, hand-drawn sprites and weapons-based combat. Its warriors come from the Romance of the Three Kingdoms, from Guan Yu to Lu Bu. Super Fighter Team bought the rights and released it as freeware in 2009.</p>"
+      },
+      {
+        "h": "How it runs here",
+        "html": "<p>This is the original DOS release of Sango Fighter, unmodified, running in DOSBox compiled to WebAssembly. The whole game is about 2&nbsp;MB, so it starts within seconds on a normal connection. Sound and music play once you click into the game.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play Sango Fighter online for free?",
+        "a": "Yes. Click Play and the original 1993 DOS version starts in your browser, running in a WebAssembly build of DOSBox. Nothing to install and no account."
+      },
+      {
+        "q": "Why is Sango Fighter hosted here?",
+        "a": "Super Fighter Team acquired the rights to Sango Fighter and released it free to download in June 2009. The original files are hosted unmodified."
+      },
+      {
+        "q": "Does my progress save?",
+        "a": "Saved games persist in this browser between visits, best-effort. Clearing site data removes them."
+      },
+      {
+        "q": "Can I play on a phone or tablet?",
+        "a": "Yes. Touch buttons for the keys Sango Fighter uses appear under the game on touch devices."
+      }
+    ],
+    "related": [
+      {
+        "href": "/run/one-must-fall-2097/",
+        "title": "One Must Fall 2097",
+        "desc": "Play One Must Fall 2097 free in your browser — Epic's 1994 robot fighting classic, release"
+      },
+      {
+        "href": "/run/prince-of-persia/",
+        "title": "Prince of Persia",
+        "desc": "Play the original Prince of Persia in your browser: Jordan Mechner's 1990 DOS game. Sixty "
+      },
+      {
+        "href": "/run/dune-2/",
+        "title": "Dune II",
+        "desc": "Play Dune II in your browser: Westwood's 1992 game that founded real-time strategy. Harves"
+      },
+      {
+        "href": "/run/tyrian/",
+        "title": "Tyrian 2000",
+        "desc": "The legendary vertical shooter Tyrian 2000, released as freeware, playable in a browser ta"
+      },
+      {
+        "href": "/dos-emulator/",
+        "title": "Run your own DOS game",
+        "desc": "Have another DOS game on disk? Drop it into the DOS player."
+      }
+    ],
+    "updated": "2026-10-05",
+    "addedDate": "2026-10-05",
+    "mobileControls": {
+      "type": "fighter-dos",
+      "hint": "D-pad: move & jump · PUNCH/KICK: ctrl / alt",
+      "buttons": [
+        {
+          "label": "▲",
+          "dosKey": 265,
+          "area": "up"
+        },
+        {
+          "label": "◀",
+          "dosKey": 263,
+          "area": "left"
+        },
+        {
+          "label": "▶",
+          "dosKey": 262,
+          "area": "right"
+        },
+        {
+          "label": "▼",
+          "dosKey": 264,
+          "area": "down"
+        },
+        {
+          "label": "PUNCH",
+          "dosKey": 341,
+          "cls": "mgp-accent"
+        },
+        {
+          "label": "KICK",
+          "dosKey": 342,
+          "cls": "mgp-yellow"
+        },
+        {
+          "label": "ENTER",
+          "dosKey": 257,
+          "cls": ""
+        },
+        {
+          "label": "ESC",
+          "dosKey": 256,
+          "cls": ""
+        }
+      ]
+    },
+    "controls": [
+      {
+        "action": "Move / jump / crouch",
+        "keyboard": "Arrow keys",
+        "mouse": "—"
+      },
+      {
+        "action": "Attacks",
+        "keyboard": "The keys shown in the game's Options",
+        "mouse": "—"
+      },
+      {
+        "action": "Menus",
+        "keyboard": "Enter / Esc",
+        "mouse": "—"
+      }
+    ],
+    "licenseReason": "Super Fighter Team acquired the rights to Sango Fighter and released it free to download in June 2009.",
+    "screenshot": true,
+    "licenseNote": "<p class=\"muted small\">Super Fighter Team acquired the rights to Sango Fighter and released it free to download in June 2009. Provenance: <a href=\"/apps/sango-fighter/NOTICE.md\">/apps/sango-fighter/NOTICE.md</a>.</p>",
+    "rank": 53
   }
 ]

@@ -1,0 +1,23 @@
+# Lemmings 2: The Tribes (1993)
+
+Psygnosis. Rights now held by Sony Interactive Entertainment (Psygnosis).
+
+## Why this is hosted here
+
+Abandoned software: Lemmings 2: The Tribes is not sold in any form today. It is hosted on the
+same footing as the Internet Archive's software collections. That is a practical
+position, not a legal claim; abandonment does not transfer copyright. The page
+carries no advertising. If the rights holder asks, it is removed within 48 hours:
+https://exebrowser.com/takedown/
+
+Not sold: GOG, Steam, Antstream and PlayStation Store checked 2026-10-05; not sold in any form.
+
+## Source
+
+Retrieved 2026-10-05 from https://archive.org/details/lemmings_2_the_tribes_1992
+(Internet Archive item `lemmings_2_the_tribes_1992`; sha256 pinned in scripts/dos-sources.json).
+
+Original game files plus a `.jsdos/dosbox.conf` DOSBox configuration, which
+is the only file added.
+
+ExeBrowser is not affiliated with the rights holders named above.

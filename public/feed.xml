@@ -8,6 +8,13 @@
     <lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://exebrowser.com/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>New game: Prince of Persia</title>
+      <link>https://exebrowser.com/run/prince-of-persia/</link>
+      <guid isPermaLink="true">https://exebrowser.com/run/prince-of-persia/</guid>
+      <description>Play the original Prince of Persia in your browser: Jordan Mechner&apos;s 1990 DOS game. Sixty minutes to escape the dungeon and save the princess. No down</description>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>New game: Number Munchers</title>
       <link>https://exebrowser.com/run/number-munchers/</link>
       <guid isPermaLink="true">https://exebrowser.com/run/number-munchers/</guid>
@@ -106,18 +113,11 @@
       <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>New game: LibreQuake</title>
-      <link>https://exebrowser.com/run/librequake/</link>
-      <guid isPermaLink="true">https://exebrowser.com/run/librequake/</guid>
-      <description>Every map, monster and sound is free and original. Or bring your own Quake files and play the 1996 original in the same tab.</description>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New game: Marchers</title>
-      <link>https://exebrowser.com/run/marchers/</link>
-      <guid isPermaLink="true">https://exebrowser.com/run/marchers/</guid>
-      <description>They walk. They will not stop. Hand out jobs: dig, bridge, block, glide, and get enough of them to the exit.</description>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <title>New game: Lemmings</title>
+      <link>https://exebrowser.com/run/lemmings/</link>
+      <guid isPermaLink="true">https://exebrowser.com/run/lemmings/</guid>
+      <description>Play the original Lemmings in your browser: DMA Design&apos;s 1991 puzzle classic. Give lemmings jobs, dig, build and block to save them. No download.</description>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How to Check if an .exe Is Safe Before You Run It</title>
